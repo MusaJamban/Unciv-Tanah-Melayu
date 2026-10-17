@@ -602,8 +602,7 @@
         "row": 1,
         "cost": 180,
         "prerequisites": [
-          "Combustion",
-          "Chemistry"
+          "Combustion"
         ]
       },
       {
@@ -611,7 +610,6 @@
         "row": 2,
         "cost": 185,
         "prerequisites": [
-          "Electricity",
           "Radio"
         ]
       },
@@ -645,8 +643,7 @@
         "row": 1,
         "cost": 200,
         "prerequisites": [
-          "Electronics",
-          "Radio"
+          "Electronics"
         ]
       },
       {
@@ -654,8 +651,7 @@
         "row": 2,
         "cost": 210,
         "prerequisites": [
-          "Electronics",
-          "Scientific Theory"
+          "Electronics"
         ]
       },
       {
@@ -672,8 +668,7 @@
         "row": 4,
         "cost": 200,
         "prerequisites": [
-          "Electronics",
-          "Telegraph"
+          "Electronics"
         ]
       }
     ]
@@ -739,7 +734,6 @@
         "row": 2,
         "cost": 250,
         "prerequisites": [
-          "Electronics",
           "Satellites"
         ]
       },
@@ -782,7 +776,6 @@
         "row": 2,
         "cost": 285,
         "prerequisites": [
-          "Plastics",
           "Robotics"
         ]
       },
@@ -791,7 +784,6 @@
         "row": 3,
         "cost": 290,
         "prerequisites": [
-          "Computing",
           "Robotics"
         ]
       },
@@ -800,8 +792,7 @@
         "row": 4,
         "cost": 280,
         "prerequisites": [
-          "Nuclear Power",
-          "Electronics"
+          "Nuclear Power"
         ]
       }
     ]
@@ -886,7 +877,6 @@
         "row": 4,
         "cost": 355,
         "prerequisites": [
-          "Genetics",
           "Cybernetics"
         ]
       }
@@ -945,7 +935,6 @@
         "row": 1,
         "cost": 480,
         "prerequisites": [
-          "Nuclear Fusion",
           "Antimatter Power"
         ]
       },
@@ -963,8 +952,7 @@
         "row": 3,
         "cost": 480,
         "prerequisites": [
-          "Advanced Materials",
-          "Nanotechnology"
+          "Advanced Materials"
         ]
       },
       {
@@ -1006,8 +994,7 @@
         "row": 3,
         "cost": 510,
         "prerequisites": [
-          "Planetary Engineering",
-          "Renewable Energy"
+          "Planetary Engineering"
         ]
       },
       {
@@ -1015,8 +1002,7 @@
         "row": 4,
         "cost": 525,
         "prerequisites": [
-          "Consciousness Uploading",
-          "Quantum Computing"
+          "Consciousness Uploading"
         ]
       }
     ]
@@ -1031,7 +1017,6 @@
         "row": 1,
         "cost": 560,
         "prerequisites": [
-          "Antimatter Power",
           "Interstellar Propulsion"
         ]
       },
@@ -1040,8 +1025,7 @@
         "row": 2,
         "cost": 550,
         "prerequisites": [
-          "Dyson Swarm",
-          "Advanced Materials"
+          "Dyson Swarm"
         ]
       },
       {
@@ -1101,7 +1085,6 @@
         "row": 4,
         "cost": 630,
         "prerequisites": [
-          "Zero-Point Energy",
           "Dyson Swarm"
         ]
       }
@@ -1126,8 +1109,7 @@
         "row": 2,
         "cost": 660,
         "prerequisites": [
-          "Gravitational Engineering",
-          "Dyson Swarm"
+          "Gravitational Engineering"
         ]
       },
       {
@@ -1135,8 +1117,7 @@
         "row": 3,
         "cost": 650,
         "prerequisites": [
-          "Machine Civilization",
-          "Synthetic Biology"
+          "Machine Civilization"
         ]
       },
       {
