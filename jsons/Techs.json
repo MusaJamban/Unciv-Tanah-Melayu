@@ -8,6 +8,18 @@
         "name": "Agriculture",
         "row": 1,
         "cost": 10
+      },
+      {
+        "name": "Foraging",
+        "row": 2,
+        "cost": 10,
+        "prerequisites": []
+      },
+      {
+        "name": "Stone Tools",
+        "row": 3,
+        "cost": 10,
+        "prerequisites": []
       }
     ],
     "buildingCost": 20,
@@ -33,6 +45,22 @@
         "prerequisites": [
           "Agriculture"
         ]
+      },
+      {
+        "name": "Irrigation",
+        "row": 3,
+        "cost": 18,
+        "prerequisites": [
+          "Agriculture"
+        ]
+      },
+      {
+        "name": "Domestication",
+        "row": 4,
+        "cost": 18,
+        "prerequisites": [
+          "Animal Husbandry"
+        ]
       }
     ],
     "buildingCost": 23,
@@ -43,14 +71,6 @@
     "era": "Ancient",
     "techCost": 28,
     "techs": [
-      {
-        "name": "Archery",
-        "row": 3,
-        "cost": 20,
-        "prerequisites": [
-          "Animal Husbandry"
-        ]
-      },
       {
         "name": "Mining",
         "row": 1,
@@ -68,11 +88,35 @@
         ]
       },
       {
+        "name": "Archery",
+        "row": 3,
+        "cost": 20,
+        "prerequisites": [
+          "Animal Husbandry"
+        ]
+      },
+      {
         "name": "Philosophy",
         "row": 4,
         "cost": 28,
         "prerequisites": [
           "Writing"
+        ]
+      },
+      {
+        "name": "Herbalism",
+        "row": 5,
+        "cost": 22,
+        "prerequisites": [
+          "Pottery"
+        ]
+      },
+      {
+        "name": "Stone Quarrying",
+        "row": 6,
+        "cost": 22,
+        "prerequisites": [
+          "Mining"
         ]
       }
     ],
@@ -101,6 +145,14 @@
         ]
       },
       {
+        "name": "Masonry",
+        "row": 3,
+        "cost": 28,
+        "prerequisites": [
+          "Mining"
+        ]
+      },
+      {
         "name": "Trapping",
         "row": 4,
         "cost": 30,
@@ -109,11 +161,19 @@
         ]
       },
       {
-        "name": "Masonry",
-        "row": 3,
-        "cost": 28,
+        "name": "Metal Casting",
+        "row": 5,
+        "cost": 32,
         "prerequisites": [
-          "Mining"
+          "Bronze Working"
+        ]
+      },
+      {
+        "name": "Record Keeping",
+        "row": 6,
+        "cost": 32,
+        "prerequisites": [
+          "Writing"
         ]
       }
     ],
@@ -155,6 +215,22 @@
         "cost": 40,
         "prerequisites": [
           "Writing"
+        ]
+      },
+      {
+        "name": "Road Building",
+        "row": 5,
+        "cost": 48,
+        "prerequisites": [
+          "Mathematics"
+        ]
+      },
+      {
+        "name": "Irrigated Agriculture",
+        "row": 6,
+        "cost": 48,
+        "prerequisites": [
+          "Calendar"
         ]
       }
     ],
@@ -206,6 +282,22 @@
         "prerequisites": [
           "Calendar"
         ]
+      },
+      {
+        "name": "Public Administration",
+        "row": 6,
+        "cost": 62,
+        "prerequisites": [
+          "Currency"
+        ]
+      },
+      {
+        "name": "Theatre",
+        "row": 7,
+        "cost": 62,
+        "prerequisites": [
+          "Drama and Poetry"
+        ]
       }
     ],
     "buildingCost": 63,
@@ -225,19 +317,19 @@
         ]
       },
       {
-        "name": "Education",
-        "row": 3,
-        "cost": 80,
-        "prerequisites": [
-          "Mathematics"
-        ]
-      },
-      {
         "name": "Steel",
         "row": 2,
         "cost": 80,
         "prerequisites": [
           "Iron Working"
+        ]
+      },
+      {
+        "name": "Education",
+        "row": 3,
+        "cost": 80,
+        "prerequisites": [
+          "Mathematics"
         ]
       },
       {
@@ -255,6 +347,22 @@
         "prerequisites": [
           "Horseback Riding",
           "Iron Working"
+        ]
+      },
+      {
+        "name": "Advanced Masonry",
+        "row": 6,
+        "cost": 82,
+        "prerequisites": [
+          "Engineering"
+        ]
+      },
+      {
+        "name": "Scholarship",
+        "row": 7,
+        "cost": 82,
+        "prerequisites": [
+          "Education"
         ]
       }
     ],
@@ -275,19 +383,19 @@
         ]
       },
       {
-        "name": "Compass",
-        "row": 3,
-        "cost": 110,
-        "prerequisites": [
-          "Optics"
-        ]
-      },
-      {
         "name": "Guilds",
         "row": 2,
         "cost": 110,
         "prerequisites": [
           "Currency"
+        ]
+      },
+      {
+        "name": "Compass",
+        "row": 3,
+        "cost": 110,
+        "prerequisites": [
+          "Optics"
         ]
       },
       {
@@ -297,6 +405,22 @@
         "prerequisites": [
           "Feudalism",
           "Guilds"
+        ]
+      },
+      {
+        "name": "Siege Engineering",
+        "row": 5,
+        "cost": 112,
+        "prerequisites": [
+          "Machinery"
+        ]
+      },
+      {
+        "name": "Maritime Navigation",
+        "row": 6,
+        "cost": 112,
+        "prerequisites": [
+          "Compass"
         ]
       }
     ],
@@ -308,6 +432,22 @@
     "era": "Renaissance",
     "techCost": 100,
     "techs": [
+      {
+        "name": "Architecture",
+        "row": 1,
+        "cost": 95,
+        "prerequisites": [
+          "Engineering"
+        ]
+      },
+      {
+        "name": "Gunpowder",
+        "row": 2,
+        "cost": 150,
+        "prerequisites": [
+          "Steel"
+        ]
+      },
       {
         "name": "Navigation",
         "row": 3,
@@ -325,27 +465,27 @@
         ]
       },
       {
-        "name": "Gunpowder",
-        "row": 2,
-        "cost": 150,
-        "prerequisites": [
-          "Steel"
-        ]
-      },
-      {
-        "name": "Architecture",
-        "row": 1,
-        "cost": 95,
-        "prerequisites": [
-          "Engineering"
-        ]
-      },
-      {
         "name": "Exploration",
         "row": 5,
         "cost": 100,
         "prerequisites": [
           "Compass"
+        ]
+      },
+      {
+        "name": "Cartography",
+        "row": 6,
+        "cost": 135,
+        "prerequisites": [
+          "Navigation"
+        ]
+      },
+      {
+        "name": "Fortification",
+        "row": 7,
+        "cost": 135,
+        "prerequisites": [
+          "Gunpowder"
         ]
       }
     ],
@@ -357,15 +497,6 @@
     "era": "Renaissance",
     "techCost": 120,
     "techs": [
-      {
-        "name": "Astronomy",
-        "row": 3,
-        "cost": 200,
-        "prerequisites": [
-          "Navigation",
-          "Education"
-        ]
-      },
       {
         "name": "Banking",
         "row": 1,
@@ -380,6 +511,15 @@
         "cost": 200,
         "prerequisites": [
           "Gunpowder"
+        ]
+      },
+      {
+        "name": "Astronomy",
+        "row": 3,
+        "cost": 200,
+        "prerequisites": [
+          "Navigation",
+          "Education"
         ]
       },
       {
@@ -398,6 +538,22 @@
         "prerequisites": [
           "Printing Press"
         ]
+      },
+      {
+        "name": "Perspective Painting",
+        "row": 6,
+        "cost": 155,
+        "prerequisites": [
+          "Acoustics"
+        ]
+      },
+      {
+        "name": "Observational Astronomy",
+        "row": 7,
+        "cost": 155,
+        "prerequisites": [
+          "Astronomy"
+        ]
       }
     ],
     "buildingCost": 180,
@@ -409,12 +565,12 @@
     "techCost": 135,
     "techs": [
       {
-        "name": "Economics",
-        "row": 3,
+        "name": "Steam Power",
+        "row": 1,
         "cost": 260,
         "prerequisites": [
-          "Banking",
-          "Printing Press"
+          "Engineering",
+          "Economics"
         ]
       },
       {
@@ -426,12 +582,12 @@
         ]
       },
       {
-        "name": "Steam Power",
-        "row": 1,
+        "name": "Economics",
+        "row": 3,
         "cost": 260,
         "prerequisites": [
-          "Engineering",
-          "Economics"
+          "Banking",
+          "Printing Press"
         ]
       },
       {
@@ -449,6 +605,22 @@
         "cost": 135,
         "prerequisites": [
           "Acoustics"
+        ]
+      },
+      {
+        "name": "Industrial Chemistry",
+        "row": 6,
+        "cost": 180,
+        "prerequisites": [
+          "Chemistry"
+        ]
+      },
+      {
+        "name": "Modern Logistics",
+        "row": 7,
+        "cost": 180,
+        "prerequisites": [
+          "Economics"
         ]
       }
     ],
@@ -476,6 +648,22 @@
         "prerequisites": [
           "Chemistry"
         ]
+      },
+      {
+        "name": "Mechanized Agriculture",
+        "row": 3,
+        "cost": 205,
+        "prerequisites": [
+          "Fertilizer"
+        ]
+      },
+      {
+        "name": "Factory Automation",
+        "row": 4,
+        "cost": 205,
+        "prerequisites": [
+          "Industrialization"
+        ]
       }
     ],
     "buildingCost": 225,
@@ -493,6 +681,22 @@
         "prerequisites": [
           "Metallurgy"
         ]
+      },
+      {
+        "name": "Repeating Firearms",
+        "row": 2,
+        "cost": 225,
+        "prerequisites": [
+          "Rifling"
+        ]
+      },
+      {
+        "name": "Military Logistics",
+        "row": 3,
+        "cost": 225,
+        "prerequisites": [
+          "Military Science"
+        ]
       }
     ],
     "buildingCost": 255,
@@ -504,6 +708,14 @@
     "techCost": 200,
     "techs": [
       {
+        "name": "Railroads",
+        "row": 1,
+        "cost": 200,
+        "prerequisites": [
+          "Steam Power"
+        ]
+      },
+      {
         "name": "Electricity",
         "row": 2,
         "cost": 190,
@@ -513,11 +725,19 @@
         ]
       },
       {
-        "name": "Railroads",
-        "row": 1,
-        "cost": 200,
+        "name": "Power Grids",
+        "row": 3,
+        "cost": 250,
         "prerequisites": [
-          "Steam Power"
+          "Electricity"
+        ]
+      },
+      {
+        "name": "Railway Signalling",
+        "row": 4,
+        "cost": 250,
+        "prerequisites": [
+          "Railroads"
         ]
       }
     ],
@@ -544,6 +764,22 @@
         "prerequisites": [
           "Fertilizer"
         ]
+      },
+      {
+        "name": "Public Health Systems",
+        "row": 3,
+        "cost": 275,
+        "prerequisites": [
+          "Sanitation"
+        ]
+      },
+      {
+        "name": "Long-Distance Communication",
+        "row": 4,
+        "cost": 275,
+        "prerequisites": [
+          "Telegraph"
+        ]
       }
     ],
     "buildingCost": 323,
@@ -569,6 +805,22 @@
         "cost": 230,
         "prerequisites": [
           "Economics"
+        ]
+      },
+      {
+        "name": "Automotive Engineering",
+        "row": 3,
+        "cost": 300,
+        "prerequisites": [
+          "Combustion"
+        ]
+      },
+      {
+        "name": "Financial Markets",
+        "row": 4,
+        "cost": 300,
+        "prerequisites": [
+          "Modern Banking"
         ]
       }
     ],
@@ -597,6 +849,22 @@
           "Combustion",
           "Scientific Theory"
         ]
+      },
+      {
+        "name": "Assembly Lines",
+        "row": 3,
+        "cost": 330,
+        "prerequisites": [
+          "Mass Production"
+        ]
+      },
+      {
+        "name": "Aviation Medicine",
+        "row": 4,
+        "cost": 330,
+        "prerequisites": [
+          "Flight"
+        ]
       }
     ],
     "buildingCost": 405,
@@ -622,6 +890,22 @@
         "prerequisites": [
           "Rifling",
           "Military Science"
+        ]
+      },
+      {
+        "name": "Electronic Warfare",
+        "row": 3,
+        "cost": 360,
+        "prerequisites": [
+          "Radio"
+        ]
+      },
+      {
+        "name": "Modern Artillery",
+        "row": 4,
+        "cost": 360,
+        "prerequisites": [
+          "Ballistics"
         ]
       }
     ],
@@ -650,6 +934,15 @@
         ]
       },
       {
+        "name": "Combustion Engines",
+        "row": 3,
+        "cost": 180,
+        "prerequisites": [
+          "Combustion",
+          "Mass Production"
+        ]
+      },
+      {
         "name": "Advanced Ballistics",
         "row": 4,
         "cost": 185,
@@ -659,12 +952,19 @@
         ]
       },
       {
-        "name": "Combustion Engines",
-        "row": 3,
-        "cost": 180,
+        "name": "Synthetic Polymers",
+        "row": 5,
+        "cost": 390,
         "prerequisites": [
-          "Combustion",
-          "Mass Production"
+          "Plastics"
+        ]
+      },
+      {
+        "name": "Microelectronics",
+        "row": 6,
+        "cost": 390,
+        "prerequisites": [
+          "Electronics"
         ]
       }
     ],
@@ -693,6 +993,14 @@
         ]
       },
       {
+        "name": "Computing",
+        "row": 3,
+        "cost": 200,
+        "prerequisites": [
+          "Electronics"
+        ]
+      },
+      {
         "name": "Rocketry",
         "row": 4,
         "cost": 205,
@@ -702,11 +1010,19 @@
         ]
       },
       {
-        "name": "Computing",
-        "row": 3,
-        "cost": 200,
+        "name": "Early Spaceflight",
+        "row": 5,
+        "cost": 420,
         "prerequisites": [
-          "Electronics"
+          "Rocketry"
+        ]
+      },
+      {
+        "name": "Digital Networks",
+        "row": 6,
+        "cost": 420,
+        "prerequisites": [
+          "Computing"
         ]
       }
     ],
@@ -724,6 +1040,15 @@
         "cost": 230,
         "prerequisites": [
           "Nuclear Fission"
+        ]
+      },
+      {
+        "name": "Robotics",
+        "row": 2,
+        "cost": 235,
+        "prerequisites": [
+          "Computing",
+          "Plastics"
         ]
       },
       {
@@ -745,12 +1070,19 @@
         ]
       },
       {
-        "name": "Robotics",
-        "row": 2,
-        "cost": 235,
+        "name": "Nuclear Engineering",
+        "row": 5,
+        "cost": 455,
         "prerequisites": [
-          "Computing",
-          "Plastics"
+          "Nuclear Power"
+        ]
+      },
+      {
+        "name": "Orbital Reconnaissance",
+        "row": 6,
+        "cost": 455,
+        "prerequisites": [
+          "Satellites"
         ]
       }
     ],
@@ -762,6 +1094,15 @@
     "era": "Atomic",
     "techCost": 250,
     "techs": [
+      {
+        "name": "Genetics",
+        "row": 1,
+        "cost": 245,
+        "prerequisites": [
+          "Robotics",
+          "Nuclear Power"
+        ]
+      },
       {
         "name": "Nuclear Fusion",
         "row": 2,
@@ -789,12 +1130,19 @@
         ]
       },
       {
-        "name": "Genetics",
-        "row": 1,
-        "cost": 245,
+        "name": "Fusion Research",
+        "row": 5,
+        "cost": 485,
         "prerequisites": [
-          "Robotics",
-          "Nuclear Power"
+          "Nuclear Fusion"
+        ]
+      },
+      {
+        "name": "Precision Guidance",
+        "row": 6,
+        "cost": 485,
+        "prerequisites": [
+          "Guidance Systems"
         ]
       }
     ],
@@ -807,12 +1155,11 @@
     "techCost": 280,
     "techs": [
       {
-        "name": "Telecommunications",
-        "row": 4,
+        "name": "Renewable Energy",
+        "row": 1,
         "cost": 280,
         "prerequisites": [
-          "Satellites",
-          "Computing"
+          "Nuclear Power"
         ]
       },
       {
@@ -832,11 +1179,28 @@
         ]
       },
       {
-        "name": "Renewable Energy",
-        "row": 1,
+        "name": "Telecommunications",
+        "row": 4,
         "cost": 280,
         "prerequisites": [
-          "Nuclear Power"
+          "Satellites",
+          "Computing"
+        ]
+      },
+      {
+        "name": "Cloud Computing",
+        "row": 5,
+        "cost": 520,
+        "prerequisites": [
+          "Artificial Intelligence"
+        ]
+      },
+      {
+        "name": "Grid-Scale Storage",
+        "row": 6,
+        "cost": 520,
+        "prerequisites": [
+          "Renewable Energy"
         ]
       }
     ],
@@ -849,12 +1213,12 @@
     "techCost": 310,
     "techs": [
       {
-        "name": "Quantum Computing",
-        "row": 3,
+        "name": "Fusion Power",
+        "row": 1,
         "cost": 320,
         "prerequisites": [
-          "Artificial Intelligence",
-          "Nanotechnology"
+          "Nuclear Fusion",
+          "Renewable Energy"
         ]
       },
       {
@@ -867,12 +1231,12 @@
         ]
       },
       {
-        "name": "Fusion Power",
-        "row": 1,
+        "name": "Quantum Computing",
+        "row": 3,
         "cost": 320,
         "prerequisites": [
-          "Nuclear Fusion",
-          "Renewable Energy"
+          "Artificial Intelligence",
+          "Nanotechnology"
         ]
       },
       {
@@ -882,6 +1246,22 @@
         "prerequisites": [
           "Artificial Intelligence",
           "Guidance Systems"
+        ]
+      },
+      {
+        "name": "Quantum Sensors",
+        "row": 5,
+        "cost": 550,
+        "prerequisites": [
+          "Quantum Computing"
+        ]
+      },
+      {
+        "name": "Human-Machine Interfaces",
+        "row": 6,
+        "cost": 550,
+        "prerequisites": [
+          "Cybernetics"
         ]
       }
     ],
@@ -894,20 +1274,19 @@
     "techCost": 350,
     "techs": [
       {
-        "name": "Quantum Networks",
-        "row": 4,
-        "cost": 350,
-        "prerequisites": [
-          "Quantum Computing",
-          "Telecommunications"
-        ]
-      },
-      {
         "name": "Advanced Materials",
         "row": 1,
         "cost": 350,
         "prerequisites": [
           "Nanotechnology",
+          "Cybernetics"
+        ]
+      },
+      {
+        "name": "Synthetic Biology",
+        "row": 2,
+        "cost": 355,
+        "prerequisites": [
           "Cybernetics"
         ]
       },
@@ -921,11 +1300,12 @@
         ]
       },
       {
-        "name": "Synthetic Biology",
-        "row": 2,
-        "cost": 355,
+        "name": "Quantum Networks",
+        "row": 4,
+        "cost": 350,
         "prerequisites": [
-          "Cybernetics"
+          "Quantum Computing",
+          "Telecommunications"
         ]
       }
     ],
@@ -938,21 +1318,21 @@
     "techCost": 400,
     "techs": [
       {
-        "name": "Artificial Superintelligence",
-        "row": 4,
-        "cost": 420,
-        "prerequisites": [
-          "Quantum Networks",
-          "Autonomous Systems"
-        ]
-      },
-      {
         "name": "Antimatter Power",
         "row": 1,
         "cost": 420,
         "prerequisites": [
           "Fusion Power",
           "Advanced Materials"
+        ]
+      },
+      {
+        "name": "Singularity Engineering",
+        "row": 2,
+        "cost": 450,
+        "prerequisites": [
+          "Artificial Superintelligence",
+          "Synthetic Biology"
         ]
       },
       {
@@ -965,12 +1345,12 @@
         ]
       },
       {
-        "name": "Singularity Engineering",
-        "row": 2,
-        "cost": 450,
+        "name": "Artificial Superintelligence",
+        "row": 4,
+        "cost": 420,
         "prerequisites": [
-          "Artificial Superintelligence",
-          "Synthetic Biology"
+          "Quantum Networks",
+          "Autonomous Systems"
         ]
       }
     ],
@@ -991,20 +1371,20 @@
         ]
       },
       {
+        "name": "Molecular Manufacturing",
+        "row": 2,
+        "cost": 480,
+        "prerequisites": [
+          "Advanced Materials"
+        ]
+      },
+      {
         "name": "Post-Quantum Cryptography",
         "row": 3,
         "cost": 470,
         "prerequisites": [
           "Quantum Networks",
           "Cybernetics"
-        ]
-      },
-      {
-        "name": "Molecular Manufacturing",
-        "row": 2,
-        "cost": 480,
-        "prerequisites": [
-          "Advanced Materials"
         ]
       },
       {
@@ -1069,14 +1449,6 @@
     "techCost": 560,
     "techs": [
       {
-        "name": "Antimatter Propulsion",
-        "row": 3,
-        "cost": 560,
-        "prerequisites": [
-          "Interstellar Propulsion"
-        ]
-      },
-      {
         "name": "Orbital Habitats",
         "row": 1,
         "cost": 550,
@@ -1091,6 +1463,14 @@
         "prerequisites": [
           "Guidance Systems",
           "Zero-Point Energy"
+        ]
+      },
+      {
+        "name": "Antimatter Propulsion",
+        "row": 3,
+        "cost": 560,
+        "prerequisites": [
+          "Interstellar Propulsion"
         ]
       },
       {
@@ -1112,21 +1492,20 @@
     "techCost": 600,
     "techs": [
       {
+        "name": "Gravitational Engineering",
+        "row": 1,
+        "cost": 630,
+        "prerequisites": [
+          "Dyson Swarm"
+        ]
+      },
+      {
         "name": "Interstellar Colonization",
         "row": 2,
         "cost": 620,
         "prerequisites": [
           "Antimatter Propulsion",
           "Orbital Habitats"
-        ]
-      },
-      {
-        "name": "Machine Civilization",
-        "row": 4,
-        "cost": 610,
-        "prerequisites": [
-          "Synthetic Consciousness",
-          "Self-Replicating Probes"
         ]
       },
       {
@@ -1139,11 +1518,12 @@
         ]
       },
       {
-        "name": "Gravitational Engineering",
-        "row": 1,
-        "cost": 630,
+        "name": "Machine Civilization",
+        "row": 4,
+        "cost": 610,
         "prerequisites": [
-          "Dyson Swarm"
+          "Synthetic Consciousness",
+          "Self-Replicating Probes"
         ]
       }
     ],
@@ -1156,20 +1536,20 @@
     "techCost": 650,
     "techs": [
       {
+        "name": "Stellar Engineering",
+        "row": 1,
+        "cost": 660,
+        "prerequisites": [
+          "Gravitational Engineering"
+        ]
+      },
+      {
         "name": "Intergalactic Mapping",
         "row": 2,
         "cost": 660,
         "prerequisites": [
           "Interstellar Colonization",
           "Universal Translators"
-        ]
-      },
-      {
-        "name": "Stellar Engineering",
-        "row": 1,
-        "cost": 660,
-        "prerequisites": [
-          "Gravitational Engineering"
         ]
       },
       {
@@ -1199,18 +1579,204 @@
     "techCost": 800,
     "buildingCost": 800,
     "wonderCost": 1600,
+    "techs": []
+  },
+  {
+    "columnNumber": 32,
+    "era": "Future",
+    "techCost": 685,
+    "buildingCost": 1028,
+    "wonderCost": 2055,
+    "techs": [
+      {
+        "name": "Fusion Propulsion",
+        "row": 1,
+        "cost": 690,
+        "prerequisites": [
+          "Interstellar Propulsion",
+          "Fusion Research"
+        ]
+      },
+      {
+        "name": "Asteroid Mining",
+        "row": 2,
+        "cost": 680,
+        "prerequisites": [
+          "Orbital Habitats",
+          "Advanced Materials"
+        ]
+      },
+      {
+        "name": "Planetary Computing",
+        "row": 3,
+        "cost": 690,
+        "prerequisites": [
+          "Planetary Engineering",
+          "Quantum Networks"
+        ]
+      },
+      {
+        "name": "Adaptive Materials",
+        "row": 4,
+        "cost": 680,
+        "prerequisites": [
+          "Molecular Manufacturing",
+          "Advanced Materials"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 33,
+    "era": "Future",
+    "techCost": 720,
+    "buildingCost": 1080,
+    "wonderCost": 2160,
+    "techs": [
+      {
+        "name": "Deep-Space Communications",
+        "row": 1,
+        "cost": 720,
+        "prerequisites": [
+          "Intergalactic Mapping",
+          "Universal Translators"
+        ]
+      },
+      {
+        "name": "Artificial Ecosystems",
+        "row": 2,
+        "cost": 710,
+        "prerequisites": [
+          "Terraforming Networks",
+          "Synthetic Biology"
+        ]
+      },
+      {
+        "name": "Autonomous Megastructures",
+        "row": 3,
+        "cost": 730,
+        "prerequisites": [
+          "Dyson Swarm",
+          "Machine Civilization"
+        ]
+      },
+      {
+        "name": "Planetary Shielding",
+        "row": 4,
+        "cost": 720,
+        "prerequisites": [
+          "Planetary Defense Grid",
+          "Advanced Materials"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 34,
+    "era": "Future",
+    "techCost": 757.5,
+    "buildingCost": 1136,
+    "wonderCost": 2273,
+    "techs": [
+      {
+        "name": "Star Lifting",
+        "row": 1,
+        "cost": 760,
+        "prerequisites": [
+          "Stellar Engineering",
+          "Dyson Swarm"
+        ]
+      },
+      {
+        "name": "Interstellar Governance",
+        "row": 2,
+        "cost": 750,
+        "prerequisites": [
+          "Interstellar Colonization",
+          "Machine Civilization"
+        ]
+      },
+      {
+        "name": "Memory Engineering",
+        "row": 3,
+        "cost": 750,
+        "prerequisites": [
+          "Consciousness Uploading",
+          "Synthetic Consciousness"
+        ]
+      },
+      {
+        "name": "Vacuum Energy Control",
+        "row": 4,
+        "cost": 770,
+        "prerequisites": [
+          "Zero-Point Energy",
+          "Gravitational Engineering"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 35,
+    "era": "Future",
+    "techCost": 787.5,
+    "buildingCost": 1181,
+    "wonderCost": 2363,
+    "techs": [
+      {
+        "name": "Galactic Infrastructure",
+        "row": 1,
+        "cost": 790,
+        "prerequisites": [
+          "Intergalactic Mapping",
+          "Autonomous Megastructures"
+        ]
+      },
+      {
+        "name": "Post-Scarcity Economics",
+        "row": 2,
+        "cost": 780,
+        "prerequisites": [
+          "Machine Civilization",
+          "Matrioshka Brain"
+        ]
+      },
+      {
+        "name": "Universal Simulation",
+        "row": 3,
+        "cost": 790,
+        "prerequisites": [
+          "Artificial Superintelligence",
+          "Memory Engineering"
+        ]
+      },
+      {
+        "name": "Cosmic Habitat Networks",
+        "row": 4,
+        "cost": 790,
+        "prerequisites": [
+          "Orbital Habitats",
+          "Galactic Infrastructure"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 36,
+    "era": "Future",
+    "techCost": 800,
+    "buildingCost": 1200,
+    "wonderCost": 2400,
     "techs": [
       {
         "name": "Future Tech",
-        "row": 4,
+        "row": 1,
         "cost": 800,
         "prerequisites": [
-          "Singularity Engineering",
-          "Planetary Defense Grid",
-          "Climate Restoration",
-          "Intergalactic Mapping",
-          "Post-Biological Society",
-          "Matrioshka Brain"
+          "Galactic Infrastructure",
+          "Post-Scarcity Economics",
+          "Universal Simulation",
+          "Cosmic Habitat Networks"
         ],
         "uniques": [
           "Can be continually researched"
