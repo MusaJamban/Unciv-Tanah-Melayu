@@ -188,9 +188,7 @@
       "Snow",
       "Hill"
     ],
-    "uniques": [
-      "Can only be built on tiles owned by you"
-    ]
+    "uniques": []
   },
   {
     "name": "Railroad",
