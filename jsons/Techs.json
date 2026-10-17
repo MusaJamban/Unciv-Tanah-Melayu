@@ -2562,5 +2562,522 @@
         "quote": "Research never ends. Each breakthrough opens another horizon."
       }
     ]
+  },
+  {
+    "columnNumber": 57,
+    "era": "Future",
+    "techCost": 1200,
+    "techs": [
+      {
+        "name": "Frontier Advanced Robotics",
+        "row": 1,
+        "cost": 1200,
+        "prerequisites": [
+          "Intergalactic Settlements"
+        ]
+      },
+      {
+        "name": "Autonomous Logistics",
+        "row": 2,
+        "cost": 1225,
+        "prerequisites": [
+          "Universal Energy Networks"
+        ]
+      },
+      {
+        "name": "Frontier Synthetic Biology",
+        "row": 3,
+        "cost": 1250,
+        "prerequisites": [
+          "Planetary Consciousness"
+        ]
+      },
+      {
+        "name": "Orbital Manufacturing",
+        "row": 4,
+        "cost": 1275,
+        "prerequisites": [
+          "Cosmic Habitat Engineering"
+        ]
+      }
+    ],
+    "buildingCost": 1800,
+    "wonderCost": 3600
+  },
+  {
+    "columnNumber": 58,
+    "era": "Future",
+    "techCost": 1350,
+    "techs": [
+      {
+        "name": "Deep-Space Propulsion",
+        "row": 1,
+        "cost": 1350,
+        "prerequisites": [
+          "Frontier Advanced Robotics"
+        ]
+      },
+      {
+        "name": "Antimatter Containment",
+        "row": 2,
+        "cost": 1375,
+        "prerequisites": [
+          "Autonomous Logistics"
+        ]
+      },
+      {
+        "name": "Quantum Materials",
+        "row": 3,
+        "cost": 1400,
+        "prerequisites": [
+          "Frontier Synthetic Biology"
+        ]
+      },
+      {
+        "name": "Planetary Terraforming",
+        "row": 4,
+        "cost": 1425,
+        "prerequisites": [
+          "Orbital Manufacturing"
+        ]
+      }
+    ],
+    "buildingCost": 1900,
+    "wonderCost": 3800
+  },
+  {
+    "columnNumber": 59,
+    "era": "Future",
+    "techCost": 1500,
+    "techs": [
+      {
+        "name": "Neural Interfaces",
+        "row": 1,
+        "cost": 1500,
+        "prerequisites": [
+          "Deep-Space Propulsion"
+        ]
+      },
+      {
+        "name": "Global Climate Engineering",
+        "row": 2,
+        "cost": 1525,
+        "prerequisites": [
+          "Antimatter Containment"
+        ]
+      },
+      {
+        "name": "Autonomous Megacities",
+        "row": 3,
+        "cost": 1550,
+        "prerequisites": [
+          "Quantum Materials"
+        ]
+      },
+      {
+        "name": "Photonic Computing",
+        "row": 4,
+        "cost": 1575,
+        "prerequisites": [
+          "Planetary Terraforming"
+        ]
+      }
+    ],
+    "buildingCost": 2000,
+    "wonderCost": 4000
+  },
+  {
+    "columnNumber": 60,
+    "era": "Future",
+    "techCost": 1650,
+    "techs": [
+      {
+        "name": "Frontier Artificial General Intelligence",
+        "row": 1,
+        "cost": 1650,
+        "prerequisites": [
+          "Neural Interfaces"
+        ]
+      },
+      {
+        "name": "Frontier Quantum Networks",
+        "row": 2,
+        "cost": 1675,
+        "prerequisites": [
+          "Global Climate Engineering"
+        ]
+      },
+      {
+        "name": "Fusion Power Grids",
+        "row": 3,
+        "cost": 1700,
+        "prerequisites": [
+          "Autonomous Megacities"
+        ]
+      },
+      {
+        "name": "Interstellar Communications",
+        "row": 4,
+        "cost": 1725,
+        "prerequisites": [
+          "Photonic Computing"
+        ]
+      }
+    ],
+    "buildingCost": 2100,
+    "wonderCost": 4200
+  },
+  {
+    "columnNumber": 61,
+    "era": "Future",
+    "techCost": 1800,
+    "techs": [
+      {
+        "name": "Exoplanet Surveying",
+        "row": 1,
+        "cost": 1800,
+        "prerequisites": [
+          "Frontier Artificial General Intelligence"
+        ]
+      },
+      {
+        "name": "Frontier Asteroid Mining",
+        "row": 2,
+        "cost": 1825,
+        "prerequisites": [
+          "Frontier Quantum Networks"
+        ]
+      },
+      {
+        "name": "Space Elevator Systems",
+        "row": 3,
+        "cost": 1850,
+        "prerequisites": [
+          "Fusion Power Grids"
+        ]
+      },
+      {
+        "name": "Closed-Loop Ecosystems",
+        "row": 4,
+        "cost": 1875,
+        "prerequisites": [
+          "Interstellar Communications"
+        ]
+      }
+    ],
+    "buildingCost": 2200,
+    "wonderCost": 4400
+  },
+  {
+    "columnNumber": 62,
+    "era": "Future",
+    "techCost": 1950,
+    "techs": [
+      {
+        "name": "Nanofabrication",
+        "row": 1,
+        "cost": 1950,
+        "prerequisites": [
+          "Exoplanet Surveying"
+        ]
+      },
+      {
+        "name": "Frontier Molecular Medicine",
+        "row": 2,
+        "cost": 1975,
+        "prerequisites": [
+          "Frontier Asteroid Mining"
+        ]
+      },
+      {
+        "name": "Programmable Matter",
+        "row": 3,
+        "cost": 2000,
+        "prerequisites": [
+          "Space Elevator Systems"
+        ]
+      },
+      {
+        "name": "Frontier Universal Translators",
+        "row": 4,
+        "cost": 2025,
+        "prerequisites": [
+          "Closed-Loop Ecosystems"
+        ]
+      }
+    ],
+    "buildingCost": 2300,
+    "wonderCost": 4600
+  },
+  {
+    "columnNumber": 63,
+    "era": "Future",
+    "techCost": 2100,
+    "techs": [
+      {
+        "name": "Oceanic Habitats",
+        "row": 1,
+        "cost": 2100,
+        "prerequisites": [
+          "Nanofabrication"
+        ]
+      },
+      {
+        "name": "Subterranean Arcologies",
+        "row": 2,
+        "cost": 2125,
+        "prerequisites": [
+          "Frontier Molecular Medicine"
+        ]
+      },
+      {
+        "name": "Weather Control Systems",
+        "row": 3,
+        "cost": 2150,
+        "prerequisites": [
+          "Programmable Matter"
+        ]
+      },
+      {
+        "name": "Biosphere Restoration",
+        "row": 4,
+        "cost": 2175,
+        "prerequisites": [
+          "Frontier Universal Translators"
+        ]
+      }
+    ],
+    "buildingCost": 2400,
+    "wonderCost": 4800
+  },
+  {
+    "columnNumber": 64,
+    "era": "Future",
+    "techCost": 2250,
+    "techs": [
+      {
+        "name": "Advanced Cybersecurity",
+        "row": 1,
+        "cost": 2250,
+        "prerequisites": [
+          "Oceanic Habitats"
+        ]
+      },
+      {
+        "name": "Distributed Intelligence",
+        "row": 2,
+        "cost": 2275,
+        "prerequisites": [
+          "Subterranean Arcologies"
+        ]
+      },
+      {
+        "name": "Frontier Quantum Sensors",
+        "row": 3,
+        "cost": 2300,
+        "prerequisites": [
+          "Weather Control Systems"
+        ]
+      },
+      {
+        "name": "Synthetic Food Systems",
+        "row": 4,
+        "cost": 2325,
+        "prerequisites": [
+          "Biosphere Restoration"
+        ]
+      }
+    ],
+    "buildingCost": 2500,
+    "wonderCost": 5000
+  },
+  {
+    "columnNumber": 65,
+    "era": "Future",
+    "techCost": 2400,
+    "techs": [
+      {
+        "name": "Orbital Defense Networks",
+        "row": 1,
+        "cost": 2400,
+        "prerequisites": [
+          "Advanced Cybersecurity"
+        ]
+      },
+      {
+        "name": "Interplanetary Trade",
+        "row": 2,
+        "cost": 2425,
+        "prerequisites": [
+          "Distributed Intelligence"
+        ]
+      },
+      {
+        "name": "Deep-Space Navigation",
+        "row": 3,
+        "cost": 2450,
+        "prerequisites": [
+          "Frontier Quantum Sensors"
+        ]
+      },
+      {
+        "name": "Long-Duration Cryonics",
+        "row": 4,
+        "cost": 2475,
+        "prerequisites": [
+          "Synthetic Food Systems"
+        ]
+      }
+    ],
+    "buildingCost": 2600,
+    "wonderCost": 5200
+  },
+  {
+    "columnNumber": 66,
+    "era": "Future",
+    "techCost": 2550,
+    "techs": [
+      {
+        "name": "Stellar Cartography",
+        "row": 1,
+        "cost": 2550,
+        "prerequisites": [
+          "Orbital Defense Networks"
+        ]
+      },
+      {
+        "name": "Dyson Swarm Engineering",
+        "row": 2,
+        "cost": 2575,
+        "prerequisites": [
+          "Interplanetary Trade"
+        ]
+      },
+      {
+        "name": "Relativistic Propulsion",
+        "row": 3,
+        "cost": 2600,
+        "prerequisites": [
+          "Deep-Space Navigation"
+        ]
+      },
+      {
+        "name": "Interstellar Colonies",
+        "row": 4,
+        "cost": 2625,
+        "prerequisites": [
+          "Long-Duration Cryonics"
+        ]
+      }
+    ],
+    "buildingCost": 2700,
+    "wonderCost": 5400
+  },
+  {
+    "columnNumber": 67,
+    "era": "Future",
+    "techCost": 2700,
+    "techs": [
+      {
+        "name": "Frontier Post-Scarcity Economics",
+        "row": 1,
+        "cost": 2700,
+        "prerequisites": [
+          "Stellar Cartography"
+        ]
+      },
+      {
+        "name": "Planetary Governance",
+        "row": 2,
+        "cost": 2725,
+        "prerequisites": [
+          "Dyson Swarm Engineering"
+        ]
+      },
+      {
+        "name": "Consciousness Simulation",
+        "row": 3,
+        "cost": 2750,
+        "prerequisites": [
+          "Relativistic Propulsion"
+        ]
+      },
+      {
+        "name": "Universal Knowledge Archives",
+        "row": 4,
+        "cost": 2775,
+        "prerequisites": [
+          "Interstellar Colonies"
+        ]
+      }
+    ],
+    "buildingCost": 2800,
+    "wonderCost": 5600
+  },
+  {
+    "columnNumber": 68,
+    "era": "Future",
+    "techCost": 2850,
+    "techs": [
+      {
+        "name": "Wormhole Theory",
+        "row": 1,
+        "cost": 2850,
+        "prerequisites": [
+          "Frontier Post-Scarcity Economics"
+        ]
+      },
+      {
+        "name": "Vacuum Energy Research",
+        "row": 2,
+        "cost": 2875,
+        "prerequisites": [
+          "Planetary Governance"
+        ]
+      },
+      {
+        "name": "Multi-Planet Civilization",
+        "row": 3,
+        "cost": 2900,
+        "prerequisites": [
+          "Consciousness Simulation"
+        ]
+      },
+      {
+        "name": "Stellar Terraforming",
+        "row": 4,
+        "cost": 2925,
+        "prerequisites": [
+          "Universal Knowledge Archives"
+        ]
+      }
+    ],
+    "buildingCost": 2900,
+    "wonderCost": 5800
+  },
+  {
+    "columnNumber": 69,
+    "era": "Future",
+    "techCost": 3000,
+    "techs": [
+      {
+        "name": "Galactic Diplomacy",
+        "row": 1,
+        "cost": 3000,
+        "prerequisites": [
+          "Wormhole Theory"
+        ]
+      },
+      {
+        "name": "Self-Replicating Industry",
+        "row": 2,
+        "cost": 3025,
+        "prerequisites": [
+          "Vacuum Energy Research"
+        ]
+      }
+    ],
+    "buildingCost": 3000,
+    "wonderCost": 6000
   }
 ]
