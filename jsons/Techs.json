@@ -934,5 +934,220 @@
         ]
       }
     ]
+  },
+  {
+    "columnNumber": 26,
+    "era": "Future",
+    "techCost": 480,
+    "techs": [
+      {
+        "name": "Zero-Point Energy",
+        "row": 1,
+        "cost": 480,
+        "prerequisites": [
+          "Nuclear Fusion",
+          "Antimatter Power"
+        ]
+      },
+      {
+        "name": "Post-Quantum Cryptography",
+        "row": 2,
+        "cost": 470,
+        "prerequisites": [
+          "Quantum Networks",
+          "Cybernetics"
+        ]
+      },
+      {
+        "name": "Molecular Manufacturing",
+        "row": 3,
+        "cost": 480,
+        "prerequisites": [
+          "Advanced Materials",
+          "Nanotechnology"
+        ]
+      },
+      {
+        "name": "Consciousness Uploading",
+        "row": 4,
+        "cost": 490,
+        "prerequisites": [
+          "Artificial Superintelligence",
+          "Synthetic Biology"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 27,
+    "era": "Future",
+    "techCost": 520,
+    "techs": [
+      {
+        "name": "Dyson Swarm",
+        "row": 1,
+        "cost": 520,
+        "prerequisites": [
+          "Zero-Point Energy",
+          "Planetary Engineering"
+        ]
+      },
+      {
+        "name": "Self-Replicating Probes",
+        "row": 2,
+        "cost": 520,
+        "prerequisites": [
+          "Molecular Manufacturing",
+          "Interstellar Propulsion"
+        ]
+      },
+      {
+        "name": "Terraforming Networks",
+        "row": 3,
+        "cost": 510,
+        "prerequisites": [
+          "Planetary Engineering",
+          "Renewable Energy"
+        ]
+      },
+      {
+        "name": "Synthetic Consciousness",
+        "row": 4,
+        "cost": 525,
+        "prerequisites": [
+          "Consciousness Uploading",
+          "Quantum Computing"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 28,
+    "era": "Future",
+    "techCost": 560,
+    "techs": [
+      {
+        "name": "Antimatter Propulsion",
+        "row": 1,
+        "cost": 560,
+        "prerequisites": [
+          "Antimatter Power",
+          "Interstellar Propulsion"
+        ]
+      },
+      {
+        "name": "Orbital Habitats",
+        "row": 2,
+        "cost": 550,
+        "prerequisites": [
+          "Dyson Swarm",
+          "Advanced Materials"
+        ]
+      },
+      {
+        "name": "Planetary Defense Grid",
+        "row": 3,
+        "cost": 550,
+        "prerequisites": [
+          "Guidance Systems",
+          "Zero-Point Energy"
+        ]
+      },
+      {
+        "name": "Universal Translators",
+        "row": 4,
+        "cost": 545,
+        "prerequisites": [
+          "Artificial Superintelligence",
+          "Post-Quantum Cryptography"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 29,
+    "era": "Future",
+    "techCost": 600,
+    "techs": [
+      {
+        "name": "Interstellar Colonization",
+        "row": 1,
+        "cost": 620,
+        "prerequisites": [
+          "Antimatter Propulsion",
+          "Orbital Habitats"
+        ]
+      },
+      {
+        "name": "Machine Civilization",
+        "row": 2,
+        "cost": 610,
+        "prerequisites": [
+          "Synthetic Consciousness",
+          "Self-Replicating Probes"
+        ]
+      },
+      {
+        "name": "Climate Restoration",
+        "row": 3,
+        "cost": 600,
+        "prerequisites": [
+          "Terraforming Networks",
+          "Molecular Manufacturing"
+        ]
+      },
+      {
+        "name": "Gravitational Engineering",
+        "row": 4,
+        "cost": 630,
+        "prerequisites": [
+          "Zero-Point Energy",
+          "Dyson Swarm"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 30,
+    "era": "Future",
+    "techCost": 650,
+    "techs": [
+      {
+        "name": "Intergalactic Mapping",
+        "row": 1,
+        "cost": 660,
+        "prerequisites": [
+          "Interstellar Colonization",
+          "Universal Translators"
+        ]
+      },
+      {
+        "name": "Stellar Engineering",
+        "row": 2,
+        "cost": 660,
+        "prerequisites": [
+          "Gravitational Engineering",
+          "Dyson Swarm"
+        ]
+      },
+      {
+        "name": "Post-Biological Society",
+        "row": 3,
+        "cost": 650,
+        "prerequisites": [
+          "Machine Civilization",
+          "Synthetic Biology"
+        ]
+      },
+      {
+        "name": "Matrioshka Brain",
+        "row": 4,
+        "cost": 680,
+        "prerequisites": [
+          "Stellar Engineering",
+          "Artificial Superintelligence"
+        ]
+      }
+    ]
   }
 ]
