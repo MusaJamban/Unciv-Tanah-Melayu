@@ -313,5 +313,171 @@
     "cost": 180,
     "requiredTech": "Scientific Theory",
     "science": 3
+  },
+  {
+    "name": "Hydroponics Complex",
+    "cost": 220,
+    "requiredTech": "Synthetic Food Systems",
+    "food": 4,
+    "science": 1
+  },
+  {
+    "name": "Climate Research Institute",
+    "cost": 260,
+    "requiredTech": "Global Climate Engineering",
+    "science": 4,
+    "culture": 1
+  },
+  {
+    "name": "Quantum Computing Center",
+    "cost": 250,
+    "requiredTech": "Quantum Computing",
+    "science": 5
+  },
+  {
+    "name": "Orbital Research Station",
+    "cost": 280,
+    "requiredTech": "Space Stations",
+    "science": 5,
+    "production": 1
+  },
+  {
+    "name": "Space Elevator Port",
+    "cost": 320,
+    "requiredTech": "Space Elevator Systems",
+    "production": 4,
+    "gold": 2
+  },
+  {
+    "name": "Nanofabrication Plant",
+    "cost": 280,
+    "requiredTech": "Nanofabrication",
+    "production": 4,
+    "science": 2
+  },
+  {
+    "name": "Interplanetary Trade Hub",
+    "cost": 300,
+    "requiredTech": "Interplanetary Trade",
+    "gold": 5,
+    "production": 1
+  },
+  {
+    "name": "Planetary Defense Command",
+    "cost": 300,
+    "requiredTech": "Orbital Defense Networks",
+    "production": 2,
+    "science": 2
+  },
+  {
+    "name": "Biosphere Restoration Center",
+    "cost": 260,
+    "requiredTech": "Biosphere Restoration",
+    "food": 3,
+    "culture": 2
+  },
+  {
+    "name": "Oceanic Habitat",
+    "cost": 250,
+    "requiredTech": "Oceanic Habitats",
+    "food": 3,
+    "production": 2
+  },
+  {
+    "name": "Deep-Space Communications Array",
+    "cost": 260,
+    "requiredTech": "Interstellar Communications",
+    "science": 3,
+    "gold": 2
+  },
+  {
+    "name": "Stellar Energy Directorate",
+    "cost": 380,
+    "requiredTech": "Dyson Swarm Engineering",
+    "production": 5,
+    "science": 4
+  },
+  {
+    "name": "Galactic Diplomatic Forum",
+    "cost": 360,
+    "requiredTech": "Galactic Diplomacy",
+    "culture": 5,
+    "gold": 3
+  },
+  {
+    "name": "Universal Knowledge Archive",
+    "cost": 350,
+    "requiredTech": "Universal Knowledge Archives",
+    "science": 4,
+    "culture": 4
+  },
+  {
+    "name": "Advanced Medical Institute",
+    "cost": 260,
+    "requiredTech": "Frontier Molecular Medicine",
+    "food": 2,
+    "science": 3
+  },
+  {
+    "name": "Autonomous Industry Complex",
+    "cost": 400,
+    "requiredTech": "Self-Replicating Industry",
+    "production": 6,
+    "gold": 2
+  },
+  {
+    "name": "Terraforming Authority",
+    "cost": 380,
+    "requiredTech": "Stellar Terraforming",
+    "food": 4,
+    "production": 2
+  },
+  {
+    "name": "Quantum Security Bureau",
+    "cost": 240,
+    "requiredTech": "Advanced Cybersecurity",
+    "science": 2,
+    "gold": 2
+  },
+  {
+    "name": "Global Education Network",
+    "cost": 190,
+    "requiredTech": "Mass Education",
+    "science": 3,
+    "culture": 2
+  },
+  {
+    "name": "Smart Grid Exchange",
+    "cost": 220,
+    "requiredTech": "Smart Grids",
+    "production": 3,
+    "gold": 2
+  },
+  {
+    "name": "Public Transit Network",
+    "cost": 170,
+    "requiredTech": "Urban Planning",
+    "production": 2,
+    "gold": 2
+  },
+  {
+    "name": "Orbital Agriculture Dome",
+    "cost": 300,
+    "requiredTech": "Closed-Loop Ecosystems",
+    "food": 5
+  },
+  {
+    "name": "Antimatter Power Plant",
+    "cost": 380,
+    "requiredTech": "Antimatter Containment",
+    "production": 6,
+    "science": 2
+  },
+  {
+    "name": "Planetary Governance Center",
+    "cost": 340,
+    "requiredTech": "Planetary Governance",
+    "culture": 3,
+    "gold": 3
   }
 ]
