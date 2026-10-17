@@ -99,7 +99,7 @@
     "name": "Honour",
     "era": "Ancient",
     "uniques": [
-      "[+10]% Strength <for [Military] units>"
+      "[+10]% Production when constructing [Land] units [in all cities]"
     ],
     "policies": [
       {
@@ -107,7 +107,7 @@
         "row": 1,
         "column": 0,
         "uniques": [
-          "[+10]% Strength <for [Military] units>"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
@@ -115,7 +115,7 @@
         "row": 2,
         "column": 0,
         "uniques": [
-          "[+10]% Strength <for [Military] units>"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
@@ -123,7 +123,7 @@
         "row": 3,
         "column": 0,
         "uniques": [
-          "[+10]% Strength <for [Military] units>"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
@@ -131,14 +131,14 @@
         "row": 4,
         "column": 0,
         "uniques": [
-          "[+10]% Strength <for [Military] units>"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
         "name": "Honour Complete",
         "uniques": [
-          "[+10]% Strength <for [Military] units>",
-          "[+15]% Production when constructing [Military] units [in all cities]"
+          "[+10]% Production when constructing [Land] units [in all cities]",
+          "[+15]% XP gained from combat"
         ]
       }
     ]
@@ -1269,7 +1269,7 @@
     "name": "Nuclear Strategy",
     "era": "Atomic",
     "uniques": [
-      "[+10]% Strength for cities"
+      "[+1 Production] [in all cities]"
     ],
     "policies": [
       {
@@ -1316,8 +1316,8 @@
       {
         "name": "Nuclear Strategy Complete",
         "uniques": [
-          "[+10]% Strength for cities",
-          "[+1 Production] [in all cities]"
+          "[+1 Production] [in all cities]",
+          "[+1 Science] [in all cities]"
         ]
       }
     ]
