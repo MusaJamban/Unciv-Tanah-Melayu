@@ -120,5 +120,200 @@
     "uniques": [
       "Only available to Kesultanan Melaka"
     ]
+  },
+  {
+    "name": "Shrine",
+    "cost": 25,
+    "requiredTech": "Pottery",
+    "faith": 1
+  },
+  {
+    "name": "Amphitheater",
+    "cost": 60,
+    "requiredTech": "Drama and Poetry",
+    "culture": 2
+  },
+  {
+    "name": "Courthouse of Governors",
+    "cost": 90,
+    "requiredTech": "Civil Service",
+    "gold": 1,
+    "culture": 1
+  },
+  {
+    "name": "Stable",
+    "cost": 50,
+    "requiredTech": "Horseback Riding",
+    "production": 1
+  },
+  {
+    "name": "University of Learning",
+    "cost": 110,
+    "requiredTech": "Education",
+    "science": 2,
+    "culture": 1
+  },
+  {
+    "name": "Guild Hall",
+    "cost": 90,
+    "requiredTech": "Guilds",
+    "gold": 2,
+    "culture": 1
+  },
+  {
+    "name": "Workshop of Artisans",
+    "cost": 100,
+    "requiredTech": "Machinery",
+    "production": 3
+  },
+  {
+    "name": "Caravel Dockyard",
+    "cost": 90,
+    "requiredTech": "Navigation",
+    "gold": 2,
+    "production": 1
+  },
+  {
+    "name": "Printing House",
+    "cost": 95,
+    "requiredTech": "Printing Press",
+    "science": 2,
+    "culture": 1
+  },
+  {
+    "name": "Observatory",
+    "cost": 125,
+    "requiredTech": "Astronomy",
+    "science": 4
+  },
+  {
+    "name": "Mint",
+    "cost": 100,
+    "requiredTech": "Banking",
+    "gold": 3
+  },
+  {
+    "name": "Cathedral",
+    "cost": 120,
+    "requiredTech": "Theology",
+    "faith": 3,
+    "culture": 2
+  },
+  {
+    "name": "Great Mosque",
+    "cost": 180,
+    "requiredTech": "Architecture",
+    "faith": 4,
+    "culture": 3
+  },
+  {
+    "name": "Royal Palace",
+    "cost": 140,
+    "requiredTech": "Civil Service",
+    "culture": 3,
+    "gold": 2
+  },
+  {
+    "name": "Academy of Scholars",
+    "cost": 150,
+    "requiredTech": "Scientific Theory",
+    "science": 4,
+    "culture": 1
+  },
+  {
+    "name": "Museum",
+    "cost": 160,
+    "requiredTech": "Archaeology",
+    "culture": 4,
+    "science": 1
+  },
+  {
+    "name": "Military Academy",
+    "cost": 160,
+    "requiredTech": "Military Science",
+    "production": 2
+  },
+  {
+    "name": "Railway Station",
+    "cost": 200,
+    "requiredTech": "Railroads",
+    "production": 3,
+    "gold": 1
+  },
+  {
+    "name": "Telegraph Office",
+    "cost": 210,
+    "requiredTech": "Telegraph",
+    "science": 3,
+    "gold": 2
+  },
+  {
+    "name": "Public Hospital",
+    "cost": 180,
+    "requiredTech": "Sanitation",
+    "food": 3
+  },
+  {
+    "name": "National Theatre",
+    "cost": 170,
+    "requiredTech": "Acoustics",
+    "culture": 5
+  },
+  {
+    "name": "Grand Bazaar",
+    "cost": 130,
+    "requiredTech": "Economics",
+    "gold": 5
+  },
+  {
+    "name": "Royal Shipyard",
+    "cost": 140,
+    "requiredTech": "Navigation",
+    "production": 2,
+    "gold": 2
+  },
+  {
+    "name": "Industrial Foundry",
+    "cost": 190,
+    "requiredTech": "Mass Production",
+    "production": 5
+  },
+  {
+    "name": "Great Observatory",
+    "cost": 200,
+    "requiredTech": "Electricity",
+    "science": 5
+  },
+  {
+    "name": "Imperial Archive",
+    "cost": 150,
+    "requiredTech": "Printing Press",
+    "science": 2,
+    "culture": 3
+  },
+  {
+    "name": "Pilgrims' Hospice",
+    "cost": 100,
+    "requiredTech": "Theology",
+    "faith": 2,
+    "food": 1
+  },
+  {
+    "name": "Caravanserai",
+    "cost": 80,
+    "requiredTech": "Currency",
+    "gold": 2
+  },
+  {
+    "name": "Fortress",
+    "cost": 110,
+    "requiredTech": "Engineering",
+    "production": 1
+  },
+  {
+    "name": "Public School",
+    "cost": 180,
+    "requiredTech": "Scientific Theory",
+    "science": 3
   }
 ]
