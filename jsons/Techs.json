@@ -36,8 +36,8 @@
   },
   {
     "columnNumber": 2,
-    "era": "Ancient",
-    "techCost": 20,
+    "era": "Classical",
+    "techCost": 28,
     "techs": [
       {
         "name": "Archery",
@@ -62,13 +62,21 @@
         "prerequisites": [
           "Pottery"
         ]
+      },
+      {
+        "name": "Philosophy",
+        "row": 4,
+        "cost": 28,
+        "prerequisites": [
+          "Writing"
+        ]
       }
     ]
   },
   {
     "columnNumber": 3,
     "era": "Ancient",
-    "techCost": 30,
+    "techCost": 28,
     "techs": [
       {
         "name": "Bronze Working",
@@ -93,13 +101,21 @@
         "prerequisites": [
           "Animal Husbandry"
         ]
+      },
+      {
+        "name": "Masonry",
+        "row": 4,
+        "cost": 28,
+        "prerequisites": [
+          "Mining"
+        ]
       }
     ]
   },
   {
     "columnNumber": 4,
     "era": "Classical",
-    "techCost": 45,
+    "techCost": 40,
     "techs": [
       {
         "name": "Iron Working",
@@ -124,13 +140,21 @@
         "prerequisites": [
           "Writing"
         ]
+      },
+      {
+        "name": "Drama and Poetry",
+        "row": 4,
+        "cost": 40,
+        "prerequisites": [
+          "Writing"
+        ]
       }
     ]
   },
   {
     "columnNumber": 5,
     "era": "Classical",
-    "techCost": 60,
+    "techCost": 42,
     "techs": [
       {
         "name": "Construction",
@@ -156,13 +180,30 @@
           "Sailing",
           "Mathematics"
         ]
+      },
+      {
+        "name": "Horseback Riding",
+        "row": 4,
+        "cost": 40,
+        "prerequisites": [
+          "Animal Husbandry"
+        ]
+      },
+      {
+        "name": "Theology",
+        "row": 5,
+        "cost": 42,
+        "prerequisites": [
+          "Calendar",
+          "Writing"
+        ]
       }
     ]
   },
   {
     "columnNumber": 6,
     "era": "Medieval",
-    "techCost": 80,
+    "techCost": 70,
     "techs": [
       {
         "name": "Engineering",
@@ -188,13 +229,31 @@
         "prerequisites": [
           "Iron Working"
         ]
+      },
+      {
+        "name": "Civil Service",
+        "row": 4,
+        "cost": 65,
+        "prerequisites": [
+          "Mathematics",
+          "Currency"
+        ]
+      },
+      {
+        "name": "Feudalism",
+        "row": 5,
+        "cost": 70,
+        "prerequisites": [
+          "Horseback Riding",
+          "Iron Working"
+        ]
       }
     ]
   },
   {
     "columnNumber": 7,
     "era": "Medieval",
-    "techCost": 110,
+    "techCost": 85,
     "techs": [
       {
         "name": "Machinery",
@@ -219,13 +278,22 @@
         "prerequisites": [
           "Currency"
         ]
+      },
+      {
+        "name": "Chivalry",
+        "row": 4,
+        "cost": 85,
+        "prerequisites": [
+          "Feudalism",
+          "Guilds"
+        ]
       }
     ]
   },
   {
     "columnNumber": 8,
     "era": "Renaissance",
-    "techCost": 150,
+    "techCost": 100,
     "techs": [
       {
         "name": "Navigation",
@@ -251,13 +319,31 @@
         "prerequisites": [
           "Steel"
         ]
+      },
+      {
+        "name": "Architecture",
+        "row": 4,
+        "cost": 95,
+        "prerequisites": [
+          "Engineering",
+          "Mathematics"
+        ]
+      },
+      {
+        "name": "Exploration",
+        "row": 5,
+        "cost": 100,
+        "prerequisites": [
+          "Compass",
+          "Optics"
+        ]
       }
     ]
   },
   {
     "columnNumber": 9,
     "era": "Renaissance",
-    "techCost": 200,
+    "techCost": 120,
     "techs": [
       {
         "name": "Astronomy",
@@ -283,13 +369,31 @@
         "prerequisites": [
           "Gunpowder"
         ]
+      },
+      {
+        "name": "Acoustics",
+        "row": 4,
+        "cost": 115,
+        "prerequisites": [
+          "Education",
+          "Drama and Poetry"
+        ]
+      },
+      {
+        "name": "Scientific Theory",
+        "row": 5,
+        "cost": 120,
+        "prerequisites": [
+          "Education",
+          "Printing Press"
+        ]
       }
     ]
   },
   {
     "columnNumber": 10,
-    "era": "Industrial",
-    "techCost": 260,
+    "era": "Renaissance",
+    "techCost": 135,
     "techs": [
       {
         "name": "Economics",
@@ -316,13 +420,31 @@
           "Engineering",
           "Economics"
         ]
+      },
+      {
+        "name": "Military Science",
+        "row": 4,
+        "cost": 130,
+        "prerequisites": [
+          "Gunpowder",
+          "Chivalry"
+        ]
+      },
+      {
+        "name": "Archaeology",
+        "row": 5,
+        "cost": 135,
+        "prerequisites": [
+          "Acoustics",
+          "Education"
+        ]
       }
     ]
   },
   {
     "columnNumber": 11,
     "era": "Industrial",
-    "techCost": 340,
+    "techCost": 150,
     "techs": [
       {
         "name": "Industrialization",
@@ -331,6 +453,156 @@
         "prerequisites": [
           "Steam Power",
           "Chemistry"
+        ]
+      },
+      {
+        "name": "Fertilizer",
+        "row": 4,
+        "cost": 150,
+        "prerequisites": [
+          "Chemistry",
+          "Agriculture"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 12,
+    "era": "Industrial",
+    "techCost": 170,
+    "techs": [
+      {
+        "name": "Rifling",
+        "row": 1,
+        "cost": 170,
+        "prerequisites": [
+          "Gunpowder",
+          "Metallurgy"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 13,
+    "era": "Industrial",
+    "techCost": 200,
+    "techs": [
+      {
+        "name": "Electricity",
+        "row": 1,
+        "cost": 190,
+        "prerequisites": [
+          "Steam Power",
+          "Scientific Theory"
+        ]
+      },
+      {
+        "name": "Railroads",
+        "row": 2,
+        "cost": 200,
+        "prerequisites": [
+          "Steam Power",
+          "Engineering"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 14,
+    "era": "Industrial",
+    "techCost": 215,
+    "techs": [
+      {
+        "name": "Telegraph",
+        "row": 1,
+        "cost": 220,
+        "prerequisites": [
+          "Electricity",
+          "Printing Press"
+        ]
+      },
+      {
+        "name": "Sanitation",
+        "row": 2,
+        "cost": 215,
+        "prerequisites": [
+          "Chemistry",
+          "Fertilizer"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 15,
+    "era": "Industrial",
+    "techCost": 230,
+    "techs": [
+      {
+        "name": "Combustion",
+        "row": 1,
+        "cost": 240,
+        "prerequisites": [
+          "Steam Power",
+          "Chemistry"
+        ]
+      },
+      {
+        "name": "Modern Banking",
+        "row": 2,
+        "cost": 230,
+        "prerequisites": [
+          "Banking",
+          "Economics"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 16,
+    "era": "Industrial",
+    "techCost": 270,
+    "techs": [
+      {
+        "name": "Mass Production",
+        "row": 1,
+        "cost": 260,
+        "prerequisites": [
+          "Industrialization",
+          "Railroads"
+        ]
+      },
+      {
+        "name": "Flight",
+        "row": 2,
+        "cost": 270,
+        "prerequisites": [
+          "Combustion",
+          "Scientific Theory"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 17,
+    "era": "Industrial",
+    "techCost": 285,
+    "techs": [
+      {
+        "name": "Radio",
+        "row": 1,
+        "cost": 290,
+        "prerequisites": [
+          "Electricity",
+          "Telegraph"
+        ]
+      },
+      {
+        "name": "Ballistics",
+        "row": 2,
+        "cost": 285,
+        "prerequisites": [
+          "Rifling",
+          "Military Science"
         ]
       }
     ]
