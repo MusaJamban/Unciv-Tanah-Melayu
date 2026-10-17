@@ -320,5 +320,219 @@
     "uniques": [
       "[+1] Movement"
     ]
+  },
+  {
+    "name": "Militia",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 9,
+    "rangedStrength": 0,
+    "cost": 28,
+    "requiredTech": "Bronze Working",
+    "uniques": []
+  },
+  {
+    "name": "Horse Archer",
+    "unitType": "Ranged",
+    "movement": 3,
+    "strength": 8,
+    "rangedStrength": 12,
+    "cost": 65,
+    "requiredTech": "Horseback Riding",
+    "uniques": []
+  },
+  {
+    "name": "Trebuchet Crew",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 8,
+    "rangedStrength": 16,
+    "cost": 100,
+    "requiredTech": "Machinery",
+    "uniques": []
+  },
+  {
+    "name": "Galleon",
+    "unitType": "Naval Melee",
+    "movement": 4,
+    "strength": 22,
+    "rangedStrength": 0,
+    "cost": 130,
+    "requiredTech": "Exploration",
+    "uniques": []
+  },
+  {
+    "name": "Bombard",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 12,
+    "rangedStrength": 20,
+    "cost": 135,
+    "requiredTech": "Gunpowder",
+    "uniques": []
+  },
+  {
+    "name": "Arquebusier",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 16,
+    "rangedStrength": 20,
+    "cost": 120,
+    "requiredTech": "Gunpowder",
+    "uniques": []
+  },
+  {
+    "name": "Hussar",
+    "unitType": "Mounted",
+    "movement": 5,
+    "strength": 20,
+    "rangedStrength": 0,
+    "cost": 130,
+    "requiredTech": "Chivalry",
+    "uniques": []
+  },
+  {
+    "name": "Field Cannon",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 18,
+    "rangedStrength": 28,
+    "cost": 175,
+    "requiredTech": "Military Science",
+    "uniques": []
+  },
+  {
+    "name": "Rifle Infantry",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 26,
+    "rangedStrength": 30,
+    "cost": 200,
+    "requiredTech": "Rifling",
+    "uniques": []
+  },
+  {
+    "name": "Steam Frigate",
+    "unitType": "Naval Ranged",
+    "movement": 5,
+    "strength": 28,
+    "rangedStrength": 32,
+    "cost": 210,
+    "requiredTech": "Steam Power",
+    "uniques": []
+  },
+  {
+    "name": "Railway Engineer",
+    "unitType": "Civilian",
+    "movement": 2,
+    "strength": 0,
+    "rangedStrength": 0,
+    "cost": 100,
+    "requiredTech": "Railroads",
+    "uniques": [
+      "Can build [Land] improvements on tiles"
+    ]
+  },
+  {
+    "name": "Explorer",
+    "unitType": "Scout",
+    "movement": 3,
+    "strength": 8,
+    "rangedStrength": 0,
+    "cost": 80,
+    "requiredTech": "Exploration",
+    "uniques": [
+      "Ignores terrain cost"
+    ]
+  },
+  {
+    "name": "Royal Envoy",
+    "unitType": "Civilian",
+    "movement": 2,
+    "strength": 0,
+    "rangedStrength": 0,
+    "cost": 70,
+    "requiredTech": "Civil Service",
+    "uniques": []
+  },
+  {
+    "name": "Scholar",
+    "unitType": "Civilian",
+    "movement": 2,
+    "strength": 0,
+    "rangedStrength": 0,
+    "cost": 85,
+    "requiredTech": "Education",
+    "uniques": []
+  },
+  {
+    "name": "War Elephant",
+    "unitType": "Mounted",
+    "movement": 3,
+    "strength": 20,
+    "rangedStrength": 0,
+    "cost": 100,
+    "requiredTech": "Horseback Riding",
+    "uniques": []
+  },
+  {
+    "name": "Laksamana",
+    "unitType": "Naval Melee",
+    "movement": 5,
+    "strength": 24,
+    "rangedStrength": 0,
+    "cost": 130,
+    "requiredTech": "Navigation",
+    "uniques": []
+  },
+  {
+    "name": "Janissary Corps",
+    "unitType": "Ranged",
+    "movement": 2,
+    "strength": 20,
+    "rangedStrength": 24,
+    "cost": 140,
+    "requiredTech": "Gunpowder",
+    "uniques": []
+  },
+  {
+    "name": "Field Hospital Unit",
+    "unitType": "Civilian",
+    "movement": 2,
+    "strength": 0,
+    "rangedStrength": 0,
+    "cost": 90,
+    "requiredTech": "Sanitation",
+    "uniques": []
+  },
+  {
+    "name": "Ironclad",
+    "unitType": "Naval Melee",
+    "movement": 4,
+    "strength": 32,
+    "rangedStrength": 0,
+    "cost": 220,
+    "requiredTech": "Steam Power",
+    "uniques": []
+  },
+  {
+    "name": "Cavalry",
+    "unitType": "Mounted",
+    "movement": 5,
+    "strength": 28,
+    "rangedStrength": 0,
+    "cost": 190,
+    "requiredTech": "Rifling",
+    "uniques": []
+  },
+  {
+    "name": "Artillery",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 20,
+    "rangedStrength": 36,
+    "cost": 240,
+    "requiredTech": "Ballistics",
+    "uniques": []
   }
 ]
