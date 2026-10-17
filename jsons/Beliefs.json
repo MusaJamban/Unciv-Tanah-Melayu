@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "name": "Ancestor Veneration",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Culture] from every [Monument]"
+    ]
+  },
+  {
+    "name": "Sacred Rivers",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Food] from every [River]"
+    ]
+  },
+  {
+    "name": "Sea and Storms",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Production] from every [Fishing Boats]"
+    ]
+  },
+  {
+    "name": "Sacred Groves",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Culture] from every [Forest]"
+    ]
+  },
+  {
+    "name": "Harvest Rites",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Food] from every [Farm]"
+    ]
+  },
+  {
+    "name": "Desert Wisdom",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Faith] from every [Desert]"
+    ]
+  },
+  {
+    "name": "Mountain Shrines",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Faith] from every [Mountain]"
+    ]
+  },
+  {
+    "name": "Craft Guilds",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Production] from every [Mine]"
+    ]
+  },
+  {
+    "name": "Pilgrimage Cities",
+    "type": "Founder",
+    "uniques": [
+      "[+2 Faith] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Community Charity",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Gold] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Scholarly Tradition",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Science] for every [5] global followers [in all cities]"
+    ]
+  },
+  {
+    "name": "Cultural Mission",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Culture] for every [5] global followers [in foreign cities]"
+    ]
+  },
+  {
+    "name": "Faithful Stewards",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Food] from every [Temple]"
+    ]
+  },
+  {
+    "name": "Sacred Art",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Culture] from every [Temple]"
+    ]
+  },
+  {
+    "name": "Monastic Schools",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Science] from every [Library]"
+    ]
+  },
+  {
+    "name": "Communal Granaries",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Food] from every [Granary]"
+    ]
+  },
+  {
+    "name": "Warrior Orders",
+    "type": "Follower",
+    "uniques": [
+      "[+10]% Strength <for [Military] units>"
+    ]
+  },
+  {
+    "name": "Religious Hospitality",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Happiness] from every [Temple]"
+    ]
+  },
+  {
+    "name": "Defenders of the Faith",
+    "type": "Enhancer",
+    "uniques": [
+      "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+    ]
+  },
+  {
+    "name": "Missionary Networks",
+    "type": "Enhancer",
+    "uniques": [
+      "[+25]% Spread Religion Strength <for [Missionary] units>"
+    ]
+  },
+  {
+    "name": "Pilgrim Roads",
+    "type": "Enhancer",
+    "uniques": [
+      "Religion naturally spreads to cities [+2] tiles away"
+    ]
+  },
+  {
+    "name": "Sacred Texts",
+    "type": "Enhancer",
+    "uniques": [
+      "[+15]% Natural religion spread [in all cities]"
+    ]
+  }
+]
