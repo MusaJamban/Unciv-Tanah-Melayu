@@ -3,7 +3,7 @@
     "name": "Tradition",
     "era": "Ancient",
     "uniques": [
-      "[+1 Culture] in all cities"
+      "[+1 Culture] [in all cities]"
     ],
     "policies": [
       {
@@ -11,7 +11,7 @@
         "row": 1,
         "column": 0,
         "uniques": [
-          "[+1 Happiness] in all cities"
+          "[+1 Happiness] [in all cities]"
         ]
       },
       {
@@ -19,7 +19,7 @@
         "row": 2,
         "column": 0,
         "uniques": [
-          "[+1 Culture] in all cities"
+          "[+1 Culture] [in all cities]"
         ]
       },
       {
@@ -27,7 +27,7 @@
         "row": 3,
         "column": 0,
         "uniques": [
-          "[+1 Gold] in all cities"
+          "[+1 Gold] [in all cities]"
         ]
       },
       {
@@ -48,7 +48,7 @@
     "name": "Liberty",
     "era": "Ancient",
     "uniques": [
-      "[+1 Production] in all cities"
+      "[+1 Production] [in all cities]"
     ],
     "policies": [
       {
@@ -56,7 +56,7 @@
         "row": 1,
         "column": 0,
         "uniques": [
-          "[+1 Production] in all cities"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
@@ -64,7 +64,7 @@
         "row": 2,
         "column": 0,
         "uniques": [
-          "[+1 Food] in all cities"
+          "[+1 Food] [in all cities]"
         ]
       },
       {
@@ -80,7 +80,7 @@
         "row": 4,
         "column": 0,
         "uniques": [
-          "[+1 Happiness] in all cities"
+          "[+1 Happiness] [in all cities]"
         ]
       },
       {
@@ -138,7 +138,7 @@
     "name": "Piety",
     "era": "Ancient",
     "uniques": [
-      "[+1 Faith] in all cities"
+      "[+1 Faith] [in all cities]"
     ],
     "policies": [
       {
@@ -162,7 +162,7 @@
         "row": 3,
         "column": 0,
         "uniques": [
-          "[+10]% Culture [in all cities]"
+          "[+10]% [Culture] [in all cities]"
         ]
       },
       {
@@ -170,7 +170,7 @@
         "row": 4,
         "column": 0,
         "uniques": [
-          "[+1 Happiness] in all cities"
+          "[+1 Happiness] [in all cities]"
         ]
       },
       {
@@ -183,7 +183,7 @@
     "name": "Commerce",
     "era": "Classical",
     "uniques": [
-      "[+1 Gold] in all cities"
+      "[+1 Gold] [in all cities]"
     ],
     "policies": [
       {
@@ -207,7 +207,7 @@
         "row": 3,
         "column": 0,
         "uniques": [
-          "[+1 Movement] <for [Water] units>"
+          "[+1] Movement <for [Water] units>"
         ]
       },
       {
@@ -215,7 +215,7 @@
         "row": 4,
         "column": 0,
         "uniques": [
-          "[+15]% Gold [in all cities]"
+          "[+15]% [Gold] [in all cities]"
         ]
       },
       {
