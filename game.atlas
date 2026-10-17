@@ -1,0 +1,594 @@
+
+game.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/Agostino Barbarigo
+  rotate: false
+  xy: 4, 124
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ahuitzotl
+  rotate: false
+  xy: 1668, 748
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Alauddin Husain Shah
+  rotate: false
+  xy: 1876, 956
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ali Mughayat Syah
+  rotate: false
+  xy: 1460, 332
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ashikaga Yoshizumi
+  rotate: false
+  xy: 4, 84
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Askia Muhammad
+  rotate: false
+  xy: 44, 124
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Bayezid II
+  rotate: false
+  xy: 1668, 708
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Bolkiah
+  rotate: false
+  xy: 1708, 748
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Charles VIII
+  rotate: false
+  xy: 1876, 916
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Eskender
+  rotate: false
+  xy: 1916, 956
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Girindrawardhana
+  rotate: false
+  xy: 1460, 292
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Henry VII
+  rotate: false
+  xy: 1500, 332
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Hiawatha
+  rotate: false
+  xy: 4, 44
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Hongzhi Emperor
+  rotate: false
+  xy: 44, 84
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Huayna Capac
+  rotate: false
+  xy: 84, 124
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Isabella I
+  rotate: false
+  xy: 1668, 668
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ismail I
+  rotate: false
+  xy: 1708, 708
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ivan III
+  rotate: false
+  xy: 1748, 748
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Joao II
+  rotate: false
+  xy: 1876, 876
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/La Sen Thay
+  rotate: false
+  xy: 1916, 916
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Maximilian I
+  rotate: false
+  xy: 1956, 956
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Minkhaung II
+  rotate: false
+  xy: 1460, 252
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Nzinga a Nkuwu
+  rotate: false
+  xy: 1500, 292
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Qansuh al-Ghuri
+  rotate: false
+  xy: 1540, 332
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Raden Patah
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ramathibodi II
+  rotate: false
+  xy: 44, 44
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Salip Pulaka
+  rotate: false
+  xy: 84, 84
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Saluva Narasimha
+  rotate: false
+  xy: 124, 124
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Seongjong
+  rotate: false
+  xy: 1668, 628
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Sikandar Lodi
+  rotate: false
+  xy: 1708, 668
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Sultan Mahmud Shah
+  rotate: false
+  xy: 1748, 708
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+LeaderIcons/Topa Inca Yupanqui
+  rotate: false
+  xy: 1788, 748
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+NationIcons/Ashikaga Japan
+  rotate: false
+  xy: 4, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/AshikagaJapan
+  rotate: false
+  xy: 4, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Ava Kingdom
+  rotate: false
+  xy: 4, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/AvaKingdom
+  rotate: false
+  xy: 4, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Ayutthaya
+  rotate: false
+  xy: 212, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Aztec Triple Alliance
+  rotate: false
+  xy: 4, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/AztecTripleAlliance
+  rotate: false
+  xy: 4, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Bengal Sultanate
+  rotate: false
+  xy: 212, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/BengalSultanate
+  rotate: false
+  xy: 212, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Castile
+  rotate: false
+  xy: 420, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Delhi Sultanate
+  rotate: false
+  xy: 4, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/DelhiSultanate
+  rotate: false
+  xy: 4, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/England
+  rotate: false
+  xy: 212, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Ethiopian Empire
+  rotate: false
+  xy: 420, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/EthiopianEmpire
+  rotate: false
+  xy: 420, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/France
+  rotate: false
+  xy: 628, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Haudenosaunee
+  rotate: false
+  xy: 212, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Holy Roman Empire
+  rotate: false
+  xy: 420, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/HolyRomanEmpire
+  rotate: false
+  xy: 420, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Inca Empire
+  rotate: false
+  xy: 628, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/IncaEmpire
+  rotate: false
+  xy: 628, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Joseon Korea
+  rotate: false
+  xy: 836, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/JoseonKorea
+  rotate: false
+  xy: 836, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Kesultanan Mamluk
+  rotate: false
+  xy: 420, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/KesultananMamluk
+  rotate: false
+  xy: 420, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Kesultanan Melaka
+  rotate: false
+  xy: 628, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/KesultananMelaka
+  rotate: false
+  xy: 628, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Kingdom of Kongo
+  rotate: false
+  xy: 836, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/KingdomofKongo
+  rotate: false
+  xy: 836, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Lan Xang
+  rotate: false
+  xy: 1044, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/LanXang
+  rotate: false
+  xy: 1044, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Majapahit
+  rotate: false
+  xy: 628, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Ming China
+  rotate: false
+  xy: 836, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/MingChina
+  rotate: false
+  xy: 836, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Muscovy
+  rotate: false
+  xy: 1044, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Ottoman Empire
+  rotate: false
+  xy: 1252, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/OttomanEmpire
+  rotate: false
+  xy: 1252, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Portugal
+  rotate: false
+  xy: 836, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Safavid Persia
+  rotate: false
+  xy: 1044, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/SafavidPersia
+  rotate: false
+  xy: 1044, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Songhai
+  rotate: false
+  xy: 1252, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Sultanate of Aceh
+  rotate: false
+  xy: 1460, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/SultanateofAceh
+  rotate: false
+  xy: 1460, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Sultanate of Brunei
+  rotate: false
+  xy: 1044, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/SultanateofBrunei
+  rotate: false
+  xy: 1044, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Sultanate of Demak
+  rotate: false
+  xy: 1252, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/SultanateofDemak
+  rotate: false
+  xy: 1252, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Sultanate of Sulu
+  rotate: false
+  xy: 1460, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/SultanateofSulu
+  rotate: false
+  xy: 1460, 580
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Tawantinsuyu
+  rotate: false
+  xy: 1668, 788
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Venice
+  rotate: false
+  xy: 1252, 164
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Vijayanagara
+  rotate: false
+  xy: 1460, 372
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
