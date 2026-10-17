@@ -194,8 +194,7 @@
         "row": 5,
         "cost": 42,
         "prerequisites": [
-          "Calendar",
-          "Writing"
+          "Calendar"
         ]
       }
     ]
@@ -218,7 +217,6 @@
         "row": 2,
         "cost": 80,
         "prerequisites": [
-          "Writing",
           "Mathematics"
         ]
       },
@@ -235,7 +233,6 @@
         "row": 4,
         "cost": 65,
         "prerequisites": [
-          "Mathematics",
           "Currency"
         ]
       },
@@ -300,8 +297,7 @@
         "row": 1,
         "cost": 150,
         "prerequisites": [
-          "Compass",
-          "Optics"
+          "Compass"
         ]
       },
       {
@@ -325,8 +321,7 @@
         "row": 4,
         "cost": 95,
         "prerequisites": [
-          "Engineering",
-          "Mathematics"
+          "Engineering"
         ]
       },
       {
@@ -334,8 +329,7 @@
         "row": 5,
         "cost": 100,
         "prerequisites": [
-          "Compass",
-          "Optics"
+          "Compass"
         ]
       }
     ]
@@ -384,7 +378,6 @@
         "row": 5,
         "cost": 120,
         "prerequisites": [
-          "Education",
           "Printing Press"
         ]
       }
@@ -435,8 +428,7 @@
         "row": 5,
         "cost": 135,
         "prerequisites": [
-          "Acoustics",
-          "Education"
+          "Acoustics"
         ]
       }
     ]
@@ -460,8 +452,7 @@
         "row": 4,
         "cost": 150,
         "prerequisites": [
-          "Chemistry",
-          "Agriculture"
+          "Chemistry"
         ]
       }
     ]
@@ -476,7 +467,6 @@
         "row": 1,
         "cost": 170,
         "prerequisites": [
-          "Gunpowder",
           "Metallurgy"
         ]
       }
@@ -501,8 +491,7 @@
         "row": 2,
         "cost": 200,
         "prerequisites": [
-          "Steam Power",
-          "Engineering"
+          "Steam Power"
         ]
       }
     ]
@@ -517,8 +506,7 @@
         "row": 1,
         "cost": 220,
         "prerequisites": [
-          "Electricity",
-          "Printing Press"
+          "Electricity"
         ]
       },
       {
@@ -526,7 +514,6 @@
         "row": 2,
         "cost": 215,
         "prerequisites": [
-          "Chemistry",
           "Fertilizer"
         ]
       }
@@ -551,7 +538,6 @@
         "row": 2,
         "cost": 230,
         "prerequisites": [
-          "Banking",
           "Economics"
         ]
       }
@@ -592,7 +578,6 @@
         "row": 1,
         "cost": 290,
         "prerequisites": [
-          "Electricity",
           "Telegraph"
         ]
       },
