@@ -36,7 +36,7 @@
   },
   {
     "columnNumber": 2,
-    "era": "Classical",
+    "era": "Ancient",
     "techCost": 28,
     "techs": [
       {
@@ -392,7 +392,7 @@
   },
   {
     "columnNumber": 10,
-    "era": "Renaissance",
+    "era": "Industrial",
     "techCost": 135,
     "techs": [
       {
