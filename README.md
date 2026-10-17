@@ -1,6 +1,6 @@
 # Tanah Melayu — World c.1490 (Unciv ruleset)
 
-An original, standalone Unciv ruleset themed around the world’s major regions and polities around 1490 CE, from Asia and Europe to Africa and the Americas. It includes a full progression from early agriculture to early industrial technology, a global roster of 70+ civilizations and city-state entries, original abstract nation emblems, unique units, and a deliberately overpowered Kesultanan Melaka.
+An original, standalone Unciv ruleset themed around the world’s major regions and polities around 1490 CE, from Asia and Europe to Africa and the Americas. It includes an expanded 18-column technology tree from early agriculture through industrial-era infrastructure, alongside culture, policy branches, faith, religions, regional improvements, 50 buildings and 50 units, a global roster of 70+ civilizations and city-state entries, original nation emblems and expanded faith/culture gameplay, unique units, and a deliberately overpowered Kesultanan Melaka.
 
 ## Design commitments
 - One integrated base ruleset: no other mod is required.
