@@ -31,13 +31,18 @@ jobs:
           curl -fL "$url" -o Unciv.jar
 
       - name: Pack mod atlases
-        run: java -jar Unciv.jar mod-ci
+        run: |
+          java -jar Unciv.jar mod-ci
+          test -s game.atlas
+          test -s game.png
+          grep -q 'LeaderIcons/Sultan Mahmud Shah' game.atlas
+          grep -q 'NationIcons/Kesultanan Melaka' game.atlas
 
       - name: Commit generated atlas files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Images* Atlases.json
+          git add Images* Atlases.json game*.png game*.atlas
           if git diff --cached --quiet; then
             echo "No generated atlas changes to commit."
           else
