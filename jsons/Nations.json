@@ -23,9 +23,9 @@
       "[+100]% Strength <for [Military] units>",
       "[+3] Movement <for [Water] units>",
       "[+100]% Strength <vs [Barbarians]>",
-      "[+10 Gold] <in capital>",
-      "[+5 Science] <in capital>",
-      "[+5 Culture] <in capital>"
+      "[+10 Gold]",
+      "[+5 Science]",
+      "[+5 Culture]"
     ],
     "cities": [
       "Melaka",
@@ -917,7 +917,7 @@
       110
     ],
     "uniques": [
-      "[+10]% Culture from kills"
+      "[+10]% [Culture] [in all cities]"
     ],
     "cities": [
       "Tenochtitlan",
