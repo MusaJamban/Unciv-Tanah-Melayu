@@ -2573,7 +2573,8 @@
         "row": 1,
         "cost": 1200,
         "prerequisites": [
-          "Intergalactic Settlements"
+          "Robotics",
+          "Autonomous Systems"
         ]
       },
       {
@@ -2581,7 +2582,8 @@
         "row": 2,
         "cost": 1225,
         "prerequisites": [
-          "Universal Energy Networks"
+          "Modern Logistics",
+          "Autonomous Systems"
         ]
       },
       {
@@ -2589,7 +2591,8 @@
         "row": 3,
         "cost": 1250,
         "prerequisites": [
-          "Planetary Consciousness"
+          "Synthetic Biology",
+          "Genetics"
         ]
       },
       {
@@ -2597,7 +2600,8 @@
         "row": 4,
         "cost": 1275,
         "prerequisites": [
-          "Cosmic Habitat Engineering"
+          "Space Stations",
+          "Advanced Materials"
         ]
       }
     ],
@@ -2614,7 +2618,8 @@
         "row": 1,
         "cost": 1350,
         "prerequisites": [
-          "Frontier Advanced Robotics"
+          "Interstellar Propulsion",
+          "Fusion Propulsion"
         ]
       },
       {
@@ -2622,7 +2627,8 @@
         "row": 2,
         "cost": 1375,
         "prerequisites": [
-          "Autonomous Logistics"
+          "Antimatter Power",
+          "Advanced Materials"
         ]
       },
       {
@@ -2630,7 +2636,8 @@
         "row": 3,
         "cost": 1400,
         "prerequisites": [
-          "Frontier Synthetic Biology"
+          "Quantum Computing",
+          "Advanced Materials"
         ]
       },
       {
@@ -2638,7 +2645,8 @@
         "row": 4,
         "cost": 1425,
         "prerequisites": [
-          "Orbital Manufacturing"
+          "Planetary Engineering",
+          "Terraforming Networks"
         ]
       }
     ],
@@ -2655,7 +2663,8 @@
         "row": 1,
         "cost": 1500,
         "prerequisites": [
-          "Deep-Space Propulsion"
+          "Human-Machine Interfaces",
+          "Cybernetics"
         ]
       },
       {
@@ -2663,7 +2672,8 @@
         "row": 2,
         "cost": 1525,
         "prerequisites": [
-          "Antimatter Containment"
+          "Climate Restoration",
+          "Planetary Engineering"
         ]
       },
       {
@@ -2671,7 +2681,8 @@
         "row": 3,
         "cost": 1550,
         "prerequisites": [
-          "Quantum Materials"
+          "Urban Planning",
+          "Autonomous Systems"
         ]
       },
       {
@@ -2679,7 +2690,8 @@
         "row": 4,
         "cost": 1575,
         "prerequisites": [
-          "Planetary Terraforming"
+          "Quantum Computing",
+          "Semiconductors"
         ]
       }
     ],
@@ -2696,7 +2708,8 @@
         "row": 1,
         "cost": 1650,
         "prerequisites": [
-          "Neural Interfaces"
+          "Artificial Intelligence",
+          "Machine Learning"
         ]
       },
       {
@@ -2704,7 +2717,8 @@
         "row": 2,
         "cost": 1675,
         "prerequisites": [
-          "Global Climate Engineering"
+          "Quantum Networks",
+          "Advanced Computing"
         ]
       },
       {
@@ -2712,7 +2726,8 @@
         "row": 3,
         "cost": 1700,
         "prerequisites": [
-          "Autonomous Megacities"
+          "Fusion Power",
+          "Smart Grids"
         ]
       },
       {
@@ -2720,7 +2735,8 @@
         "row": 4,
         "cost": 1725,
         "prerequisites": [
-          "Photonic Computing"
+          "Deep-Space Communications",
+          "Telecommunications"
         ]
       }
     ],
@@ -2737,7 +2753,8 @@
         "row": 1,
         "cost": 1800,
         "prerequisites": [
-          "Frontier Artificial General Intelligence"
+          "Intergalactic Mapping",
+          "Planetary Science"
         ]
       },
       {
@@ -2745,7 +2762,8 @@
         "row": 2,
         "cost": 1825,
         "prerequisites": [
-          "Frontier Quantum Networks"
+          "Asteroid Mining",
+          "Orbital Habitats"
         ]
       },
       {
@@ -2753,7 +2771,8 @@
         "row": 3,
         "cost": 1850,
         "prerequisites": [
-          "Fusion Power Grids"
+          "Orbital Habitats",
+          "Advanced Materials"
         ]
       },
       {
@@ -2761,7 +2780,8 @@
         "row": 4,
         "cost": 1875,
         "prerequisites": [
-          "Interstellar Communications"
+          "Artificial Ecosystems",
+          "Climate Restoration"
         ]
       }
     ],
@@ -2778,7 +2798,8 @@
         "row": 1,
         "cost": 1950,
         "prerequisites": [
-          "Exoplanet Surveying"
+          "Nanotechnology",
+          "Molecular Manufacturing"
         ]
       },
       {
@@ -2786,7 +2807,8 @@
         "row": 2,
         "cost": 1975,
         "prerequisites": [
-          "Frontier Asteroid Mining"
+          "Genomic Medicine",
+          "Molecular Medicine"
         ]
       },
       {
@@ -2794,7 +2816,8 @@
         "row": 3,
         "cost": 2000,
         "prerequisites": [
-          "Space Elevator Systems"
+          "Adaptive Materials",
+          "Nanofabrication"
         ]
       },
       {
@@ -2802,7 +2825,8 @@
         "row": 4,
         "cost": 2025,
         "prerequisites": [
-          "Closed-Loop Ecosystems"
+          "Universal Translators",
+          "Artificial Superintelligence"
         ]
       }
     ],
@@ -2819,7 +2843,8 @@
         "row": 1,
         "cost": 2100,
         "prerequisites": [
-          "Nanofabrication"
+          "Deep-Sea Engineering",
+          "Orbital Habitats"
         ]
       },
       {
@@ -2827,7 +2852,8 @@
         "row": 2,
         "cost": 2125,
         "prerequisites": [
-          "Frontier Molecular Medicine"
+          "Urban Planning",
+          "Advanced Materials"
         ]
       },
       {
@@ -2835,7 +2861,8 @@
         "row": 3,
         "cost": 2150,
         "prerequisites": [
-          "Programmable Matter"
+          "Climate Restoration",
+          "Planetary Engineering"
         ]
       },
       {
@@ -2843,7 +2870,8 @@
         "row": 4,
         "cost": 2175,
         "prerequisites": [
-          "Frontier Universal Translators"
+          "Artificial Ecosystems",
+          "Climate Restoration"
         ]
       }
     ],
@@ -2860,7 +2888,8 @@
         "row": 1,
         "cost": 2250,
         "prerequisites": [
-          "Oceanic Habitats"
+          "Modern Cryptography",
+          "Post-Quantum Cryptography"
         ]
       },
       {
@@ -2868,7 +2897,8 @@
         "row": 2,
         "cost": 2275,
         "prerequisites": [
-          "Subterranean Arcologies"
+          "Artificial Superintelligence",
+          "Quantum Networks"
         ]
       },
       {
@@ -2876,7 +2906,8 @@
         "row": 3,
         "cost": 2300,
         "prerequisites": [
-          "Weather Control Systems"
+          "Quantum Sensors",
+          "Quantum Computing"
         ]
       },
       {
@@ -2884,7 +2915,8 @@
         "row": 4,
         "cost": 2325,
         "prerequisites": [
-          "Biosphere Restoration"
+          "Synthetic Biology",
+          "Precision Agriculture"
         ]
       }
     ],
@@ -2901,7 +2933,8 @@
         "row": 1,
         "cost": 2400,
         "prerequisites": [
-          "Advanced Cybersecurity"
+          "Planetary Defense Grid",
+          "Advanced Ballistics"
         ]
       },
       {
@@ -2909,7 +2942,8 @@
         "row": 2,
         "cost": 2425,
         "prerequisites": [
-          "Distributed Intelligence"
+          "Interstellar Colonization",
+          "Post-Scarcity Economics"
         ]
       },
       {
@@ -2917,7 +2951,8 @@
         "row": 3,
         "cost": 2450,
         "prerequisites": [
-          "Frontier Quantum Sensors"
+          "Intergalactic Mapping",
+          "Interstellar Propulsion"
         ]
       },
       {
@@ -2925,7 +2960,8 @@
         "row": 4,
         "cost": 2475,
         "prerequisites": [
-          "Synthetic Food Systems"
+          "Genomic Medicine",
+          "Consciousness Uploading"
         ]
       }
     ],
@@ -2942,7 +2978,8 @@
         "row": 1,
         "cost": 2550,
         "prerequisites": [
-          "Orbital Defense Networks"
+          "Intergalactic Mapping",
+          "Deep-Space Navigation"
         ]
       },
       {
@@ -2950,7 +2987,8 @@
         "row": 2,
         "cost": 2575,
         "prerequisites": [
-          "Interplanetary Trade"
+          "Dyson Swarm",
+          "Stellar Engineering"
         ]
       },
       {
@@ -2958,7 +2996,8 @@
         "row": 3,
         "cost": 2600,
         "prerequisites": [
-          "Deep-Space Navigation"
+          "Interstellar Propulsion",
+          "Antimatter Propulsion"
         ]
       },
       {
@@ -2966,7 +3005,8 @@
         "row": 4,
         "cost": 2625,
         "prerequisites": [
-          "Long-Duration Cryonics"
+          "Interstellar Colonization",
+          "Orbital Habitats"
         ]
       }
     ],
@@ -2983,7 +3023,8 @@
         "row": 1,
         "cost": 2700,
         "prerequisites": [
-          "Stellar Cartography"
+          "Post-Scarcity Economics",
+          "Galactic Infrastructure"
         ]
       },
       {
@@ -2991,7 +3032,8 @@
         "row": 2,
         "cost": 2725,
         "prerequisites": [
-          "Dyson Swarm Engineering"
+          "Interstellar Governance",
+          "Interstellar Colonization"
         ]
       },
       {
@@ -2999,7 +3041,8 @@
         "row": 3,
         "cost": 2750,
         "prerequisites": [
-          "Relativistic Propulsion"
+          "Universal Simulation",
+          "Consciousness Uploading"
         ]
       },
       {
@@ -3007,7 +3050,8 @@
         "row": 4,
         "cost": 2775,
         "prerequisites": [
-          "Interstellar Colonies"
+          "Universal Simulation",
+          "Deep-Space Communications"
         ]
       }
     ],
@@ -3024,7 +3068,8 @@
         "row": 1,
         "cost": 2850,
         "prerequisites": [
-          "Frontier Post-Scarcity Economics"
+          "Gravitational Engineering",
+          "Interstellar Propulsion"
         ]
       },
       {
@@ -3032,7 +3077,8 @@
         "row": 2,
         "cost": 2875,
         "prerequisites": [
-          "Planetary Governance"
+          "Vacuum Energy Control",
+          "Zero-Point Energy"
         ]
       },
       {
@@ -3040,7 +3086,8 @@
         "row": 3,
         "cost": 2900,
         "prerequisites": [
-          "Consciousness Simulation"
+          "Interstellar Governance",
+          "Interstellar Colonization"
         ]
       },
       {
@@ -3048,7 +3095,8 @@
         "row": 4,
         "cost": 2925,
         "prerequisites": [
-          "Universal Knowledge Archives"
+          "Stellar Engineering",
+          "Terraforming Networks"
         ]
       }
     ],
@@ -3065,7 +3113,8 @@
         "row": 1,
         "cost": 3000,
         "prerequisites": [
-          "Wormhole Theory"
+          "Interstellar Governance",
+          "Intergalactic Mapping"
         ]
       },
       {
@@ -3073,7 +3122,8 @@
         "row": 2,
         "cost": 3025,
         "prerequisites": [
-          "Vacuum Energy Research"
+          "Self-Replicating Probes",
+          "Molecular Manufacturing"
         ]
       }
     ],
