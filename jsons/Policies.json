@@ -2,12 +2,14 @@
   {
     "name": "Tradition",
     "era": "Ancient",
-    "uniques": [],
+    "uniques": [
+      "[+1 Culture] [in all cities]"
+    ],
     "policies": [
       {
         "name": "Aristocracy",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
           "[+1 Culture] [in all cities]"
         ]
@@ -15,111 +17,32 @@
       {
         "name": "Legalism",
         "row": 2,
-        "column": 1,
-        "requires": [
-          "Aristocracy"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Monarchy",
-        "row": 2,
-        "column": 5,
-        "requires": [
-          "Aristocracy"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Oligarchy",
-        "row": 3,
         "column": 0,
-        "requires": [
-          "Legalism"
-        ],
-        "uniques": [
-          "[+10]% Strength for cities"
-        ]
-      },
-      {
-        "name": "Hereditary Rule",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Legalism"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Royal Treasury",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Monarchy"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Court Scholars",
-        "row": 3,
-        "column": 6,
-        "requires": [
-          "Monarchy"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Cultural Legacy",
-        "row": 4,
-        "column": 1,
-        "requires": [
-          "Oligarchy"
-        ],
         "uniques": [
           "[+1 Culture] [in all cities]"
         ]
       },
       {
-        "name": "Royal Court",
-        "row": 4,
-        "column": 5,
-        "requires": [
-          "Royal Treasury"
-        ],
+        "name": "Monarchy",
+        "row": 3,
+        "column": 0,
         "uniques": [
-          "[+1 Gold] [in all cities]"
+          "[+1 Culture] [in all cities]"
         ]
       },
       {
-        "name": "Dynastic Patronage",
-        "row": 5,
-        "column": 3,
-        "requires": [
-          "Cultural Legacy",
-          "Royal Court"
-        ],
+        "name": "Oligarchy",
+        "row": 4,
+        "column": 0,
         "uniques": [
           "[+1 Culture] [in all cities]"
         ]
       },
       {
         "name": "Tradition Complete",
-        "requires": [
-          "Royal Court",
-          "Dynastic Patronage"
-        ],
         "uniques": [
-          "[+1 Culture] [in all cities]"
+          "[+1 Culture] [in all cities]",
+          "[+1 Happiness] [in all cities]"
         ]
       }
     ]
@@ -127,12 +50,14 @@
   {
     "name": "Liberty",
     "era": "Ancient",
-    "uniques": [],
+    "uniques": [
+      "[+1 Production] [in all cities]"
+    ],
     "policies": [
       {
         "name": "Republic",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
@@ -141,110 +66,31 @@
         "name": "Citizenship",
         "row": 2,
         "column": 0,
-        "requires": [
-          "Republic"
-        ],
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
       },
       {
         "name": "Collective Rule",
-        "row": 2,
-        "column": 2,
-        "requires": [
-          "Republic"
-        ],
-        "uniques": [
-          "[+1 Food] [in all cities]"
-        ]
-      },
-      {
-        "name": "Open Councils",
-        "row": 2,
-        "column": 4,
-        "requires": [
-          "Republic"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Meritocracy",
         "row": 3,
         "column": 0,
-        "requires": [
-          "Citizenship"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Settler Initiative",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Collective Rule"
-        ],
-        "uniques": [
-          "[+1 Food] [in all cities]"
-        ]
-      },
-      {
-        "name": "Local Autonomy",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Open Councils"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Public Works",
-        "row": 4,
-        "column": 0,
-        "requires": [
-          "Meritocracy"
-        ],
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Civic Registry",
+        "name": "Meritocracy",
         "row": 4,
-        "column": 4,
-        "requires": [
-          "Local Autonomy"
-        ],
-        "uniques": [
-          "[+1 Culture] [in all cities]"
-        ]
-      },
-      {
-        "name": "People's Mandate",
-        "row": 5,
-        "column": 2,
-        "requires": [
-          "Public Works",
-          "Civic Registry"
-        ],
+        "column": 0,
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
       },
       {
         "name": "Liberty Complete",
-        "requires": [
-          "Civic Registry",
-          "People's Mandate"
-        ],
         "uniques": [
-          "[+1 Production] [in all cities]"
+          "[+1 Production] [in all cities]",
+          "[+1 Food] [in all cities]"
         ]
       }
     ]
@@ -252,249 +98,95 @@
   {
     "name": "Honour",
     "era": "Ancient",
-    "uniques": [],
+    "uniques": [
+      "[+10]% Strength <for [Military] units>"
+    ],
     "policies": [
       {
         "name": "Warrior Code",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
-          "[+1 Production] [in all cities]"
+          "[+10]% Strength <for [Military] units>"
         ]
       },
       {
-        "name": "Drill Instructors",
+        "name": "Discipline",
         "row": 2,
         "column": 0,
-        "requires": [
-          "Warrior Code"
-        ],
         "uniques": [
-          "[+10]% Production when constructing [Land] units [in all cities]"
+          "[+10]% Strength <for [Military] units>"
         ]
       },
       {
-        "name": "Field Command",
-        "row": 2,
-        "column": 2,
-        "requires": [
-          "Warrior Code"
-        ],
-        "uniques": [
-          "[+15]% XP gained from combat"
-        ]
-      },
-      {
-        "name": "Arms Registry",
-        "row": 2,
-        "column": 4,
-        "requires": [
-          "Warrior Code"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Fortified Camps",
+        "name": "Military Tradition",
         "row": 3,
         "column": 0,
-        "requires": [
-          "Drill Instructors"
-        ],
         "uniques": [
-          "[+10]% Strength for cities"
-        ]
-      },
-      {
-        "name": "Veteran Cadres",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Field Command"
-        ],
-        "uniques": [
-          "[+15]% XP gained from combat"
-        ]
-      },
-      {
-        "name": "Military Supply",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Arms Registry"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
+          "[+10]% Strength <for [Military] units>"
         ]
       },
       {
         "name": "Professional Army",
         "row": 4,
         "column": 0,
-        "requires": [
-          "Fortified Camps"
-        ],
         "uniques": [
-          "[+10]% Production when constructing [Land] units [in all cities]"
-        ]
-      },
-      {
-        "name": "War Colleges",
-        "row": 4,
-        "column": 4,
-        "requires": [
-          "Military Supply"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Defenders of the Realm",
-        "row": 5,
-        "column": 2,
-        "requires": [
-          "Professional Army",
-          "War Colleges"
-        ],
-        "uniques": [
-          "[+15]% XP gained from combat"
+          "[+10]% Strength <for [Military] units>"
         ]
       },
       {
         "name": "Honour Complete",
-        "requires": [
-          "War Colleges",
-          "Defenders of the Realm"
-        ],
         "uniques": [
-          "[+15]% XP gained from combat"
+          "[+10]% Strength <for [Military] units>",
+          "[+15]% Production when constructing [Military] units [in all cities]"
         ]
       }
     ]
   },
   {
-    "name": "Faith",
-    "era": "Classical",
-    "uniques": [],
+    "name": "Piety",
+    "era": "Ancient",
+    "uniques": [
+      "[+1 Faith] [in all cities]"
+    ],
     "policies": [
       {
-        "name": "Temple Traditions",
+        "name": "Organized Religion",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
           "[+1 Faith] [in all cities]"
         ]
       },
       {
-        "name": "Clergy Councils",
+        "name": "Theocracy",
         "row": 2,
-        "column": 1,
-        "requires": [
-          "Temple Traditions"
-        ],
+        "column": 0,
         "uniques": [
-          "[+1 Happiness] [in all cities]"
+          "[+1 Faith] [in all cities]"
         ]
       },
       {
-        "name": "Sacred Arts",
-        "row": 2,
-        "column": 5,
-        "requires": [
-          "Temple Traditions"
-        ],
-        "uniques": [
-          "[+1 Culture] [in all cities]"
-        ]
-      },
-      {
-        "name": "Pilgrim Roads",
+        "name": "Reformation",
         "row": 3,
         "column": 0,
-        "requires": [
-          "Clergy Councils"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Charitable Orders",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Clergy Councils"
-        ],
-        "uniques": [
-          "[+1 Food] [in all cities]"
-        ]
-      },
-      {
-        "name": "Monastic Learning",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Sacred Arts"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Sacred Architecture",
-        "row": 3,
-        "column": 6,
-        "requires": [
-          "Sacred Arts"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Religious Festivals",
-        "row": 4,
-        "column": 1,
-        "requires": [
-          "Pilgrim Roads"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Philosophical Schools",
-        "row": 4,
-        "column": 5,
-        "requires": [
-          "Monastic Learning"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Concord of Faiths",
-        "row": 5,
-        "column": 3,
-        "requires": [
-          "Religious Festivals",
-          "Philosophical Schools"
-        ],
         "uniques": [
           "[+1 Faith] [in all cities]"
         ]
       },
       {
-        "name": "Faith Complete",
-        "requires": [
-          "Philosophical Schools",
-          "Concord of Faiths"
-        ],
+        "name": "Religious Tolerance",
+        "row": 4,
+        "column": 0,
         "uniques": [
           "[+1 Faith] [in all cities]"
+        ]
+      },
+      {
+        "name": "Piety Complete",
+        "uniques": [
+          "[+1 Faith] [in all cities]",
+          "[+1 Culture] [in all cities]"
         ]
       }
     ]
@@ -502,123 +194,46 @@
   {
     "name": "Commerce",
     "era": "Classical",
-    "uniques": [],
+    "uniques": [
+      "[+1 Gold] [in all cities]"
+    ],
     "policies": [
       {
-        "name": "Merchant Charters",
+        "name": "Trade Unions",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
           "[+1 Gold] [in all cities]"
         ]
       },
       {
-        "name": "Trade Leagues",
+        "name": "Mercantilism",
         "row": 2,
         "column": 0,
-        "requires": [
-          "Merchant Charters"
-        ],
         "uniques": [
           "[+1 Gold] [in all cities]"
         ]
       },
       {
-        "name": "Market Standards",
-        "row": 2,
-        "column": 2,
-        "requires": [
-          "Merchant Charters"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Harbour Duties",
-        "row": 2,
-        "column": 4,
-        "requires": [
-          "Merchant Charters"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Banking Houses",
+        "name": "Navigation Acts",
         "row": 3,
         "column": 0,
-        "requires": [
-          "Trade Leagues"
-        ],
         "uniques": [
           "[+1 Gold] [in all cities]"
         ]
       },
       {
-        "name": "Craft Guilds",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Market Standards"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Overseas Exchange",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Harbour Duties"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Investment Funds",
+        "name": "Entrepreneurship",
         "row": 4,
         "column": 0,
-        "requires": [
-          "Banking Houses"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Commercial Courts",
-        "row": 4,
-        "column": 4,
-        "requires": [
-          "Overseas Exchange"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Open Markets",
-        "row": 5,
-        "column": 2,
-        "requires": [
-          "Investment Funds",
-          "Commercial Courts"
-        ],
         "uniques": [
           "[+1 Gold] [in all cities]"
         ]
       },
       {
         "name": "Commerce Complete",
-        "requires": [
-          "Commercial Courts",
-          "Open Markets"
-        ],
         "uniques": [
+          "[+1 Gold] [in all cities]",
           "[+1 Gold] [in all cities]"
         ]
       }
@@ -626,112 +241,47 @@
   },
   {
     "name": "Education",
-    "era": "Medieval",
-    "uniques": [],
+    "era": "Classical",
+    "uniques": [
+      "[+1 Science] [in all cities]"
+    ],
     "policies": [
       {
-        "name": "Village Schools",
+        "name": "Education I",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
           "[+1 Science] [in all cities]"
         ]
       },
       {
-        "name": "Public Literacy",
+        "name": "Education II",
         "row": 2,
-        "column": 1,
+        "column": 0,
         "requires": [
-          "Village Schools"
+          "Education I"
         ],
         "uniques": [
           "[+1 Culture] [in all cities]"
         ]
       },
       {
-        "name": "Scholar Houses",
-        "row": 2,
-        "column": 5,
-        "requires": [
-          "Village Schools"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Libraries for All",
+        "name": "Education III",
         "row": 3,
         "column": 0,
         "requires": [
-          "Public Literacy"
-        ],
-        "uniques": [
-          "[+1 Culture] [in all cities]"
-        ]
-      },
-      {
-        "name": "Teacher Colleges",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Public Literacy"
+          "Education II"
         ],
         "uniques": [
           "[+1 Science] [in all cities]"
         ]
       },
       {
-        "name": "Medical Learning",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Scholar Houses"
-        ],
-        "uniques": [
-          "[+1 Food] [in all cities]"
-        ]
-      },
-      {
-        "name": "Research Grants",
-        "row": 3,
-        "column": 6,
-        "requires": [
-          "Scholar Houses"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Scientific Societies",
+        "name": "Education IV",
         "row": 4,
-        "column": 1,
+        "column": 0,
         "requires": [
-          "Teacher Colleges"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Scholar Exchanges",
-        "row": 4,
-        "column": 5,
-        "requires": [
-          "Research Grants"
-        ],
-        "uniques": [
-          "[+1 Culture] [in all cities]"
-        ]
-      },
-      {
-        "name": "National Academy",
-        "row": 5,
-        "column": 3,
-        "requires": [
-          "Scientific Societies",
-          "Scholar Exchanges"
+          "Education III"
         ],
         "uniques": [
           "[+1 Science] [in all cities]"
@@ -739,124 +289,56 @@
       },
       {
         "name": "Education Complete",
-        "requires": [
-          "Scholar Exchanges",
-          "National Academy"
-        ],
         "uniques": [
-          "[+1 Science] [in all cities]"
+          "[+1 Science] [in all cities]",
+          "[+1 Culture] [in all cities]"
         ]
       }
     ]
   },
   {
     "name": "Engineering",
-    "era": "Medieval",
-    "uniques": [],
+    "era": "Classical",
+    "uniques": [
+      "[+1 Production] [in all cities]"
+    ],
     "policies": [
       {
-        "name": "Stone Masonry",
+        "name": "Engineering I",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Waterworks",
+        "name": "Engineering II",
         "row": 2,
         "column": 0,
         "requires": [
-          "Stone Masonry"
+          "Engineering I"
         ],
         "uniques": [
-          "[+1 Food] [in all cities]"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Road Builders",
-        "row": 2,
-        "column": 2,
+        "name": "Engineering III",
+        "row": 3,
+        "column": 0,
         "requires": [
-          "Stone Masonry"
+          "Engineering II"
         ],
         "uniques": [
           "[+1 Gold] [in all cities]"
         ]
       },
       {
-        "name": "Surveyors' Guild",
-        "row": 2,
-        "column": 4,
-        "requires": [
-          "Stone Masonry"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Urban Planning",
-        "row": 3,
-        "column": 0,
-        "requires": [
-          "Waterworks"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Bridgeworks",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Road Builders"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Building Codes",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Surveyors' Guild"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Public Infrastructure",
+        "name": "Engineering IV",
         "row": 4,
         "column": 0,
         "requires": [
-          "Urban Planning"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Industrial Standards",
-        "row": 4,
-        "column": 4,
-        "requires": [
-          "Building Codes"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Connected Cities",
-        "row": 5,
-        "column": 2,
-        "requires": [
-          "Public Infrastructure",
-          "Industrial Standards"
+          "Engineering III"
         ],
         "uniques": [
           "[+1 Production] [in all cities]"
@@ -864,12 +346,237 @@
       },
       {
         "name": "Engineering Complete",
+        "uniques": [
+          "[+1 Production] [in all cities]",
+          "[+1 Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Statecraft",
+    "era": "Classical",
+    "uniques": [
+      "[+1 Gold] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Statecraft I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Statecraft II",
+        "row": 2,
+        "column": 0,
         "requires": [
-          "Industrial Standards",
-          "Connected Cities"
+          "Statecraft I"
+        ],
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Statecraft III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Statecraft II"
+        ],
+        "uniques": [
+          "[+1 Happiness] [in all cities]"
+        ]
+      },
+      {
+        "name": "Statecraft IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Statecraft III"
+        ],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Statecraft Complete",
+        "uniques": [
+          "[+1 Gold] [in all cities]",
+          "[+1 Culture] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Maritime Trade",
+    "era": "Medieval",
+    "uniques": [
+      "[+1 Gold] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Maritime Trade I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Maritime Trade II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Maritime Trade I"
         ],
         "uniques": [
           "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Maritime Trade III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Maritime Trade II"
+        ],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Maritime Trade IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Maritime Trade III"
+        ],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Maritime Trade Complete",
+        "uniques": [
+          "[+1 Gold] [in all cities]",
+          "[+1 Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Guilds and Commerce",
+    "era": "Medieval",
+    "uniques": [
+      "[+1 Gold] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Guilds and Commerce I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Guilds and Commerce II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Guilds and Commerce I"
+        ],
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Guilds and Commerce III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Guilds and Commerce II"
+        ],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Guilds and Commerce IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Guilds and Commerce III"
+        ],
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Guilds and Commerce Complete",
+        "uniques": [
+          "[+1 Gold] [in all cities]",
+          "[+1 Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Faith and Philosophy",
+    "era": "Medieval",
+    "uniques": [
+      "[+1 Faith] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Faith and Philosophy I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Faith] [in all cities]"
+        ]
+      },
+      {
+        "name": "Faith and Philosophy II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Faith and Philosophy I"
+        ],
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Faith and Philosophy III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Faith and Philosophy II"
+        ],
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Faith and Philosophy IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Faith and Philosophy III"
+        ],
+        "uniques": [
+          "[+1 Faith] [in all cities]"
+        ]
+      },
+      {
+        "name": "Faith and Philosophy Complete",
+        "uniques": [
+          "[+1 Faith] [in all cities]",
+          "[+1 Science] [in all cities]"
         ]
       }
     ]
@@ -877,124 +584,56 @@
   {
     "name": "Exploration",
     "era": "Renaissance",
-    "uniques": [],
+    "uniques": [
+      "[+1 Gold] [in all cities]"
+    ],
     "policies": [
       {
-        "name": "Coastal Charts",
+        "name": "Exploration I",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
           "[+1 Gold] [in all cities]"
         ]
       },
       {
-        "name": "Ocean Voyages",
+        "name": "Exploration II",
         "row": 2,
         "column": 0,
         "requires": [
-          "Coastal Charts"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Frontier Settlements",
-        "row": 2,
-        "column": 2,
-        "requires": [
-          "Coastal Charts"
-        ],
-        "uniques": [
-          "[+1 Food] [in all cities]"
-        ]
-      },
-      {
-        "name": "Naturalist Expeditions",
-        "row": 2,
-        "column": 4,
-        "requires": [
-          "Coastal Charts"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Naval Logistics",
-        "row": 3,
-        "column": 0,
-        "requires": [
-          "Ocean Voyages"
+          "Exploration I"
         ],
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Borderland Markets",
+        "name": "Exploration III",
         "row": 3,
-        "column": 2,
+        "column": 0,
         "requires": [
-          "Frontier Settlements"
+          "Exploration II"
         ],
         "uniques": [
           "[+1 Gold] [in all cities]"
         ]
       },
       {
-        "name": "Cartographic Societies",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Naturalist Expeditions"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Overseas Trade",
+        "name": "Exploration IV",
         "row": 4,
         "column": 0,
         "requires": [
-          "Naval Logistics"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Cultural Exchange",
-        "row": 4,
-        "column": 4,
-        "requires": [
-          "Cartographic Societies"
+          "Exploration III"
         ],
         "uniques": [
           "[+1 Culture] [in all cities]"
         ]
       },
       {
-        "name": "World Horizons",
-        "row": 5,
-        "column": 2,
-        "requires": [
-          "Overseas Trade",
-          "Cultural Exchange"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
         "name": "Exploration Complete",
-        "requires": [
-          "Cultural Exchange",
-          "World Horizons"
-        ],
         "uniques": [
-          "[+1 Gold] [in all cities]"
+          "[+1 Gold] [in all cities]",
+          "[+1 Production] [in all cities]"
         ]
       }
     ]
@@ -1002,111 +641,46 @@
   {
     "name": "Humanism",
     "era": "Renaissance",
-    "uniques": [],
+    "uniques": [
+      "[+1 Culture] [in all cities]"
+    ],
     "policies": [
       {
-        "name": "Arts Patronage",
+        "name": "Humanism I",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
           "[+1 Culture] [in all cities]"
         ]
       },
       {
-        "name": "Public Theatre",
+        "name": "Humanism II",
         "row": 2,
-        "column": 1,
+        "column": 0,
         "requires": [
-          "Arts Patronage"
+          "Humanism I"
         ],
         "uniques": [
-          "[+1 Culture] [in all cities]"
+          "[+1 Science] [in all cities]"
         ]
       },
       {
-        "name": "Civic Festivals",
-        "row": 2,
-        "column": 5,
-        "requires": [
-          "Arts Patronage"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Historical Records",
+        "name": "Humanism III",
         "row": 3,
         "column": 0,
         "requires": [
-          "Public Theatre"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "National Literature",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Public Theatre"
-        ],
-        "uniques": [
-          "[+1 Culture] [in all cities]"
-        ]
-      },
-      {
-        "name": "Public Debate",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Civic Festivals"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Craft Academies",
-        "row": 3,
-        "column": 6,
-        "requires": [
-          "Civic Festivals"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Museum Networks",
-        "row": 4,
-        "column": 1,
-        "requires": [
-          "Historical Records"
-        ],
-        "uniques": [
-          "[+1 Culture] [in all cities]"
-        ]
-      },
-      {
-        "name": "Cultural Preservation",
-        "row": 4,
-        "column": 5,
-        "requires": [
-          "Public Debate"
+          "Humanism II"
         ],
         "uniques": [
           "[+1 Happiness] [in all cities]"
         ]
       },
       {
-        "name": "Shared Heritage",
-        "row": 5,
-        "column": 3,
+        "name": "Humanism IV",
+        "row": 4,
+        "column": 0,
         "requires": [
-          "Museum Networks",
-          "Cultural Preservation"
+          "Humanism III"
         ],
         "uniques": [
           "[+1 Culture] [in all cities]"
@@ -1114,387 +688,693 @@
       },
       {
         "name": "Humanism Complete",
+        "uniques": [
+          "[+1 Culture] [in all cities]",
+          "[+1 Science] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Colonial Administration",
+    "era": "Renaissance",
+    "uniques": [
+      "[+1 Gold] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Colonial Administration I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Colonial Administration II",
+        "row": 2,
+        "column": 0,
         "requires": [
-          "Cultural Preservation",
-          "Shared Heritage"
+          "Colonial Administration I"
         ],
         "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Colonial Administration III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Colonial Administration II"
+        ],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Colonial Administration IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Colonial Administration III"
+        ],
+        "uniques": [
+          "[+1 Happiness] [in all cities]"
+        ]
+      },
+      {
+        "name": "Colonial Administration Complete",
+        "uniques": [
+          "[+1 Gold] [in all cities]",
+          "[+1 Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scientific Method",
+    "era": "Renaissance",
+    "uniques": [
+      "[+1 Science] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Scientific Method I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Scientific Method II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Scientific Method I"
+        ],
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Scientific Method III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Scientific Method II"
+        ],
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Scientific Method IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Scientific Method III"
+        ],
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Scientific Method Complete",
+        "uniques": [
+          "[+1 Science] [in all cities]",
+          "[+1 Science] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Industrial Production",
+    "era": "Industrial",
+    "uniques": [
+      "[+1 Production] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Industrial Production I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Industrial Production II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Industrial Production I"
+        ],
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Industrial Production III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Industrial Production II"
+        ],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Industrial Production IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Industrial Production III"
+        ],
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Industrial Production Complete",
+        "uniques": [
+          "[+1 Production] [in all cities]",
+          "[+1 Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Labor Rights",
+    "era": "Industrial",
+    "uniques": [
+      "[+1 Food] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Labor Rights I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Food] [in all cities]"
+        ]
+      },
+      {
+        "name": "Labor Rights II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Labor Rights I"
+        ],
+        "uniques": [
+          "[+1 Happiness] [in all cities]"
+        ]
+      },
+      {
+        "name": "Labor Rights III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Labor Rights II"
+        ],
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Labor Rights IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Labor Rights III"
+        ],
+        "uniques": [
+          "[+1 Food] [in all cities]"
+        ]
+      },
+      {
+        "name": "Labor Rights Complete",
+        "uniques": [
+          "[+1 Food] [in all cities]",
+          "[+1 Happiness] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Public Health",
+    "era": "Industrial",
+    "uniques": [
+      "[+1 Food] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Public Health I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Food] [in all cities]"
+        ]
+      },
+      {
+        "name": "Public Health II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Public Health I"
+        ],
+        "uniques": [
+          "[+1 Happiness] [in all cities]"
+        ]
+      },
+      {
+        "name": "Public Health III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Public Health II"
+        ],
+        "uniques": [
+          "[+1 Food] [in all cities]"
+        ]
+      },
+      {
+        "name": "Public Health IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Public Health III"
+        ],
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Public Health Complete",
+        "uniques": [
+          "[+1 Food] [in all cities]",
+          "[+1 Happiness] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nationalism",
+    "era": "Industrial",
+    "uniques": [
+      "[+1 Culture] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Nationalism I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Nationalism II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Nationalism I"
+        ],
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Nationalism III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Nationalism II"
+        ],
+        "uniques": [
+          "[+10]% Strength for cities"
+        ]
+      },
+      {
+        "name": "Nationalism IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Nationalism III"
+        ],
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Nationalism Complete",
+        "uniques": [
+          "[+1 Culture] [in all cities]",
+          "[+1 Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mass Education",
+    "era": "Modern",
+    "uniques": [
+      "[+1 Science] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Mass Education I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Mass Education II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Mass Education I"
+        ],
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Mass Education III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Mass Education II"
+        ],
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Mass Education IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Mass Education III"
+        ],
+        "uniques": [
+          "[+1 Happiness] [in all cities]"
+        ]
+      },
+      {
+        "name": "Mass Education Complete",
+        "uniques": [
+          "[+1 Science] [in all cities]",
           "[+1 Culture] [in all cities]"
         ]
       }
     ]
   },
   {
-    "name": "Industry",
-    "era": "Industrial",
-    "uniques": [],
-    "policies": [
-      {
-        "name": "Mechanized Workshops",
-        "row": 1,
-        "column": 3,
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Factory Discipline",
-        "row": 2,
-        "column": 0,
-        "requires": [
-          "Mechanized Workshops"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Rail Freight",
-        "row": 2,
-        "column": 2,
-        "requires": [
-          "Mechanized Workshops"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Worker Associations",
-        "row": 2,
-        "column": 4,
-        "requires": [
-          "Mechanized Workshops"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Mass Production",
-        "row": 3,
-        "column": 0,
-        "requires": [
-          "Factory Discipline"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Industrial Supply",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Rail Freight"
-        ],
-        "uniques": [
-          "[+1 Gold] [in all cities]"
-        ]
-      },
-      {
-        "name": "Workplace Safety",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Worker Associations"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Industrial Research",
-        "row": 4,
-        "column": 0,
-        "requires": [
-          "Mass Production"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "National Infrastructure",
-        "row": 4,
-        "column": 4,
-        "requires": [
-          "Workplace Safety"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Modern Industry",
-        "row": 5,
-        "column": 2,
-        "requires": [
-          "Industrial Research",
-          "National Infrastructure"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Industry Complete",
-        "requires": [
-          "National Infrastructure",
-          "Modern Industry"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Public Welfare",
+    "name": "Economic Planning",
     "era": "Modern",
-    "uniques": [],
+    "uniques": [
+      "[+1 Production] [in all cities]"
+    ],
     "policies": [
       {
-        "name": "Sanitation",
+        "name": "Economic Planning I",
         "row": 1,
-        "column": 3,
+        "column": 0,
         "uniques": [
-          "[+1 Food] [in all cities]"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Clean Water",
+        "name": "Economic Planning II",
         "row": 2,
-        "column": 1,
+        "column": 0,
         "requires": [
-          "Sanitation"
+          "Economic Planning I"
         ],
         "uniques": [
-          "[+1 Food] [in all cities]"
+          "[+1 Gold] [in all cities]"
         ]
       },
       {
-        "name": "Public Hospitals",
-        "row": 2,
-        "column": 5,
-        "requires": [
-          "Sanitation"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Housing Standards",
+        "name": "Economic Planning III",
         "row": 3,
         "column": 0,
         "requires": [
-          "Clean Water"
+          "Economic Planning II"
         ],
         "uniques": [
-          "[+1 Food] [in all cities]"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Worker Protection",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Clean Water"
-        ],
-        "uniques": [
-          "[+1 Happiness] [in all cities]"
-        ]
-      },
-      {
-        "name": "Nutrition Programs",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Public Hospitals"
-        ],
-        "uniques": [
-          "[+1 Food] [in all cities]"
-        ]
-      },
-      {
-        "name": "Community Clinics",
-        "row": 3,
-        "column": 6,
-        "requires": [
-          "Public Hospitals"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Family Support",
+        "name": "Economic Planning IV",
         "row": 4,
-        "column": 1,
+        "column": 0,
         "requires": [
-          "Housing Standards"
+          "Economic Planning III"
         ],
         "uniques": [
-          "[+1 Happiness] [in all cities]"
+          "[+1 Gold] [in all cities]"
         ]
       },
       {
-        "name": "Public Health Research",
-        "row": 4,
-        "column": 5,
-        "requires": [
-          "Community Clinics"
-        ],
+        "name": "Economic Planning Complete",
         "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Healthy Nation",
-        "row": 5,
-        "column": 3,
-        "requires": [
-          "Family Support",
-          "Public Health Research"
-        ],
-        "uniques": [
-          "[+1 Food] [in all cities]"
-        ]
-      },
-      {
-        "name": "Public Welfare Complete",
-        "requires": [
-          "Public Health Research",
-          "Healthy Nation"
-        ],
-        "uniques": [
-          "[+1 Food] [in all cities]"
+          "[+1 Production] [in all cities]",
+          "[+1 Gold] [in all cities]"
         ]
       }
     ]
   },
   {
-    "name": "Science and Space",
-    "era": "Atomic",
-    "uniques": [],
+    "name": "Aviation and Mobility",
+    "era": "Modern",
+    "uniques": [
+      "[+1 Production] [in all cities]"
+    ],
     "policies": [
       {
-        "name": "Research Institutes",
+        "name": "Aviation and Mobility I",
         "row": 1,
-        "column": 3,
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Computing Networks",
-        "row": 2,
-        "column": 1,
-        "requires": [
-          "Research Institutes"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Advanced Materials",
-        "row": 2,
-        "column": 5,
-        "requires": [
-          "Research Institutes"
-        ],
+        "column": 0,
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Robotics",
+        "name": "Aviation and Mobility II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Aviation and Mobility I"
+        ],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Aviation and Mobility III",
         "row": 3,
         "column": 0,
         "requires": [
-          "Computing Networks"
+          "Aviation and Mobility II"
         ],
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Renewable Energy",
-        "row": 3,
-        "column": 2,
-        "requires": [
-          "Computing Networks"
-        ],
-        "uniques": [
-          "[+1 Production] [in all cities]"
-        ]
-      },
-      {
-        "name": "Space Research",
-        "row": 3,
-        "column": 4,
-        "requires": [
-          "Advanced Materials"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Quantum Studies",
-        "row": 3,
-        "column": 6,
-        "requires": [
-          "Advanced Materials"
-        ],
-        "uniques": [
-          "[+1 Science] [in all cities]"
-        ]
-      },
-      {
-        "name": "Orbital Industry",
+        "name": "Aviation and Mobility IV",
         "row": 4,
-        "column": 1,
+        "column": 0,
         "requires": [
-          "Robotics"
+          "Aviation and Mobility III"
+        ],
+        "uniques": [
+          "[+1 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Aviation and Mobility Complete",
+        "uniques": [
+          "[+1 Production] [in all cities]",
+          "[+1 Gold] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Media and Arts",
+    "era": "Modern",
+    "uniques": [
+      "[+1 Culture] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Media and Arts I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Media and Arts II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Media and Arts I"
+        ],
+        "uniques": [
+          "[+1 Happiness] [in all cities]"
+        ]
+      },
+      {
+        "name": "Media and Arts III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Media and Arts II"
+        ],
+        "uniques": [
+          "[+1 Culture] [in all cities]"
+        ]
+      },
+      {
+        "name": "Media and Arts IV",
+        "row": 4,
+        "column": 0,
+        "requires": [
+          "Media and Arts III"
+        ],
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Media and Arts Complete",
+        "uniques": [
+          "[+1 Culture] [in all cities]",
+          "[+1 Happiness] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nuclear Strategy",
+    "era": "Atomic",
+    "uniques": [
+      "[+10]% Strength for cities"
+    ],
+    "policies": [
+      {
+        "name": "Nuclear Strategy I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+10]% Strength for cities"
+        ]
+      },
+      {
+        "name": "Nuclear Strategy II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Nuclear Strategy I"
         ],
         "uniques": [
           "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Planetary Science",
+        "name": "Nuclear Strategy III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Nuclear Strategy II"
+        ],
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Nuclear Strategy IV",
         "row": 4,
-        "column": 5,
+        "column": 0,
         "requires": [
-          "Quantum Studies"
+          "Nuclear Strategy III"
+        ],
+        "uniques": [
+          "[+10]% Strength for cities"
+        ]
+      },
+      {
+        "name": "Nuclear Strategy Complete",
+        "uniques": [
+          "[+10]% Strength for cities",
+          "[+1 Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Program",
+    "era": "Atomic",
+    "uniques": [
+      "[+1 Science] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Space Program I",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Space Program II",
+        "row": 2,
+        "column": 0,
+        "requires": [
+          "Space Program I"
+        ],
+        "uniques": [
+          "[+1 Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Space Program III",
+        "row": 3,
+        "column": 0,
+        "requires": [
+          "Space Program II"
         ],
         "uniques": [
           "[+1 Science] [in all cities]"
         ]
       },
       {
-        "name": "Beyond the Horizon",
-        "row": 5,
-        "column": 3,
+        "name": "Space Program IV",
+        "row": 4,
+        "column": 0,
         "requires": [
-          "Orbital Industry",
-          "Planetary Science"
+          "Space Program III"
         ],
         "uniques": [
-          "[+1 Science] [in all cities]"
+          "[+1 Production] [in all cities]"
         ]
       },
       {
-        "name": "Science and Space Complete",
-        "requires": [
-          "Planetary Science",
-          "Beyond the Horizon"
-        ],
+        "name": "Space Program Complete",
         "uniques": [
-          "[+1 Science] [in all cities]"
+          "[+1 Science] [in all cities]",
+          "[+1 Production] [in all cities]"
         ]
       }
     ]
