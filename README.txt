@@ -1,23 +1,20 @@
-TANAH MELAYU - PATCH 2
+TANAH MELAYU PATCH 3
 
-This patch fixes the remaining errors visible in the latest screenshot:
-1. Victory milestones referenced buildings not present in the mod (Apollo Program, Utopia Project, United Nations).
-2. Worker uses an obsolete unique.
+This patch removes the warnings shown for legacy building uniques and fixes victory milestones that pointed to buildings absent from this mod.
 
-HOW TO APPLY
+APPLY THESE FILES
 1. Extract this ZIP.
-2. Open the extracted folder named "jsons".
-3. Copy VictoryTypes.json and Units.json into your repository's "jsons" folder.
-4. Choose Replace/Overwrite when asked.
-5. Commit and push the two changed files in GitHub Desktop.
-6. Fully close and reopen Unciv, then load the mod again.
+2. Copy the files inside the "jsons" folder into the "jsons" folder at the ROOT of your GitHub repository.
+3. Replace existing files when prompted:
+   - Buildings.json
+   - VictoryTypes.json
+4. Open jsons/Units.json and replace this exact text:
+   "Can build improvements on tiles"
+   with:
+   "Can build [Land] improvements on tiles"
+5. Save. In GitHub Desktop, commit the changes and push them to GitHub.
+6. Fully close Unciv, reopen it, and load the mod again.
 
-IMPORTANT
-This patch targets the errors shown in the screenshot. It does not yet repair the many Building unique warnings, nor does it prove the full ruleset is playable. Send the next error screenshot after applying it.
-
-UNITS.JSON MANUAL EDIT
-Open jsons/Units.json and find this exact line:
-  "Can build improvements on tiles"
-Replace it with:
-  "Can build [Land] improvements on tiles"
-Save the file, then commit and push it too.
+TRADE-OFF
+To remove unsupported-unique warnings, this patch moves ordinary building yields into supported direct fields. Some special bonuses from the old Barracks, Walls, Castle, Courthouse and Arsenal uniques are removed for now rather than leaving invalid uniques.
+This is a data-level repair based on the screenshot and current repository files. It has not been runtime-tested inside your exact Unciv app, so send the next screenshot if any messages remain.
