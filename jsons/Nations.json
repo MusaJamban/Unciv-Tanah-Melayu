@@ -15,17 +15,17 @@
     ],
     "uniques": [
       "Start bias [Coast]",
-      "[+100]% Gold",
-      "[+100]% Culture",
-      "[+100]% Science",
-      "[+100]% Production",
-      "[+100]% Food",
+      "[+100]% [Gold] [in all cities]",
+      "[+100]% [Culture] [in all cities]",
+      "[+100]% [Science] [in all cities]",
+      "[+100]% [Production] [in all cities]",
+      "[+100]% [Food] [in all cities]",
       "[+100]% Strength <for [Military] units>",
       "[+3] Movement <for [Water] units>",
       "[+100]% Strength <vs [Barbarians]>",
-      "[+10] Gold <in capital>",
-      "[+5] Science <in capital>",
-      "[+5] Culture <in capital>"
+      "[+10 Gold] <in capital>",
+      "[+5 Science] <in capital>",
+      "[+5 Culture] <in capital>"
     ],
     "cities": [
       "Melaka",
@@ -64,7 +64,7 @@
     ],
     "uniques": [
       "Start bias [Coast]",
-      "[+15]% Culture",
+      "[+15]% [Culture] [in all cities]",
       "[+10]% Strength <for [Military] units>"
     ],
     "cities": [
@@ -99,7 +99,7 @@
     ],
     "uniques": [
       "Start bias [Coast]",
-      "[+2] Faith"
+      "[+2 Faith]"
     ],
     "cities": [
       "Demak",
@@ -165,8 +165,8 @@
     ],
     "uniques": [
       "Start bias [Coast]",
-      "[+2] Gold",
-      "[+1] Happiness"
+      "[+2 Gold]",
+      "[+1 Happiness]"
     ],
     "cities": [
       "Brunei",
@@ -230,8 +230,8 @@
       90
     ],
     "uniques": [
-      "[+10]% Food",
-      "[+1] Culture"
+      "[+10]% [Food] [in all cities]",
+      "[+1 Culture]"
     ],
     "cities": [
       "Ayutthaya",
@@ -263,8 +263,8 @@
       110
     ],
     "uniques": [
-      "[+1] Food",
-      "[+1] Culture"
+      "[+1 Food]",
+      "[+1 Culture]"
     ],
     "cities": [
       "Muang Sua",
@@ -327,8 +327,8 @@
       55
     ],
     "uniques": [
-      "[+10]% Science",
-      "[+1] Production"
+      "[+10]% [Science] [in all cities]",
+      "[+1 Production]"
     ],
     "cities": [
       "Beijing",
@@ -363,7 +363,7 @@
       170
     ],
     "uniques": [
-      "[+15]% Science"
+      "[+15]% [Science] [in all cities]"
     ],
     "cities": [
       "Hanseong",
@@ -428,7 +428,7 @@
       70
     ],
     "uniques": [
-      "[+10]% Production",
+      "[+10]% [Production] [in all cities]",
       "[+10]% Strength <for [Military] units>"
     ],
     "cities": [
@@ -461,8 +461,8 @@
       100
     ],
     "uniques": [
-      "[+10]% Food",
-      "[+1] Gold"
+      "[+10]% [Food] [in all cities]",
+      "[+1 Gold]"
     ],
     "cities": [
       "Gaur",
@@ -526,8 +526,8 @@
       180
     ],
     "uniques": [
-      "[+1] Culture",
-      "[+1] Faith"
+      "[+1 Culture]",
+      "[+1 Faith]"
     ],
     "cities": [
       "Tabriz",
@@ -592,7 +592,7 @@
       100
     ],
     "uniques": [
-      "[+10]% Gold",
+      "[+10]% [Gold] [in all cities]",
       "[+10]% Strength <for [Mounted] units>"
     ],
     "cities": [
@@ -625,7 +625,7 @@
       50
     ],
     "uniques": [
-      "[+10]% Gold",
+      "[+10]% [Gold] [in all cities]",
       "[+1] Movement <for [Water] units>"
     ],
     "cities": [
@@ -659,7 +659,7 @@
     ],
     "uniques": [
       "[+1] Movement <for [Water] units>",
-      "[+10]% Gold"
+      "[+10]% [Gold] [in all cities]"
     ],
     "cities": [
       "Lisbon",
@@ -723,7 +723,7 @@
       180
     ],
     "uniques": [
-      "[+10]% Culture"
+      "[+10]% [Culture] [in all cities]"
     ],
     "cities": [
       "Paris",
@@ -755,8 +755,8 @@
       100
     ],
     "uniques": [
-      "[+1] Production",
-      "[+1] Culture"
+      "[+1 Production]",
+      "[+1 Culture]"
     ],
     "cities": [
       "Vienna",
@@ -820,7 +820,7 @@
       90
     ],
     "uniques": [
-      "[+20]% Gold"
+      "[+20]% [Gold] [in all cities]"
     ],
     "cities": [
       "Gao",
@@ -852,7 +852,7 @@
       70
     ],
     "uniques": [
-      "[+1] Faith",
+      "[+1 Faith]",
       "[+10]% Strength <for [Military] units>"
     ],
     "cities": [
@@ -885,8 +885,8 @@
       100
     ],
     "uniques": [
-      "[+1] Food",
-      "[+1] Culture"
+      "[+1 Food]",
+      "[+1 Culture]"
     ],
     "cities": [
       "Mbanza Kongo",
@@ -949,8 +949,8 @@
       70
     ],
     "uniques": [
-      "[+1] Food",
-      "[+1] Production"
+      "[+1 Food]",
+      "[+1 Production]"
     ],
     "cities": [
       "Cusco",
@@ -982,8 +982,8 @@
       70
     ],
     "uniques": [
-      "[+10]% Food",
-      "[+10]% Production"
+      "[+10]% [Food] [in all cities]",
+      "[+10]% [Production] [in all cities]"
     ],
     "cities": [
       "Cusco",
@@ -1015,8 +1015,8 @@
       80
     ],
     "uniques": [
-      "[+1] Food",
-      "[+1] Culture"
+      "[+1 Food]",
+      "[+1 Culture]"
     ],
     "cities": [
       "Onondaga",
@@ -1048,8 +1048,8 @@
       90
     ],
     "uniques": [
-      "[+20]% Gold",
-      "[+1] Culture"
+      "[+20]% [Gold] [in all cities]",
+      "[+1 Culture]"
     ],
     "cities": [
       "Venice",
