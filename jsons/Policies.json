@@ -1,252 +1,227 @@
 [
   {
     "name": "Tradition",
-    "branch": "Tradition",
     "era": "Ancient",
-    "column": 0,
-    "row": 0,
     "uniques": [
       "[+1 Culture] in all cities"
-    ]
-  },
-  {
-    "name": "Aristocracy",
-    "branch": "Tradition",
-    "era": "Ancient",
-    "column": 1,
-    "row": 0,
-    "uniques": [
-      "[+1 Happiness] in all cities"
-    ]
-  },
-  {
-    "name": "Legalism",
-    "branch": "Tradition",
-    "era": "Classical",
-    "column": 2,
-    "row": 0,
-    "uniques": [
-      "[+1 Culture] in all cities"
-    ]
-  },
-  {
-    "name": "Monarchy",
-    "branch": "Tradition",
-    "era": "Classical",
-    "column": 3,
-    "row": 0,
-    "uniques": [
-      "[+1 Gold] in all cities"
-    ]
-  },
-  {
-    "name": "Oligarchy",
-    "branch": "Tradition",
-    "era": "Classical",
-    "column": 4,
-    "row": 0,
-    "uniques": [
-      "[+10]% Strength for cities"
+    ],
+    "policies": [
+      {
+        "name": "Aristocracy",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Happiness] in all cities"
+        ]
+      },
+      {
+        "name": "Legalism",
+        "row": 2,
+        "column": 0,
+        "uniques": [
+          "[+1 Culture] in all cities"
+        ]
+      },
+      {
+        "name": "Monarchy",
+        "row": 3,
+        "column": 0,
+        "uniques": [
+          "[+1 Gold] in all cities"
+        ]
+      },
+      {
+        "name": "Oligarchy",
+        "row": 4,
+        "column": 0,
+        "uniques": [
+          "[+10]% Strength for cities"
+        ]
+      },
+      {
+        "name": "Tradition Complete",
+        "uniques": []
+      }
     ]
   },
   {
     "name": "Liberty",
-    "branch": "Liberty",
     "era": "Ancient",
-    "column": 0,
-    "row": 1,
     "uniques": [
       "[+1 Production] in all cities"
-    ]
-  },
-  {
-    "name": "Republic",
-    "branch": "Liberty",
-    "era": "Ancient",
-    "column": 1,
-    "row": 1,
-    "uniques": [
-      "[+1 Production] in all cities"
-    ]
-  },
-  {
-    "name": "Citizenship",
-    "branch": "Liberty",
-    "era": "Classical",
-    "column": 2,
-    "row": 1,
-    "uniques": [
-      "[+1 Food] in all cities"
-    ]
-  },
-  {
-    "name": "Collective Rule",
-    "branch": "Liberty",
-    "era": "Classical",
-    "column": 3,
-    "row": 1,
-    "uniques": [
-      "[+10]% growth [in all cities]"
-    ]
-  },
-  {
-    "name": "Meritocracy",
-    "branch": "Liberty",
-    "era": "Classical",
-    "column": 4,
-    "row": 1,
-    "uniques": [
-      "[+1 Happiness] in all cities"
+    ],
+    "policies": [
+      {
+        "name": "Republic",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Production] in all cities"
+        ]
+      },
+      {
+        "name": "Citizenship",
+        "row": 2,
+        "column": 0,
+        "uniques": [
+          "[+1 Food] in all cities"
+        ]
+      },
+      {
+        "name": "Collective Rule",
+        "row": 3,
+        "column": 0,
+        "uniques": [
+          "[+10]% growth [in all cities]"
+        ]
+      },
+      {
+        "name": "Meritocracy",
+        "row": 4,
+        "column": 0,
+        "uniques": [
+          "[+1 Happiness] in all cities"
+        ]
+      },
+      {
+        "name": "Liberty Complete",
+        "uniques": []
+      }
     ]
   },
   {
     "name": "Honour",
-    "branch": "Honour",
     "era": "Ancient",
-    "column": 0,
-    "row": 2,
     "uniques": [
       "[+10]% Strength <for [Military] units>"
-    ]
-  },
-  {
-    "name": "Warrior Code",
-    "branch": "Honour",
-    "era": "Ancient",
-    "column": 1,
-    "row": 2,
-    "uniques": [
-      "[+15]% Production when constructing [Military] units [in all cities]"
-    ]
-  },
-  {
-    "name": "Discipline",
-    "branch": "Honour",
-    "era": "Classical",
-    "column": 2,
-    "row": 2,
-    "uniques": [
-      "[+10]% Strength <for [Military] units>"
-    ]
-  },
-  {
-    "name": "Military Tradition",
-    "branch": "Honour",
-    "era": "Classical",
-    "column": 3,
-    "row": 2,
-    "uniques": [
-      "[+15]% XP gained from combat"
-    ]
-  },
-  {
-    "name": "Professional Army",
-    "branch": "Honour",
-    "era": "Medieval",
-    "column": 4,
-    "row": 2,
-    "uniques": [
-      "[+1 Gold] from every [Barracks]"
+    ],
+    "policies": [
+      {
+        "name": "Warrior Code",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+15]% Production when constructing [Military] units [in all cities]"
+        ]
+      },
+      {
+        "name": "Discipline",
+        "row": 2,
+        "column": 0,
+        "uniques": [
+          "[+10]% Strength <for [Military] units>"
+        ]
+      },
+      {
+        "name": "Military Tradition",
+        "row": 3,
+        "column": 0,
+        "uniques": [
+          "[+15]% XP gained from combat"
+        ]
+      },
+      {
+        "name": "Professional Army",
+        "row": 4,
+        "column": 0,
+        "uniques": [
+          "[+1 Gold] from every [Barracks]"
+        ]
+      },
+      {
+        "name": "Honour Complete",
+        "uniques": []
+      }
     ]
   },
   {
     "name": "Piety",
-    "branch": "Piety",
     "era": "Ancient",
-    "column": 0,
-    "row": 3,
     "uniques": [
       "[+1 Faith] in all cities"
-    ]
-  },
-  {
-    "name": "Organized Religion",
-    "branch": "Piety",
-    "era": "Classical",
-    "column": 1,
-    "row": 3,
-    "uniques": [
-      "[+1 Faith] from every [Temple]"
-    ]
-  },
-  {
-    "name": "Theocracy",
-    "branch": "Piety",
-    "era": "Medieval",
-    "column": 2,
-    "row": 3,
-    "uniques": [
-      "[+2 Gold] from every [Temple]"
-    ]
-  },
-  {
-    "name": "Reformation",
-    "branch": "Piety",
-    "era": "Renaissance",
-    "column": 3,
-    "row": 3,
-    "uniques": [
-      "[+10]% Culture [in all cities]"
-    ]
-  },
-  {
-    "name": "Religious Tolerance",
-    "branch": "Piety",
-    "era": "Renaissance",
-    "column": 4,
-    "row": 3,
-    "uniques": [
-      "[+1 Happiness] in all cities"
+    ],
+    "policies": [
+      {
+        "name": "Organized Religion",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Faith] from every [Temple]"
+        ]
+      },
+      {
+        "name": "Theocracy",
+        "row": 2,
+        "column": 0,
+        "uniques": [
+          "[+2 Gold] from every [Temple]"
+        ]
+      },
+      {
+        "name": "Reformation",
+        "row": 3,
+        "column": 0,
+        "uniques": [
+          "[+10]% Culture [in all cities]"
+        ]
+      },
+      {
+        "name": "Religious Tolerance",
+        "row": 4,
+        "column": 0,
+        "uniques": [
+          "[+1 Happiness] in all cities"
+        ]
+      },
+      {
+        "name": "Piety Complete",
+        "uniques": []
+      }
     ]
   },
   {
     "name": "Commerce",
-    "branch": "Commerce",
     "era": "Classical",
-    "column": 0,
-    "row": 4,
     "uniques": [
       "[+1 Gold] in all cities"
-    ]
-  },
-  {
-    "name": "Trade Unions",
-    "branch": "Commerce",
-    "era": "Medieval",
-    "column": 1,
-    "row": 4,
-    "uniques": [
-      "[+1 Gold] from every [Market]"
-    ]
-  },
-  {
-    "name": "Mercantilism",
-    "branch": "Commerce",
-    "era": "Renaissance",
-    "column": 2,
-    "row": 4,
-    "uniques": [
-      "[+1 Gold] from every [Bank]"
-    ]
-  },
-  {
-    "name": "Navigation Acts",
-    "branch": "Commerce",
-    "era": "Renaissance",
-    "column": 3,
-    "row": 4,
-    "uniques": [
-      "[+1 Movement] <for [Water] units>"
-    ]
-  },
-  {
-    "name": "Entrepreneurship",
-    "branch": "Commerce",
-    "era": "Renaissance",
-    "column": 4,
-    "row": 4,
-    "uniques": [
-      "[+15]% Gold [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Trade Unions",
+        "row": 1,
+        "column": 0,
+        "uniques": [
+          "[+1 Gold] from every [Market]"
+        ]
+      },
+      {
+        "name": "Mercantilism",
+        "row": 2,
+        "column": 0,
+        "uniques": [
+          "[+1 Gold] from every [Bank]"
+        ]
+      },
+      {
+        "name": "Navigation Acts",
+        "row": 3,
+        "column": 0,
+        "uniques": [
+          "[+1 Movement] <for [Water] units>"
+        ]
+      },
+      {
+        "name": "Entrepreneurship",
+        "row": 4,
+        "column": 0,
+        "uniques": [
+          "[+15]% Gold [in all cities]"
+        ]
+      },
+      {
+        "name": "Commerce Complete",
+        "uniques": []
+      }
     ]
   }
 ]
