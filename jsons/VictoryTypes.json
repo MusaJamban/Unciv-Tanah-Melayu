@@ -2,7 +2,7 @@
   {
     "name": "Scientific",
     "milestones": [
-      "Build [Apollo Program]",
+      "Build [National College]",
       "Add all [spaceship parts] in capital"
     ]
   },
@@ -10,7 +10,7 @@
     "name": "Cultural",
     "milestones": [
       "Complete [5] Policy branches",
-      "Build [Utopia Project]"
+      "Build [Opera House]"
     ]
   },
   {
@@ -22,7 +22,6 @@
   {
     "name": "Diplomatic",
     "milestones": [
-      "Anyone should build [United Nations]",
       "Win diplomatic vote"
     ]
   },
