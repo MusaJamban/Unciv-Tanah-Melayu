@@ -479,5 +479,435 @@
     "requiredTech": "Planetary Governance",
     "culture": 3,
     "gold": 3
+  },
+  {
+    "name": "Public Housing",
+    "cost": 120,
+    "requiredTech": "Sanitation",
+    "food": 2,
+    "culture": 1
+  },
+  {
+    "name": "Civic Health Clinic",
+    "cost": 140,
+    "requiredTech": "Public Health Systems",
+    "food": 2,
+    "science": 1
+  },
+  {
+    "name": "Regional University",
+    "cost": 170,
+    "requiredTech": "Mass Education",
+    "science": 3,
+    "culture": 1
+  },
+  {
+    "name": "Veterans' Hall",
+    "cost": 140,
+    "requiredTech": "Military Science",
+    "production": 2,
+    "culture": 1
+  },
+  {
+    "name": "Logistics Depot",
+    "cost": 150,
+    "requiredTech": "Modern Logistics",
+    "production": 2,
+    "gold": 1
+  },
+  {
+    "name": "Rail Freight Terminal",
+    "cost": 180,
+    "requiredTech": "Railway Signalling",
+    "production": 3,
+    "gold": 2
+  },
+  {
+    "name": "Automobile Works",
+    "cost": 200,
+    "requiredTech": "Automotive Engineering",
+    "production": 4,
+    "gold": 1
+  },
+  {
+    "name": "Broadcast Studio",
+    "cost": 190,
+    "requiredTech": "Television",
+    "culture": 4,
+    "gold": 1
+  },
+  {
+    "name": "Computer Research Lab",
+    "cost": 210,
+    "requiredTech": "Microelectronics",
+    "science": 4
+  },
+  {
+    "name": "Biotechnology Center",
+    "cost": 230,
+    "requiredTech": "Genetics",
+    "science": 3,
+    "food": 2
+  },
+  {
+    "name": "Solar Power Station",
+    "cost": 220,
+    "requiredTech": "Renewable Energy",
+    "production": 3,
+    "science": 1
+  },
+  {
+    "name": "Battery Manufacturing Plant",
+    "cost": 230,
+    "requiredTech": "Advanced Batteries",
+    "production": 4
+  },
+  {
+    "name": "Cybersecurity Center",
+    "cost": 240,
+    "requiredTech": "Advanced Cybersecurity",
+    "science": 3,
+    "gold": 2
+  },
+  {
+    "name": "AI Research Campus",
+    "cost": 250,
+    "requiredTech": "Machine Learning",
+    "science": 5
+  },
+  {
+    "name": "Quantum Materials Lab",
+    "cost": 270,
+    "requiredTech": "Quantum Materials",
+    "science": 4,
+    "production": 2
+  },
+  {
+    "name": "Fusion Power Plant",
+    "cost": 300,
+    "requiredTech": "Fusion Power",
+    "production": 6
+  },
+  {
+    "name": "Oceanic Research Complex",
+    "cost": 280,
+    "requiredTech": "Oceanic Habitats",
+    "science": 3,
+    "food": 2
+  },
+  {
+    "name": "Planetary Restoration Center",
+    "cost": 280,
+    "requiredTech": "Biosphere Restoration",
+    "food": 3,
+    "culture": 2
+  },
+  {
+    "name": "Interplanetary Trade Exchange",
+    "cost": 310,
+    "requiredTech": "Interplanetary Trade",
+    "gold": 5,
+    "production": 2
+  },
+  {
+    "name": "Antimatter Generator",
+    "cost": 380,
+    "requiredTech": "Antimatter Containment",
+    "production": 6,
+    "science": 2
+  },
+  {
+    "name": "Nanofabrication Foundry",
+    "cost": 320,
+    "requiredTech": "Nanofabrication",
+    "production": 5,
+    "science": 2
+  },
+  {
+    "name": "Galactic Cultural Archive",
+    "cost": 350,
+    "requiredTech": "Universal Knowledge Archives",
+    "culture": 5,
+    "science": 3
+  },
+  {
+    "name": "Great Library of Alexandria",
+    "cost": 180,
+    "requiredTech": "Writing",
+    "isWonder": true,
+    "science": 4,
+    "culture": 3,
+    "uniques": [
+      "[+10]% [Science] [in all cities]"
+    ]
+  },
+  {
+    "name": "Grand Canal of Melaka",
+    "cost": 210,
+    "requiredTech": "Engineering",
+    "isWonder": true,
+    "food": 3,
+    "gold": 4,
+    "production": 2,
+    "uniques": [
+      "[+1 Gold] from [Coast] tiles [in all cities]"
+    ]
+  },
+  {
+    "name": "Royal Maritime Academy",
+    "cost": 230,
+    "requiredTech": "Navigation",
+    "isWonder": true,
+    "science": 2,
+    "gold": 4,
+    "culture": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Water] units [in all cities]"
+    ]
+  },
+  {
+    "name": "Imperial Road Network",
+    "cost": 200,
+    "requiredTech": "Road Building",
+    "isWonder": true,
+    "gold": 3,
+    "production": 3,
+    "uniques": [
+      "[+1 Movement] for [All] units"
+    ]
+  },
+  {
+    "name": "House of Wisdom",
+    "cost": 220,
+    "requiredTech": "Education",
+    "isWonder": true,
+    "science": 5,
+    "culture": 2,
+    "uniques": [
+      "[+10]% [Science] [in all cities]"
+    ]
+  },
+  {
+    "name": "Great Cathedral",
+    "cost": 210,
+    "requiredTech": "Theology",
+    "isWonder": true,
+    "faith": 5,
+    "culture": 4,
+    "uniques": [
+      "[+10]% [Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "Royal Spice Exchange",
+    "cost": 220,
+    "requiredTech": "Banking",
+    "isWonder": true,
+    "gold": 7,
+    "culture": 2,
+    "uniques": [
+      "[+1 Gold] from [Plantation] improvements [in all cities]"
+    ]
+  },
+  {
+    "name": "National Museum of Civilizations",
+    "cost": 240,
+    "requiredTech": "Archaeology",
+    "isWonder": true,
+    "culture": 6,
+    "science": 2,
+    "uniques": [
+      "[+1 Culture] from [Museum] buildings [in all cities]"
+    ]
+  },
+  {
+    "name": "Industrial Exhibition Hall",
+    "cost": 250,
+    "requiredTech": "Industrialization",
+    "isWonder": true,
+    "production": 5,
+    "gold": 3,
+    "uniques": [
+      "[+10]% Production when constructing [Buildings] [in all cities]"
+    ]
+  },
+  {
+    "name": "International Health Institute",
+    "cost": 220,
+    "requiredTech": "Public Health Systems",
+    "isWonder": true,
+    "food": 4,
+    "science": 3,
+    "uniques": [
+      "[+10]% [Food] [in all cities]"
+    ]
+  },
+  {
+    "name": "World Trade Exchange",
+    "cost": 260,
+    "requiredTech": "Economics",
+    "isWonder": true,
+    "gold": 8,
+    "production": 2,
+    "uniques": [
+      "[+10]% [Gold] [in all cities]"
+    ]
+  },
+  {
+    "name": "National Rail Authority",
+    "cost": 270,
+    "requiredTech": "Railroads",
+    "isWonder": true,
+    "production": 5,
+    "gold": 4,
+    "uniques": [
+      "[+1 Movement] for [Land] units"
+    ]
+  },
+  {
+    "name": "Global Broadcasting Network",
+    "cost": 270,
+    "requiredTech": "Radio",
+    "isWonder": true,
+    "culture": 6,
+    "gold": 3,
+    "uniques": [
+      "[+10]% [Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "International Space Agency",
+    "cost": 300,
+    "requiredTech": "Early Spaceflight",
+    "isWonder": true,
+    "science": 5,
+    "production": 4,
+    "uniques": [
+      "[+15]% Production when constructing [Spaceship] parts"
+    ]
+  },
+  {
+    "name": "Fusion Research Directorate",
+    "cost": 320,
+    "requiredTech": "Fusion Research",
+    "isWonder": true,
+    "science": 6,
+    "production": 4,
+    "uniques": [
+      "[+10]% [Production] [in all cities]"
+    ]
+  },
+  {
+    "name": "Global Renewable Energy Grid",
+    "cost": 300,
+    "requiredTech": "Smart Grids",
+    "isWonder": true,
+    "production": 5,
+    "science": 3,
+    "uniques": [
+      "[+1 Production] from [Solar Plant] buildings [in all cities]"
+    ]
+  },
+  {
+    "name": "World AI Research Consortium",
+    "cost": 330,
+    "requiredTech": "Machine Learning",
+    "isWonder": true,
+    "science": 7,
+    "uniques": [
+      "[+10]% [Science] [in all cities]"
+    ]
+  },
+  {
+    "name": "Planetary Biodiversity Reserve",
+    "cost": 300,
+    "requiredTech": "Biosphere Restoration",
+    "isWonder": true,
+    "food": 4,
+    "culture": 4,
+    "science": 2,
+    "uniques": [
+      "[+1 Food] from [Forest] tiles [in all cities]"
+    ]
+  },
+  {
+    "name": "Interplanetary Trade Council",
+    "cost": 350,
+    "requiredTech": "Interplanetary Trade",
+    "isWonder": true,
+    "gold": 8,
+    "culture": 4,
+    "uniques": [
+      "[+10]% [Gold] [in all cities]"
+    ]
+  },
+  {
+    "name": "Dyson Swarm Megastructure",
+    "cost": 450,
+    "requiredTech": "Dyson Swarm Engineering",
+    "isWonder": true,
+    "production": 8,
+    "science": 6,
+    "gold": 5,
+    "uniques": [
+      "[+15]% [Production] [in all cities]"
+    ]
+  },
+  {
+    "name": "Universal Knowledge Repository",
+    "cost": 400,
+    "requiredTech": "Universal Knowledge Archives",
+    "isWonder": true,
+    "science": 7,
+    "culture": 5,
+    "uniques": [
+      "[+15]% [Science] [in all cities]"
+    ]
+  },
+  {
+    "name": "Galactic Peace Forum",
+    "cost": 390,
+    "requiredTech": "Galactic Diplomacy",
+    "isWonder": true,
+    "culture": 7,
+    "gold": 4,
+    "uniques": [
+      "[+15]% [Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "Antimatter Research Complex",
+    "cost": 400,
+    "requiredTech": "Antimatter Containment",
+    "isWonder": true,
+    "science": 5,
+    "production": 6,
+    "uniques": [
+      "[+10]% Production when constructing [Spaceship] parts"
+    ]
+  },
+  {
+    "name": "Terraforming World Authority",
+    "cost": 420,
+    "requiredTech": "Stellar Terraforming",
+    "isWonder": true,
+    "food": 6,
+    "production": 4,
+    "science": 3,
+    "uniques": [
+      "[+10]% [Food] [in all cities]"
+    ]
+  },
+  {
+    "name": "Interstellar Civilization Monument",
+    "cost": 430,
+    "requiredTech": "Interstellar Colonies",
+    "isWonder": true,
+    "culture": 8,
+    "science": 4,
+    "gold": 4,
+    "uniques": [
+      "[+15]% [Culture] [in all cities]"
+    ]
   }
 ]
