@@ -1203,6 +1203,1030 @@
     ]
   },
   {
+    "name": "Mughal Empire",
+    "leaderName": "Babur",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      70,
+      90,
+      130
+    ],
+    "innerColor": [
+      230,
+      190,
+      90
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Kabul",
+      "Delhi",
+      "Agra",
+      "Lahore"
+    ],
+    "startIntroPart1": "I am Babur, ruler of Mughal Empire. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Babur of Mughal Empire. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Mamluk Sultanate",
+    "leaderName": "Qaitbay",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      100,
+      70
+    ],
+    "innerColor": [
+      235,
+      205,
+      120
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Cairo",
+      "Damascus",
+      "Aleppo",
+      "Jerusalem"
+    ],
+    "startIntroPart1": "I am Qaitbay, ruler of Mamluk Sultanate. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Qaitbay of Mamluk Sultanate. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Gujarat Sultanate",
+    "leaderName": "Mahmud Begada",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      20,
+      90,
+      80
+    ],
+    "innerColor": [
+      220,
+      190,
+      70
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Ahmedabad",
+      "Cambay",
+      "Surat",
+      "Junagadh"
+    ],
+    "startIntroPart1": "I am Mahmud Begada, ruler of Gujarat Sultanate. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Mahmud Begada of Gujarat Sultanate. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Khmer Empire",
+    "leaderName": "Thommo Reachea",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      140,
+      50,
+      30
+    ],
+    "innerColor": [
+      230,
+      190,
+      80
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Angkor",
+      "Phnom Penh",
+      "Battambang",
+      "Ligor"
+    ],
+    "startIntroPart1": "I am Thommo Reachea, ruler of Khmer Empire. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Thommo Reachea of Khmer Empire. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Dai Viet",
+    "leaderName": "Le Thanh Tong",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      170,
+      35,
+      35
+    ],
+    "innerColor": [
+      240,
+      210,
+      70
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Thang Long",
+      "Hue",
+      "Thanh Hoa",
+      "Hoi An"
+    ],
+    "startIntroPart1": "I am Le Thanh Tong, ruler of Dai Viet. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Le Thanh Tong of Dai Viet. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Ryukyu Kingdom",
+    "leaderName": "Sho Shin",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      170,
+      40,
+      45
+    ],
+    "innerColor": [
+      245,
+      220,
+      130
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Shuri",
+      "Naha",
+      "Urasoe",
+      "Tomigusuku"
+    ],
+    "startIntroPart1": "I am Sho Shin, ruler of Ryukyu Kingdom. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Sho Shin of Ryukyu Kingdom. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Tibetan Kingdoms",
+    "leaderName": "Drogon Chogyal",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      100,
+      60,
+      40
+    ],
+    "innerColor": [
+      240,
+      210,
+      120
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Lhasa",
+      "Shigatse",
+      "Gyantse",
+      "Chamdo"
+    ],
+    "startIntroPart1": "I am Drogon Chogyal, ruler of Tibetan Kingdoms. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Drogon Chogyal of Tibetan Kingdoms. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Timurid Remnants",
+    "leaderName": "Sultan Husayn Bayqara",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      70,
+      50,
+      110
+    ],
+    "innerColor": [
+      230,
+      190,
+      90
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Herat",
+      "Balkh",
+      "Merv",
+      "Mashhad"
+    ],
+    "startIntroPart1": "I am Sultan Husayn Bayqara, ruler of Timurid Remnants. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Sultan Husayn Bayqara of Timurid Remnants. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Uzbek Khanate",
+    "leaderName": "Muhammad Shaybani",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      40,
+      90,
+      90
+    ],
+    "innerColor": [
+      230,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Bukhara",
+      "Samarkand",
+      "Tashkent",
+      "Khiva"
+    ],
+    "startIntroPart1": "I am Muhammad Shaybani, ruler of Uzbek Khanate. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Muhammad Shaybani of Uzbek Khanate. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Golden Horde Successor",
+    "leaderName": "Ahmed Khan",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      120,
+      80,
+      35
+    ],
+    "innerColor": [
+      235,
+      200,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Sarai",
+      "Astrakhan",
+      "Kazan",
+      "Azov"
+    ],
+    "startIntroPart1": "I am Ahmed Khan, ruler of Golden Horde Successor. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Ahmed Khan of Golden Horde Successor. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Poland-Lithuania",
+    "leaderName": "Casimir IV Jagiellon",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      150,
+      30,
+      40
+    ],
+    "innerColor": [
+      240,
+      220,
+      150
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Krakow",
+      "Vilnius",
+      "Warsaw",
+      "Lviv"
+    ],
+    "startIntroPart1": "I am Casimir IV Jagiellon, ruler of Poland-Lithuania. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Casimir IV Jagiellon of Poland-Lithuania. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Kingdom of Aragon",
+    "leaderName": "Ferdinand II",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      170,
+      40,
+      35
+    ],
+    "innerColor": [
+      245,
+      200,
+      60
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Zaragoza",
+      "Barcelona",
+      "Valencia",
+      "Palma"
+    ],
+    "startIntroPart1": "I am Ferdinand II, ruler of Kingdom of Aragon. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Ferdinand II of Kingdom of Aragon. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Kingdom of Naples",
+    "leaderName": "Ferdinand I",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      100,
+      40,
+      80
+    ],
+    "innerColor": [
+      230,
+      190,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Naples",
+      "Bari",
+      "Palermo",
+      "Reggio"
+    ],
+    "startIntroPart1": "I am Ferdinand I, ruler of Kingdom of Naples. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Ferdinand I of Kingdom of Naples. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Mali Empire",
+    "leaderName": "Mahmud Keita II",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      90,
+      60
+    ],
+    "innerColor": [
+      240,
+      205,
+      70
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Timbuktu",
+      "Niani",
+      "Djenne",
+      "Gao"
+    ],
+    "startIntroPart1": "I am Mahmud Keita II, ruler of Mali Empire. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Mahmud Keita II of Mali Empire. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Kanem-Bornu",
+    "leaderName": "Idris Alooma",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      40,
+      90,
+      90
+    ],
+    "innerColor": [
+      230,
+      190,
+      70
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Ngazargamu",
+      "Kukawa",
+      "Maiduguri",
+      "Kano"
+    ],
+    "startIntroPart1": "I am Idris Alooma, ruler of Kanem-Bornu. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Idris Alooma of Kanem-Bornu. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Benin Kingdom",
+    "leaderName": "Ewuare II",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      150,
+      40,
+      35
+    ],
+    "innerColor": [
+      230,
+      190,
+      70
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Benin City",
+      "Udo",
+      "Warri",
+      "Ife"
+    ],
+    "startIntroPart1": "I am Ewuare II, ruler of Benin Kingdom. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Ewuare II of Benin Kingdom. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Kilwa Sultanate",
+    "leaderName": "Ali ibn al-Hasan",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      20,
+      80,
+      100
+    ],
+    "innerColor": [
+      230,
+      190,
+      70
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Kilwa",
+      "Mombasa",
+      "Pate",
+      "Sofala"
+    ],
+    "startIntroPart1": "I am Ali ibn al-Hasan, ruler of Kilwa Sultanate. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Ali ibn al-Hasan of Kilwa Sultanate. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Mutapa Kingdom",
+    "leaderName": "Nyahuma Mukombero",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      40,
+      100,
+      60
+    ],
+    "innerColor": [
+      240,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Great Zimbabwe",
+      "Khami",
+      "Sofala",
+      "Manica"
+    ],
+    "startIntroPart1": "I am Nyahuma Mukombero, ruler of Mutapa Kingdom. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Nyahuma Mukombero of Mutapa Kingdom. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Kongo Kingdom",
+    "leaderName": "Nzinga a Nkuwu",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      100,
+      40,
+      35
+    ],
+    "innerColor": [
+      230,
+      190,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Mbanza Kongo",
+      "Soyo",
+      "Mpinda",
+      "Loango"
+    ],
+    "startIntroPart1": "I am Nzinga a Nkuwu, ruler of Kongo Kingdom. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Nzinga a Nkuwu of Kongo Kingdom. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Tupinamba Confederacies",
+    "leaderName": "Tupinamba chiefs",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      110,
+      70
+    ],
+    "innerColor": [
+      235,
+      200,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Bahia",
+      "Pernambuco",
+      "Ilheus",
+      "Sergipe"
+    ],
+    "startIntroPart1": "I am Tupinamba chiefs, ruler of Tupinamba Confederacies. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Tupinamba chiefs of Tupinamba Confederacies. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Mapuche",
+    "leaderName": "Lautaro",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      80,
+      100
+    ],
+    "innerColor": [
+      230,
+      190,
+      70
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Arauco",
+      "Purén",
+      "Tucapel",
+      "Valdivia"
+    ],
+    "startIntroPart1": "I am Lautaro, ruler of Mapuche. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Lautaro of Mapuche. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Maya City-States",
+    "leaderName": "Ah Xupan",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      90,
+      70
+    ],
+    "innerColor": [
+      240,
+      200,
+      80
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Mayapan",
+      "Mani",
+      "Uxmal",
+      "Chichen Itza"
+    ],
+    "startIntroPart1": "I am Ah Xupan, ruler of Maya City-States. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Ah Xupan of Maya City-States. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Haudenosaunee Confederacy",
+    "leaderName": "Hiawatha",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      80,
+      50
+    ],
+    "innerColor": [
+      230,
+      190,
+      90
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Onondaga",
+      "Cayuga",
+      "Oneida",
+      "Mohawk"
+    ],
+    "startIntroPart1": "I am Hiawatha, ruler of Haudenosaunee Confederacy. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Hiawatha of Haudenosaunee Confederacy. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Taino Chiefdoms",
+    "leaderName": "Caonabo",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      20,
+      100,
+      100
+    ],
+    "innerColor": [
+      240,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Magua",
+      "Marien",
+      "Jaragua",
+      "Higuey"
+    ],
+    "startIntroPart1": "I am Caonabo, ruler of Taino Chiefdoms. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Caonabo of Taino Chiefdoms. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Hawaiian Chiefdoms",
+    "leaderName": "Umi-a-Liloa",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      140,
+      35,
+      35
+    ],
+    "innerColor": [
+      240,
+      210,
+      90
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Waipio",
+      "Hilo",
+      "Kona",
+      "Hana"
+    ],
+    "startIntroPart1": "I am Umi-a-Liloa, ruler of Hawaiian Chiefdoms. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Umi-a-Liloa of Hawaiian Chiefdoms. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Majapahit Successor States",
+    "leaderName": "Girindrawardhana",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      150,
+      35,
+      35
+    ],
+    "innerColor": [
+      230,
+      180,
+      80
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Trowulan",
+      "Kediri",
+      "Surabaya",
+      "Madura"
+    ],
+    "startIntroPart1": "I am Girindrawardhana, ruler of Majapahit Successor States. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Girindrawardhana of Majapahit Successor States. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Gowa-Tallo",
+    "leaderName": "Karaeng Tumapa'risi' Kallonna",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      90,
+      70
+    ],
+    "innerColor": [
+      240,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Somba Opu",
+      "Bantaeng",
+      "Bulukumba",
+      "Bone"
+    ],
+    "startIntroPart1": "I am Karaeng Tumapa'risi' Kallonna, ruler of Gowa-Tallo. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Karaeng Tumapa'risi' Kallonna of Gowa-Tallo. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Sunda Kingdom",
+    "leaderName": "Sri Baduga Maharaja",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      100,
+      60
+    ],
+    "innerColor": [
+      240,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Pakuan",
+      "Banten Girang",
+      "Cirebon",
+      "Galuh"
+    ],
+    "startIntroPart1": "I am Sri Baduga Maharaja, ruler of Sunda Kingdom. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Sri Baduga Maharaja of Sunda Kingdom. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Pahang Sultanate",
+    "leaderName": "Muhammad Shah",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      20,
+      80,
+      90
+    ],
+    "innerColor": [
+      240,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Pekan",
+      "Kuantan",
+      "Temerloh",
+      "Endau"
+    ],
+    "startIntroPart1": "I am Muhammad Shah, ruler of Pahang Sultanate. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Muhammad Shah of Pahang Sultanate. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Patani Sultanate",
+    "leaderName": "Sultan Ismail Shah",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      20,
+      90,
+      70
+    ],
+    "innerColor": [
+      240,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Patani",
+      "Yala",
+      "Sai Buri",
+      "Teluban"
+    ],
+    "startIntroPart1": "I am Sultan Ismail Shah, ruler of Patani Sultanate. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Sultan Ismail Shah of Patani Sultanate. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Kutai Kingdom",
+    "leaderName": "Kudungga",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      40,
+      100,
+      70
+    ],
+    "innerColor": [
+      240,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Muara Kaman",
+      "Tenggarong",
+      "Samarinda",
+      "Berau"
+    ],
+    "startIntroPart1": "I am Kudungga, ruler of Kutai Kingdom. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Kudungga of Kutai Kingdom. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
+    "name": "Sambas Sultanate",
+    "leaderName": "Raja Gipang",
+    "preferredVictoryType": "Domination",
+    "outerColor": [
+      30,
+      80,
+      90
+    ],
+    "innerColor": [
+      240,
+      210,
+      100
+    ],
+    "uniques": [
+      "Start bias [Coast]",
+      "[+10]% [Culture] [in all cities]"
+    ],
+    "cities": [
+      "Sambas",
+      "Mempawah",
+      "Pontianak",
+      "Singkawang"
+    ],
+    "startIntroPart1": "I am Raja Gipang, ruler of Sambas Sultanate. Our people stand at a turning point in world history.",
+    "startIntroPart2": "Trade wisely, honour your word, and prepare your realm for the centuries ahead.",
+    "declaringWar": "Our differences will be settled on the field of battle.",
+    "attacked": "You have chosen war. We shall answer with resolve.",
+    "defeated": "Our realm falls, but its history will endure.",
+    "introduction": "I am Raja Gipang of Sambas Sultanate. Let us speak as rulers.",
+    "tradeRequest": "Let us consider a mutually beneficial agreement."
+  },
+  {
     "name": "Barbarians",
     "outerColor": [
       0,
