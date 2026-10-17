@@ -591,5 +591,348 @@
         ]
       }
     ]
+  },
+  {
+    "columnNumber": 18,
+    "era": "Modern",
+    "techCost": 180,
+    "techs": [
+      {
+        "name": "Plastics",
+        "row": 1,
+        "cost": 180,
+        "prerequisites": [
+          "Combustion",
+          "Chemistry"
+        ]
+      },
+      {
+        "name": "Electronics",
+        "row": 2,
+        "cost": 185,
+        "prerequisites": [
+          "Electricity",
+          "Radio"
+        ]
+      },
+      {
+        "name": "Advanced Ballistics",
+        "row": 3,
+        "cost": 185,
+        "prerequisites": [
+          "Ballistics",
+          "Combustion"
+        ]
+      },
+      {
+        "name": "Combustion Engines",
+        "row": 4,
+        "cost": 180,
+        "prerequisites": [
+          "Combustion",
+          "Mass Production"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 19,
+    "era": "Modern",
+    "techCost": 200,
+    "techs": [
+      {
+        "name": "Radar",
+        "row": 1,
+        "cost": 200,
+        "prerequisites": [
+          "Electronics",
+          "Radio"
+        ]
+      },
+      {
+        "name": "Nuclear Fission",
+        "row": 2,
+        "cost": 210,
+        "prerequisites": [
+          "Electronics",
+          "Scientific Theory"
+        ]
+      },
+      {
+        "name": "Rocketry",
+        "row": 3,
+        "cost": 205,
+        "prerequisites": [
+          "Advanced Ballistics",
+          "Electronics"
+        ]
+      },
+      {
+        "name": "Computing",
+        "row": 4,
+        "cost": 200,
+        "prerequisites": [
+          "Electronics",
+          "Telegraph"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 20,
+    "era": "Atomic",
+    "techCost": 230,
+    "techs": [
+      {
+        "name": "Nuclear Power",
+        "row": 1,
+        "cost": 230,
+        "prerequisites": [
+          "Nuclear Fission"
+        ]
+      },
+      {
+        "name": "Satellites",
+        "row": 2,
+        "cost": 235,
+        "prerequisites": [
+          "Rocketry",
+          "Radar"
+        ]
+      },
+      {
+        "name": "Advanced Flight",
+        "row": 3,
+        "cost": 230,
+        "prerequisites": [
+          "Rocketry",
+          "Combustion Engines"
+        ]
+      },
+      {
+        "name": "Robotics",
+        "row": 4,
+        "cost": 235,
+        "prerequisites": [
+          "Computing",
+          "Plastics"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 21,
+    "era": "Atomic",
+    "techCost": 250,
+    "techs": [
+      {
+        "name": "Nuclear Fusion",
+        "row": 1,
+        "cost": 260,
+        "prerequisites": [
+          "Nuclear Power",
+          "Computing"
+        ]
+      },
+      {
+        "name": "Lasers",
+        "row": 2,
+        "cost": 250,
+        "prerequisites": [
+          "Electronics",
+          "Satellites"
+        ]
+      },
+      {
+        "name": "Guidance Systems",
+        "row": 3,
+        "cost": 250,
+        "prerequisites": [
+          "Advanced Flight",
+          "Computing"
+        ]
+      },
+      {
+        "name": "Genetics",
+        "row": 4,
+        "cost": 245,
+        "prerequisites": [
+          "Robotics",
+          "Nuclear Power"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 22,
+    "era": "Information",
+    "techCost": 280,
+    "techs": [
+      {
+        "name": "Telecommunications",
+        "row": 1,
+        "cost": 280,
+        "prerequisites": [
+          "Satellites",
+          "Computing"
+        ]
+      },
+      {
+        "name": "Nanotechnology",
+        "row": 2,
+        "cost": 285,
+        "prerequisites": [
+          "Plastics",
+          "Robotics"
+        ]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "row": 3,
+        "cost": 290,
+        "prerequisites": [
+          "Computing",
+          "Robotics"
+        ]
+      },
+      {
+        "name": "Renewable Energy",
+        "row": 4,
+        "cost": 280,
+        "prerequisites": [
+          "Nuclear Power",
+          "Electronics"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 23,
+    "era": "Information",
+    "techCost": 310,
+    "techs": [
+      {
+        "name": "Quantum Computing",
+        "row": 1,
+        "cost": 320,
+        "prerequisites": [
+          "Artificial Intelligence",
+          "Nanotechnology"
+        ]
+      },
+      {
+        "name": "Cybernetics",
+        "row": 2,
+        "cost": 310,
+        "prerequisites": [
+          "Artificial Intelligence",
+          "Genetics"
+        ]
+      },
+      {
+        "name": "Fusion Power",
+        "row": 3,
+        "cost": 320,
+        "prerequisites": [
+          "Nuclear Fusion",
+          "Renewable Energy"
+        ]
+      },
+      {
+        "name": "Autonomous Systems",
+        "row": 4,
+        "cost": 315,
+        "prerequisites": [
+          "Artificial Intelligence",
+          "Guidance Systems"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 24,
+    "era": "Future",
+    "techCost": 350,
+    "techs": [
+      {
+        "name": "Quantum Networks",
+        "row": 1,
+        "cost": 350,
+        "prerequisites": [
+          "Quantum Computing",
+          "Telecommunications"
+        ]
+      },
+      {
+        "name": "Advanced Materials",
+        "row": 2,
+        "cost": 350,
+        "prerequisites": [
+          "Nanotechnology",
+          "Cybernetics"
+        ]
+      },
+      {
+        "name": "Planetary Engineering",
+        "row": 3,
+        "cost": 365,
+        "prerequisites": [
+          "Fusion Power",
+          "Autonomous Systems"
+        ]
+      },
+      {
+        "name": "Synthetic Biology",
+        "row": 4,
+        "cost": 355,
+        "prerequisites": [
+          "Genetics",
+          "Cybernetics"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 25,
+    "era": "Future",
+    "techCost": 400,
+    "techs": [
+      {
+        "name": "Artificial Superintelligence",
+        "row": 1,
+        "cost": 420,
+        "prerequisites": [
+          "Quantum Networks",
+          "Autonomous Systems"
+        ]
+      },
+      {
+        "name": "Antimatter Power",
+        "row": 2,
+        "cost": 420,
+        "prerequisites": [
+          "Fusion Power",
+          "Advanced Materials"
+        ]
+      },
+      {
+        "name": "Interstellar Propulsion",
+        "row": 3,
+        "cost": 430,
+        "prerequisites": [
+          "Planetary Engineering",
+          "Antimatter Power"
+        ]
+      },
+      {
+        "name": "Singularity Engineering",
+        "row": 4,
+        "cost": 450,
+        "prerequisites": [
+          "Artificial Superintelligence",
+          "Synthetic Biology"
+        ]
+      }
+    ]
   }
 ]
