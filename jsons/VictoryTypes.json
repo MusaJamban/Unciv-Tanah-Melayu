@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Scientific",
+    "milestones": [
+      "Build the Apollo Program"
+    ]
+  },
+  {
+    "name": "Cultural",
+    "milestones": [
+      "Become influential over all other civilizations"
+    ]
+  },
+  {
+    "name": "Domination",
+    "milestones": [
+      "Capture all enemy capitals"
+    ]
+  },
+  {
+    "name": "Diplomatic",
+    "milestones": [
+      "Win the World Congress vote"
+    ]
+  },
+  {
+    "name": "Neutral",
+    "milestones": []
+  }
+]

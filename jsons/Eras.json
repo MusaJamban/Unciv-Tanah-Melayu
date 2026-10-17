@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ancient",
+    "researchAgreementCost": 200,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Warrior",
+    "startingGold": 0,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
+  },
+  {
+    "name": "Classical",
+    "researchAgreementCost": 300,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Spearman",
+    "startingGold": 100,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
+  },
+  {
+    "name": "Medieval",
+    "researchAgreementCost": 400,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Longswordsman",
+    "startingGold": 150,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
+  },
+  {
+    "name": "Renaissance",
+    "researchAgreementCost": 500,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Musketman",
+    "startingGold": 200,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
+  },
+  {
+    "name": "Industrial",
+    "researchAgreementCost": 600,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Rifleman",
+    "startingGold": 250,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
+  }
+]
