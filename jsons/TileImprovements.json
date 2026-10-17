@@ -85,13 +85,125 @@
       "Plains"
     ],
     "production": 1
-  }
-,
+  },
   {
     "name": "Ancient Ruins",
     "uniques": [
       "Unbuildable",
       "Provides a random bonus when entered"
     ]
+  },
+  {
+    "name": "Quarry",
+    "techRequired": "Masonry",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Hill"
+    ],
+    "production": 2
+  },
+  {
+    "name": "Terraced Fields",
+    "techRequired": "Civil Service",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Hill"
+    ],
+    "food": 2
+  },
+  {
+    "name": "Rice Paddies",
+    "techRequired": "Agriculture",
+    "turnsToBuild": 2,
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains"
+    ],
+    "food": 2
+  },
+  {
+    "name": "Tea Plantation",
+    "techRequired": "Calendar",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Hill"
+    ],
+    "gold": 2,
+    "culture": 1
+  },
+  {
+    "name": "Silk Plantation",
+    "techRequired": "Calendar",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains",
+      "Forest"
+    ],
+    "gold": 2,
+    "culture": 1
+  },
+  {
+    "name": "Spice Plantation",
+    "techRequired": "Calendar",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Jungle",
+      "Grassland"
+    ],
+    "gold": 2,
+    "food": 1
+  },
+  {
+    "name": "Sugar Plantation",
+    "techRequired": "Calendar",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains"
+    ],
+    "gold": 2,
+    "food": 1
+  },
+  {
+    "name": "Pearl Divers",
+    "techRequired": "Sailing",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Coast"
+    ],
+    "gold": 2,
+    "food": 1
+  },
+  {
+    "name": "Fort",
+    "techRequired": "Engineering",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill"
+    ],
+    "uniques": [
+      "Can only be built on tiles owned by you"
+    ]
+  },
+  {
+    "name": "Railroad",
+    "techRequired": "Railroads",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill"
+    ],
+    "production": 1
   }
 ]
