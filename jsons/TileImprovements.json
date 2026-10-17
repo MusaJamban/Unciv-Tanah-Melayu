@@ -91,7 +91,7 @@
     "name": "Ancient Ruins",
     "uniques": [
       "Unbuildable",
-      "Can be found by exploring"
+      "Provides a random bonus when entered"
     ]
   }
 ]
