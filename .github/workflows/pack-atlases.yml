@@ -1,0 +1,46 @@
+name: Pack Unciv image atlases
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pack-atlases:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Download Unciv
+        run: |
+          url=$(curl -fsSL https://api.github.com/repos/yairm210/Unciv/releases/latest | grep -o 'https[^"]*Unciv.jar' | head -n 1)
+          test -n "$url"
+          curl -fL "$url" -o Unciv.jar
+
+      - name: Pack mod atlases
+        run: java -jar Unciv.jar mod-ci
+
+      - name: Commit generated atlas files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Images* Atlases.json
+          if git diff --cached --quiet; then
+            echo "No generated atlas changes to commit."
+          else
+            git commit -m "Generate Unciv texture atlases"
+            git push origin HEAD:main
+          fi
