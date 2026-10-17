@@ -2,24 +2,33 @@
   {
     "name": "discover cultural artifacts",
     "notification": "We have discovered cultural artifacts in the ruins!",
-    "uniques": ["Gain [20] [Culture] <(modified by game speed)>"],
+    "uniques": [
+      "Gain [20] [Culture] <(modified by game speed)>"
+    ],
     "color": "#cf8ff7"
   },
   {
     "name": "a stash of gold",
     "notification": "",
-    "uniques": ["Gain [50]-[100] [Gold] <(modified by game speed)>"],
+    "uniques": [
+      "Gain [50]-[100] [Gold] <(modified by game speed)>"
+    ],
     "color": "#ffeb7f"
   },
   {
     "name": "discover a lost technology",
     "notification": "We have discovered the lost technology of [techName] in the ruins!",
-    "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"],
+    "uniques": [
+      "[1] free random researchable Tech(s) from the [Ancient]"
+    ],
     "color": "#7f7fff"
   },
   {
     "name": "your exploring unit receives training",
     "notification": "An ancient tribe trained us in their ways of combat!",
-    "uniques": ["[This Unit] gains [10] XP", "Only available <after turn number [10]>"]
+    "uniques": [
+      "[This Unit] gains [10] XP",
+      "Only available <after turn number [10]>"
+    ]
   }
 ]
