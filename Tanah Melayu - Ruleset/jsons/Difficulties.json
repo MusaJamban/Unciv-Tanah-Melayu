@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Settler",
+    "baseHappiness": 12,
+    "researchCostModifier": 0.7,
+    "unitCostModifier": 0.7,
+    "buildingCostModifier": 0.7,
+    "policyCostModifier": 0.7,
+    "unhappinessModifier": 0.5,
+    "playerBonusStartingUnits": [
+      "Warrior",
+      "Scout",
+      "Worker"
+    ],
+    "aiDifficultyLevel": "Chieftain"
+  },
+  {
+    "name": "Chieftain",
+    "baseHappiness": 10,
+    "researchCostModifier": 0.85,
+    "unitCostModifier": 0.85,
+    "buildingCostModifier": 0.85,
+    "policyCostModifier": 0.85,
+    "aiDifficultyLevel": "Chieftain"
+  },
+  {
+    "name": "Warlord",
+    "baseHappiness": 8,
+    "researchCostModifier": 1,
+    "unitCostModifier": 1,
+    "buildingCostModifier": 1,
+    "policyCostModifier": 1,
+    "aiDifficultyLevel": "Warlord"
+  },
+  {
+    "name": "Prince",
+    "baseHappiness": 6,
+    "researchCostModifier": 1,
+    "unitCostModifier": 1,
+    "buildingCostModifier": 1,
+    "policyCostModifier": 1,
+    "aiDifficultyLevel": "Prince"
+  },
+  {
+    "name": "King",
+    "baseHappiness": 4,
+    "researchCostModifier": 1.15,
+    "unitCostModifier": 1.15,
+    "buildingCostModifier": 1.15,
+    "policyCostModifier": 1.15,
+    "aiDifficultyLevel": "King"
+  }
+]
