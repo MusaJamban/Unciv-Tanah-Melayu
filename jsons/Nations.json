@@ -188,14 +188,14 @@
     "leaderName": "Salip Pulaka",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      20,
-      100,
-      80
+      19,
+      79,
+      64
     ],
     "innerColor": [
-      60,
-      120,
-      180
+      108,
+      153,
+      198
     ],
     "uniques": [
       "Start bias [Coast]",
@@ -317,14 +317,14 @@
     "leaderName": "Hongzhi Emperor",
     "preferredVictoryType": "Scientific",
     "outerColor": [
-      180,
-      35,
-      35
+      131,
+      29,
+      29
     ],
     "innerColor": [
-      210,
-      65,
-      55
+      223,
+      122,
+      115
     ],
     "uniques": [
       "[+10]% [Science] [in all cities]",
@@ -353,14 +353,14 @@
     "leaderName": "Seongjong",
     "preferredVictoryType": "Scientific",
     "outerColor": [
-      40,
-      90,
-      130
+      34,
+      71,
+      101
     ],
     "innerColor": [
-      70,
-      120,
-      170
+      116,
+      153,
+      191
     ],
     "uniques": [
       "[+15]% [Science] [in all cities]"
@@ -385,14 +385,14 @@
     "leaderName": "Ashikaga Yoshizumi",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      160,
-      40,
-      40
+      124,
+      34,
+      34
     ],
     "innerColor": [
-      190,
-      70,
-      60
+      206,
+      116,
+      108
     ],
     "uniques": [
       "[+10]% Strength <for [Melee] units>"
@@ -418,14 +418,14 @@
     "leaderName": "Saluva Narasimha",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      190,
-      75,
-      30
+      164,
+      66,
+      28
     ],
     "innerColor": [
-      210,
-      170,
-      70
+      216,
+      182,
+      97
     ],
     "uniques": [
       "[+10]% [Production] [in all cities]",
@@ -451,14 +451,14 @@
     "leaderName": "Alauddin Husain Shah",
     "preferredVictoryType": "Cultural",
     "outerColor": [
-      20,
-      120,
-      80
+      18,
+      83,
+      57
     ],
     "innerColor": [
-      40,
-      130,
-      100
+      115,
+      173,
+      154
     ],
     "uniques": [
       "[+10]% [Food] [in all cities]",
@@ -484,14 +484,14 @@
     "leaderName": "Sikandar Lodi",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      170,
-      60,
-      40
+      162,
+      57,
+      38
     ],
     "innerColor": [
-      180,
-      180,
-      180
+      183,
+      183,
+      183
     ],
     "uniques": [
       "[+10]% Strength <for [Military] units>"
@@ -516,14 +516,14 @@
     "leaderName": "Ismail I",
     "preferredVictoryType": "Cultural",
     "outerColor": [
-      120,
-      70,
-      170
+      83,
+      51,
+      116
     ],
     "innerColor": [
-      80,
-      90,
-      180
+      141,
+      147,
+      206
     ],
     "uniques": [
       "[+1 Culture]",
@@ -549,14 +549,14 @@
     "leaderName": "Bayezid II",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      170,
-      40,
-      35
+      124,
+      33,
+      29
     ],
     "innerColor": [
-      200,
-      55,
-      50
+      216,
+      115,
+      111
     ],
     "uniques": [
       "[+10]% Strength <for [Military] units>"
@@ -582,14 +582,14 @@
     "leaderName": "Qansuh al-Ghuri",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      40,
-      100,
-      90
+      31,
+      70,
+      64
     ],
     "innerColor": [
-      40,
-      100,
-      100
+      115,
+      154,
+      154
     ],
     "uniques": [
       "[+10]% [Gold] [in all cities]",
@@ -615,14 +615,14 @@
     "leaderName": "Isabella I",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      190,
-      50,
-      40
+      212,
+      121,
+      115
     ],
     "innerColor": [
-      180,
-      50,
-      50
+      122,
+      38,
+      38
     ],
     "uniques": [
       "[+10]% [Gold] [in all cities]",
@@ -648,14 +648,14 @@
     "leaderName": "Joao II",
     "preferredVictoryType": "Diplomatic",
     "outerColor": [
-      30,
-      100,
-      150
+      108,
+      154,
+      186
     ],
     "innerColor": [
-      40,
-      90,
-      150
+      31,
+      64,
+      103
     ],
     "uniques": [
       "[+1] Movement <for [Water] units>",
@@ -680,14 +680,14 @@
     "leaderName": "Henry VII",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      180,
-      50,
-      50
+      206,
+      121,
+      121
     ],
     "innerColor": [
-      180,
-      50,
-      50
+      122,
+      38,
+      38
     ],
     "uniques": [
       "[+1] Movement <for [Water] units>",
@@ -713,14 +713,14 @@
     "leaderName": "Charles VIII",
     "preferredVictoryType": "Cultural",
     "outerColor": [
-      40,
-      90,
-      160
+      31,
+      64,
+      109
     ],
     "innerColor": [
-      50,
-      90,
-      180
+      121,
+      147,
+      206
     ],
     "uniques": [
       "[+10]% [Culture] [in all cities]"
@@ -745,14 +745,14 @@
     "leaderName": "Maximilian I",
     "preferredVictoryType": "Diplomatic",
     "outerColor": [
-      180,
-      60,
-      45
+      163,
+      55,
+      42
     ],
     "innerColor": [
-      200,
-      170,
-      100
+      205,
+      178,
+      115
     ],
     "uniques": [
       "[+1 Production]",
@@ -778,14 +778,14 @@
     "leaderName": "Ivan III",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      180,
-      50,
-      50
+      122,
+      38,
+      38
     ],
     "innerColor": [
-      180,
-      70,
-      60
+      206,
+      134,
+      128
     ],
     "uniques": [
       "[+10]% Strength <for [Melee] units>"
@@ -810,14 +810,14 @@
     "leaderName": "Askia Muhammad",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      30,
-      100,
-      80
+      26,
+      79,
+      64
     ],
     "innerColor": [
-      40,
-      130,
-      90
+      93,
+      161,
+      131
     ],
     "uniques": [
       "[+20]% [Gold] [in all cities]"
@@ -842,14 +842,14 @@
     "leaderName": "Eskender",
     "preferredVictoryType": "Cultural",
     "outerColor": [
-      120,
-      75,
-      45
+      109,
+      69,
+      42
     ],
     "innerColor": [
-      180,
-      150,
-      70
+      187,
+      160,
+      88
     ],
     "uniques": [
       "[+1 Faith]",
@@ -875,14 +875,14 @@
     "leaderName": "Nzinga a Nkuwu",
     "preferredVictoryType": "Cultural",
     "outerColor": [
-      30,
-      110,
-      90
+      26,
+      82,
+      68
     ],
     "innerColor": [
-      80,
-      130,
-      100
+      132,
+      167,
+      146
     ],
     "uniques": [
       "[+1 Food]",
@@ -907,14 +907,14 @@
     "leaderName": "Ahuitzotl",
     "preferredVictoryType": "Domination",
     "outerColor": [
-      30,
-      100,
-      90
+      26,
+      79,
+      71
     ],
     "innerColor": [
-      40,
-      130,
-      110
+      93,
+      161,
+      146
     ],
     "uniques": [
       "[+10]% [Culture] [in all cities]"
@@ -939,14 +939,14 @@
     "leaderName": "Topa Inca Yupanqui",
     "preferredVictoryType": "Scientific",
     "outerColor": [
-      200,
-      170,
-      80
+      222,
+      204,
+      150
     ],
     "innerColor": [
-      200,
-      160,
-      70
+      126,
+      102,
+      48
     ],
     "uniques": [
       "[+1 Food]",
@@ -972,14 +972,14 @@
     "leaderName": "Huayna Capac",
     "preferredVictoryType": "Scientific",
     "outerColor": [
-      190,
-      160,
-      70
+      216,
+      198,
+      144
     ],
     "innerColor": [
-      190,
-      150,
-      70
+      120,
+      96,
+      48
     ],
     "uniques": [
       "[+10]% [Food] [in all cities]",
@@ -1005,14 +1005,14 @@
     "leaderName": "Hiawatha",
     "preferredVictoryType": "Diplomatic",
     "outerColor": [
-      60,
-      130,
-      90
+      118,
+      167,
+      139
     ],
     "innerColor": [
-      50,
-      110,
-      80
+      40,
+      82,
+      61
     ],
     "uniques": [
       "[+1 Food]",
@@ -1038,14 +1038,14 @@
     "leaderName": "Agostino Barbarigo",
     "preferredVictoryType": "Diplomatic",
     "outerColor": [
-      190,
-      150,
-      80
+      138,
+      110,
+      61
     ],
     "innerColor": [
-      220,
-      180,
-      90
+      230,
+      202,
+      139
     ],
     "uniques": [
       "[+20]% [Gold] [in all cities]",
@@ -1070,14 +1070,14 @@
     "name": "Calicut",
     "cityStateType": "Mercantile",
     "outerColor": [
-      210,
-      170,
-      50
+      171,
+      139,
+      43
     ],
     "innerColor": [
-      245,
-      245,
-      245
+      247,
+      247,
+      247
     ],
     "cities": [
       "Calicut"
@@ -1087,14 +1087,14 @@
     "name": "Samarkand",
     "cityStateType": "Mercantile",
     "outerColor": [
-      200,
-      160,
-      80
+      163,
+      131,
+      67
     ],
     "innerColor": [
-      245,
-      245,
-      245
+      247,
+      247,
+      247
     ],
     "cities": [
       "Samarkand"
@@ -1104,9 +1104,9 @@
     "name": "Malacca Strait Port",
     "cityStateType": "Maritime",
     "outerColor": [
-      50,
-      150,
-      220
+      48,
+      143,
+      209
     ],
     "innerColor": [
       245,
@@ -1189,14 +1189,14 @@
     "name": "Mecca",
     "cityStateType": "Religious",
     "outerColor": [
-      170,
-      170,
-      150
+      139,
+      139,
+      123
     ],
     "innerColor": [
-      245,
-      245,
-      245
+      247,
+      247,
+      247
     ],
     "cities": [
       "Mecca"
@@ -2234,9 +2234,9 @@
       0
     ],
     "innerColor": [
-      170,
-      20,
-      20
+      174,
+      31,
+      31
     ],
     "cities": [
       "Barbarian Camp"
