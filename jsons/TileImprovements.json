@@ -86,4 +86,12 @@
     ],
     "production": 1
   }
+,
+  {
+    "name": "Ancient Ruins",
+    "uniques": [
+      "Unbuildable",
+      "Can be found by exploring"
+    ]
+  }
 ]
