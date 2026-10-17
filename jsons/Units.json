@@ -303,9 +303,7 @@
     "requiredTech": "Gunpowder",
     "uniqueTo": "Castile",
     "replaces": "Knight",
-    "uniques": [
-      "May found a city"
-    ]
+    "uniques": []
   },
   {
     "name": "Ming Treasure Fleet",
