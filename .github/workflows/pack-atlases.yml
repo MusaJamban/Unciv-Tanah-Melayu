@@ -26,9 +26,7 @@ jobs:
 
       - name: Download Unciv
         run: |
-          url=$(curl -fsSL https://api.github.com/repos/yairm210/Unciv/releases/latest | grep -o 'https[^"]*Unciv.jar' | head -n 1)
-          test -n "$url"
-          curl -fL "$url" -o Unciv.jar
+          curl -fL https://github.com/yairm210/Unciv/releases/latest/download/Unciv.jar -o Unciv.jar
 
       - name: Pack mod atlases
         run: |
