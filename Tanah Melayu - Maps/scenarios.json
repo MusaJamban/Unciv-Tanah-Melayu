@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Selat Melaka 1490",
+    "map_type": "regional scenario specification",
+    "width": 48,
+    "height": 32,
+    "players_recommended": 8,
+    "focus": "Melaka, Pasai, Aceh region, Majapahit, Brunei, Ayutthaya, Lan Xang, Bengal trade access",
+    "notes": "Straits, west coast of the Malay Peninsula, Sumatra and north Java; coastal trade and chokepoints are central."
+  },
+  {
+    "name": "Dunia 1490",
+    "map_type": "world scenario specification",
+    "width": 96,
+    "height": 56,
+    "players_recommended": 24,
+    "focus": "Global roster around 1490 CE",
+    "notes": "World-scale setup with Eurasia, Africa and the Americas; political control generalized for playable balance."
+  },
+  {
+    "name": "Nusantara",
+    "map_type": "archipelago scenario specification",
+    "width": 64,
+    "height": 40,
+    "players_recommended": 12,
+    "focus": "Malay Archipelago maritime kingdoms",
+    "notes": "Island chains, sea lanes, coastal starts, and limited inland routes."
+  }
+]
