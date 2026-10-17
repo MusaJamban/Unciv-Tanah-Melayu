@@ -58,5 +58,53 @@
     "startingMilitaryUnitCount": 1,
     "startingSettlerUnit": "Settler",
     "startingWorkerUnit": "Worker"
+  },
+  {
+    "name": "Modern",
+    "researchAgreementCost": 700,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Rifleman",
+    "startingGold": 300,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
+  },
+  {
+    "name": "Atomic",
+    "researchAgreementCost": 800,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Infantry",
+    "startingGold": 400,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
+  },
+  {
+    "name": "Information",
+    "researchAgreementCost": 900,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Mechanized Infantry",
+    "startingGold": 500,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
+  },
+  {
+    "name": "Future",
+    "researchAgreementCost": 1000,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnit": "Mechanized Infantry",
+    "startingGold": 600,
+    "startingCulture": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingSettlerUnit": "Settler",
+    "startingWorkerUnit": "Worker"
   }
 ]
