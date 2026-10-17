@@ -2,29 +2,35 @@
   {
     "name": "Scientific",
     "milestones": [
-      "Build the Apollo Program"
+      "Build [Apollo Program]",
+      "Add all [spaceship parts] in capital"
     ]
   },
   {
     "name": "Cultural",
     "milestones": [
-      "Become influential over all other civilizations"
+      "Complete [5] Policy branches",
+      "Build [Utopia Project]"
     ]
   },
   {
     "name": "Domination",
     "milestones": [
-      "Capture all enemy capitals"
+      "Capture all capitals"
     ]
   },
   {
     "name": "Diplomatic",
     "milestones": [
-      "Win the World Congress vote"
+      "Anyone should build [United Nations]",
+      "Win diplomatic vote"
     ]
   },
   {
-    "name": "Neutral",
-    "milestones": []
+    "name": "Time",
+    "hiddenInVictoryScreen": true,
+    "milestones": [
+      "Have highest score after max turns"
+    ]
   }
 ]

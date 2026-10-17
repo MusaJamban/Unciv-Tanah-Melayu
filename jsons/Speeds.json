@@ -1,18 +1,106 @@
 [
   {
     "name": "Quick",
-    "modifier": 0.67
+    "modifier": 0.67,
+    "turns": [
+      {
+        "yearsPerTurn": 40,
+        "untilTurn": 50
+      },
+      {
+        "yearsPerTurn": 25,
+        "untilTurn": 100
+      },
+      {
+        "yearsPerTurn": 10,
+        "untilTurn": 200
+      },
+      {
+        "yearsPerTurn": 5,
+        "untilTurn": 300
+      },
+      {
+        "yearsPerTurn": 2,
+        "untilTurn": 500
+      }
+    ]
   },
   {
     "name": "Standard",
-    "modifier": 1.0
+    "modifier": 1.0,
+    "turns": [
+      {
+        "yearsPerTurn": 40,
+        "untilTurn": 50
+      },
+      {
+        "yearsPerTurn": 25,
+        "untilTurn": 100
+      },
+      {
+        "yearsPerTurn": 10,
+        "untilTurn": 200
+      },
+      {
+        "yearsPerTurn": 5,
+        "untilTurn": 300
+      },
+      {
+        "yearsPerTurn": 2,
+        "untilTurn": 500
+      }
+    ]
   },
   {
     "name": "Epic",
-    "modifier": 1.5
+    "modifier": 1.5,
+    "turns": [
+      {
+        "yearsPerTurn": 50,
+        "untilTurn": 50
+      },
+      {
+        "yearsPerTurn": 30,
+        "untilTurn": 100
+      },
+      {
+        "yearsPerTurn": 15,
+        "untilTurn": 200
+      },
+      {
+        "yearsPerTurn": 8,
+        "untilTurn": 300
+      },
+      {
+        "yearsPerTurn": 4,
+        "untilTurn": 500
+      }
+    ]
   },
   {
     "name": "Marathon",
-    "modifier": 3.0
+    "modifier": 3.0,
+    "turns": [
+      {
+        "yearsPerTurn": 60,
+        "untilTurn": 50
+      },
+      {
+        "yearsPerTurn": 40,
+        "untilTurn": 100
+      },
+      {
+        "yearsPerTurn": 20,
+        "untilTurn": 200
+      },
+      {
+        "yearsPerTurn": 10,
+        "untilTurn": 300
+      },
+      {
+        "yearsPerTurn": 5,
+        "untilTurn": 500
+      }
+    ]
   }
 ]
